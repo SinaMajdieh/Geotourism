@@ -1,0 +1,96 @@
+@font-face{
+    font-family: karla;
+    src: url(../fonts/Karla.ttf);
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 15%;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 90;
+    transition: 0.5s;
+}
+#navbar-logo{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-5% , -50%);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+    display: none;
+}
+#navbar-icon{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-5% , -50%);
+    border-radius: 50%;
+    font-size: 50px;
+    color: E2C600;
+    transition: 0.5s;
+}
+.button-group{
+    background-color: rgba(73, 65, 65, 0);
+    position: absolute;
+    display: flex;
+    width: 50%;
+    height: 70%;
+    right: 5%;
+    top: 50%;
+    transform: translate(5% , -50%);
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-button{
+    background-color: rgba(0, 0, 0, 0);
+    padding: 8px 16px;
+    font-size: 18px;
+    border: none;
+    color: rgba(0, 0, 0, 0.6);
+    border-radius: 3px;
+    transition: 0.5s;
+    font-family: karla;
+    outline: none;
+    font-weight: bold;
+}
+.navbar-button:hover{
+    color: #E2C600;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+@media only screen and (max-width: 800px){
+    #navbr-icon{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #navbar-icon{
+        display: none;
+    }
+    .button-group{
+        width: 100%;
+    }
+    .navbar-button{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    .navbar-button{
+        font-size: 14px;
+    }
+    .navbar{
+        height: 10%;
+    }
+}

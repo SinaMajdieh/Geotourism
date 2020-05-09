@@ -1,0 +1,26 @@
+{{define "attractionItem"}}
+    <head>
+        <link rel="stylesheet" href="web/stylesheets/attractionItemGrid.css">
+    </head>
+    <div class="card">
+        <div class="header">
+            <a class="link" href={{.Link}}><h4>{{.Title}}</h4></a>
+        </div>
+        <div class="image">
+            {{if .Image}}
+                <img class="image" style="width: 100%;" src={{.Image}}>
+            {{else}}
+                <img class="image" tyle="width: 100%;" src="web/images/no-image.png">
+            {{end}}
+            <div class="card-container">
+                <p class="content-header">Accessiblity : </p><p class="content-text">{{.Accessiblity}}</p>
+                <p class="content-header">Season to visit : </p><p class="content-text">{{.SeasonsToVisit}}</p>
+                <p class="content-header">Code : </p><p class="content-text">{{.Code}}</p>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+
+{{end}}

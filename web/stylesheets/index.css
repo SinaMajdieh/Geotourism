@@ -1,0 +1,313 @@
+.slidebutton{
+    position: absolute;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 50px;
+    transition: 0.5s;
+}
+.slidebutton:hover{
+    color: rgba(0, 0, 0, 1);
+}
+#slideright{
+    top: 50%;
+    right: 5%;
+    transform: translate(5% , -50%);
+}
+#slideleft{
+    top: 50%;
+    left: 5%;
+    transform: translate(-5% , -50%);
+}
+.slideshow{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 85%;
+}
+.slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.slide-background{
+    width: 100%;
+    height: 100%;
+}
+.slide-text{
+    top: 10%;
+    left: 10%;
+    position: absolute;
+    color: rgba(225, 225, 225, 0.6);
+    font-family: karla;
+    font-weight: normal;
+    transform: translate(-10% , -10%);
+    transition: 0.5s;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.slide-text:hover{
+    color: white;
+}
+.slide-show-text{
+    display: inline;
+    font-size: 70px;
+}
+.slide-show-icon{
+    display: inline;
+    font-size: 20px;
+}
+#text1{
+    display: inline;
+    font-size: 40px;
+}
+#text2{
+    margin-left: 10%;
+    display: inline;
+    font-size: 20px;
+    
+}
+#slide-text-2{
+    top: 60%;
+    left: 50%;
+    color: white;
+}
+#slide-text-3{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.layout{
+    position: relative;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 1);
+}
+.layout-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.description-box{
+    margin: 0;
+    left: 50%;
+    position: relative;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    height: 50%;
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.description{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.25s;
+    position: relative;
+}
+#attraction{
+    background-image: url(../images/4season.jpg);
+    background-size: cover;
+}
+#landmarks{
+    background-image: url(../images/landmarks.jpg);
+    background-size: cover;
+}
+#relax{
+    background-image: url(../images/relax.jpg);
+    background-size: cover;
+}
+.description:hover{
+    width: 160px;
+    height: 160px;
+}
+.description-text{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 4px;
+    background-color:rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: -20%;
+    left : 50%;
+    transform: translate(-50% , 5%);
+    font-size: 18px;
+    font-weight: normal;
+    font-family: karla;
+    color: rgba(225, 225, 225, 0.8);
+    transition: 0.5s;
+    white-space: nowrap
+}
+.description-text:hover{
+    color: white;
+}
+.description-text-box{
+    word-wrap: break-word;
+    font-family: karla;
+    font-size: 20px;
+    color: rgba(225, 225, 225, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    height: 100%;
+    width: 50%;
+}
+.content{
+    width: 90%;
+    text-align: left;
+    word-wrap: break-word;
+    padding: 8px 16px;
+}
+@media only screen and (max-width: 800px) {
+    .slide-show-text{
+        font-size: 40px;
+    }
+    .slide-show-icon{
+        font-size: 10px;
+    }
+    #slide-text-3 p{
+        font-size: 40px;
+    }
+    #slide-text-3 #text2{
+        font-size: 10px;
+    }
+    .description{
+        width: 100px;
+        height: 100px;
+    }
+    .description:hover{
+        width: 110px;
+        height: 110px;
+    }
+    .description-text{
+        font-size: 14px;
+    }
+    .description-text-box{
+        display: none;
+    }
+    #slide-text-2{
+        top: 60%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 20px;
+    }
+    #slide-text-2 #text1{
+        white-space: nowrap;
+        font-size: 20px;
+    }
+    #slide-text-2 #text2{
+        font-size: 12px;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    /* For tablets: */
+    .slideshow{
+        display: none;
+    }
+    .layout{
+        width: 100%;
+        height: 85%;
+    }
+    .description-box{
+        flex-wrap: wrap;
+        display: flex;
+        width: 100%;
+        height: 50%;
+        left: 0;
+    }
+    .description{
+        width: 100px;
+        height: 100px;
+    }
+    .description:hover{
+        width: 110px;
+        height: 110px;
+    }
+    .description-text{
+        font-size: 14px;
+    }
+    .description-text-box{
+        display: none;
+    }
+    #slide-text-2{
+        top: 60%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 20px;
+    }
+    #slide-text-2 #text1{
+        white-space: nowrap;
+        font-size: 30px;
+    }
+    #slide-text-2 #text2{
+        font-size: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    #slide-text-2{
+        height: fit-content;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 20px;
+    }
+    #slide-text-2 #text1{
+        white-space: nowrap;
+        font-size: 20px;
+    }
+    #slide-text-2 #text2{
+        font-size: 10px;
+    }
+    .description-text{
+        height: min-content;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+}

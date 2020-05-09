@@ -1,0 +1,76 @@
+.card {
+    background-color: whitesmoke;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 90%;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5% 0;
+}
+.title{
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    padding: 0 5%;
+    font-family: karla;
+    color: rgba(0,0,0,1);
+    font-size: 40px;
+} 
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    width: 100%;
+}
+.container {
+    font-family: karla;
+    color: rgba(0,0,0,1);
+    padding: 0 5%;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: newspaper;
+}
+.title-text { 
+    font-family: thinoo;
+    margin: 0;
+    color: darkgoldenrod;
+    display: block;
+	position: relative; 
+    float: left;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.title-text span {
+    position:absolute;
+    right:0;
+    width:0;
+    background-color: rgb(245, 245, 245);
+    animation: typing 2s steps(100) normal both , 
+    cursur 0.5s steps(40) alternate both;
+}
+
+@keyframes typing {
+    from { width: 100% }
+    to { width:0 }
+}
+@keyframes cursur{
+    from{
+        border-left: 1px solid rgba(0,0,0,0.5);
+    }to{
+        border-left: 1px solid rgba(0,0,0,1);
+    }
+}
+
+@media only screen and (max-width : 600px){
+    .card p{
+        font-size: 14px;
+    }
+    .title-text{
+        font-size: 30px;
+    }
+}

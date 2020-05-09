@@ -1,0 +1,60 @@
+{{define "content"}}
+    <style>
+        .info{
+            width: 80%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50% , -50%);
+            position: relative;
+            padding: 5%;
+            border-bottom: 1px solid rgba(225, 225, 225, 0.8);
+        }
+        .key{
+            color: goldenrod;
+            display: inline;
+            font-weight: bold;
+        }
+        .key-content{
+            color: black;
+            display: inline;
+        }
+        .content{
+            width : 80%;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% , -50%);
+            padding: 5%;
+            border-bottom: 1px solid rgba(225, 225, 225, 0.8);
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .gallery{
+            width : 80%;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% , -50%);
+            padding: 5%;
+            border-bottom: 1px solid rgba(225, 225, 225, 0.4);
+        }
+    </style>
+    <!-- <head>
+        <link rel="stylesheet" href="web/stylesheet/attraction.css">
+    </head> -->
+    <div class="info">
+        <p class="key">Accessiblity : </p><p class="key-content">{{.Accessiblity}}</p><br>
+        <p class="key">Season to visit : </p><p class="key-content">{{.SeasonsToVisit}}</p><br>
+        <p class="key">Code : </p><p class="key-content">{{.Code}}</p>
+    </div>
+    <div class="content">
+        {{range .Content}}
+            <p>{{.}}</p><br>
+        {{end}}
+    </div>
+    <div class="gallery">
+        {{range .Images}}
+            <img src={{.}}>
+        {{end}}
+    </div>
+{{end}}

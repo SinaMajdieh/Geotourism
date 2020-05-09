@@ -1,0 +1,16 @@
+{{define "title"}}Attractions{{end}}
+{{define "content"}}
+    <head>
+        <link rel="stylesheet" href="web/stylesheets/attractionsList.css">
+    </head>
+    <h2 class="container-head">Attractions List ({{.Count}})</h2>
+    <div class="container">
+        {{if .Count}}
+            {{range .Attractions}}
+                {{block "attractionItem" .}}{{end}}
+            {{end}}
+        {{else}}
+            <h1 class="not-found">No result</h1>
+        {{end}}
+    </div>
+{{end}}
