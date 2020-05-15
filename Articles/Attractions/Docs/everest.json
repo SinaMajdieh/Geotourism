@@ -1,9 +1,0 @@
-{
- "title": "Title",
- "image": "Articles/Attractions/images/test.jpeg",
- "content": ["Hello"],
- "link" : "attraction/everest",
- "accessiblity" : "easy",
- "seasons" : "spring,summer,fall",
- "code" : "ER18"
-}

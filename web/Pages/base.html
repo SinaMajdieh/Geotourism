@@ -2,10 +2,212 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="web/stylesheets/navbar.css">
+    <!-- <link rel="stylesheet" href="web/stylesheets/navbar.css">
     <link rel="stylesheet" href="web/stylesheets/footer.css">
     <link rel="stylesheet" href="web/stylesheets/default.css">
-    <link rel="stylesheet" href="web/stylesheets/fonts.css">
+    <link rel="stylesheet" href="web/stylesheets/fonts.css"> -->
+    <style>
+        @font-face{
+            font-family: karla;
+            src: url(web/fonts/Karla.ttf);
+        }
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .st-navbar{
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: 15%;
+            position: sticky;
+            top: 0;
+            overflow: hidden;
+            z-index: 90;
+            transition: 0.5s;
+        }
+        #navbar-logo{
+            position: absolute;
+            top: 50%;
+            left: 5%;
+            transform: translate(-5% , -50%);
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            transition: 0.5s;
+            display: none;
+        }
+        #navbar-icon{
+            position: absolute;
+            top: 50%;
+            left: 5%;
+            transform: translate(-5% , -50%);
+            border-radius: 50%;
+            font-size: 50px;
+            color: #E2C600;
+            transition: 0.5s;
+        }
+        .st-button-group{
+            background-color: rgba(73, 65, 65, 0);
+            position: absolute;
+            display: flex;
+            width: 50%;
+            height: 70%;
+            right: 5%;
+            top: 50%;
+            transform: translate(5% , -50%);
+            justify-content: space-around;
+            align-items: center;
+        }
+        .st-navbar-button{
+            background-color: rgba(0, 0, 0, 0);
+            padding: 8px 16px;
+            font-size: 18px;
+            border: none;
+            color: rgba(0, 0, 0, 0.6);
+            border-radius: 3px;
+            transition: 0.5s;
+            font-family: karla;
+            outline: none;
+            font-weight: bold;
+        }
+        .st-navbar-button:hover{
+            color: #E2C600;
+        }
+
+        .st-link{
+            text-decoration: none;
+            color: inherit;
+        }
+        .st-link:hover{
+            color: inherit;
+            text-decoration: none;
+        }
+        @media only screen and (max-width: 800px){
+            #navbr-icon{
+                font-size: 30px;
+            }
+        }
+        @media only screen and (max-width: 600px){
+            #navbar-icon{
+                display: none;
+            }
+            .st-button-group{
+                width: 100%;
+            }
+            .st-navbar-button{
+                font-size: 16px;
+            }
+        }
+        @media only screen and (max-width: 500px) {
+            /* For mobile phones: */
+            .st-navbar-button{
+                font-size: 14px;
+            }
+            .st-navbar{
+                height: 10%;
+            }
+        }
+        @media only screen and (max-width: 500px) {
+            /* For mobile phones: */
+            .st-navbar-button{
+                font-size: 10px;
+            }
+        }
+    </style>
+
+    <style>
+        .footer{
+            /* background-color: rgba(0, 120, 0, 0.9); */
+            background-color: #E2C600;
+            width: 100%;
+            height: 40%;
+            bottom: 0;
+            position: relative;
+        }
+        .footer-box-container{
+            width: 100%;
+            height: 85%;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .footer-box{
+            text-align: center;
+            width: 25%;
+            height: 90%;
+            font-size: 18px;
+            font-family: karla;
+            color: rgba(0, 0, 0, 0.6);
+            padding: 16px 32px;
+            align-items: center;
+            justify-content: center;
+        }
+        .footer-footer{
+            font-size: 18px;
+            font-family: karla;
+            color: rgba(0, 0, 0, 0.8);
+            text-align: center;
+            width: 100%;
+            height: 15%;
+            transition: 0.5s;
+        }
+        .footer-footer:hover{
+            color: rgba(0, 0, 0, 1);
+        }
+        .footer-title{
+            font-size: 20px;
+            color: black;
+        }
+        .text-content{
+            word-wrap: break-word;
+            font-size: 16px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+        @media only screen and (max-width : 800px){
+            .footer{
+                height: 100%;
+            }
+            .break{
+                width: 100%;
+                height: 0;
+            }
+            .footer-box{
+                width: 100%;
+                height: 25%;
+                text-align: left;
+            }
+            
+        }
+        @media only screen and (max-width : 500px){
+            .footer-footer{
+                font-size: 14px;
+            }
+        }
+    </style>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: karla;
+            height: 100%;
+        }
+        html{
+            height: 100%;
+        }
+    </style>
+    
+    <style>
+        @font-face{
+            font-family: karla;
+            src: url(web/fonts/Karla.ttf);
+        }
+        @font-face{
+            font-family: thinoo;
+            src: url(web/fonts/thinoothin.otf);
+        }
+    </style>
     <title>{{block "title" .}}{{end}}</title>
 </head>
 <body>

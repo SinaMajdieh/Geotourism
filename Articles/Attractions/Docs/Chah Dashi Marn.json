@@ -1,0 +1,20 @@
+{
+ "title": "Chah Dashi Marn",
+ "content": [
+  "On the way from Nehbandan to Chah Dashi in south Khorasan province, one can see such an eye- catching erosion phenomenon. The Neogene formations of mart, conglomerate, silt, and sandstone in various colors of red, brown, cream, and white have created a rare landscape. The structure of this colorful area is like the undeveloped badlands. "
+ ],
+ "image": "Articles/Attractions/Images/ER17-1.jpg",
+ "link": "attraction/Chah-Dashi-Marn",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "code": "ER17",
+ "phenomena": "Erosional",
+ "province": "South Khorasan",
+ "significance": "National",
+ "map-image" : "../Articles/Attractions/Images/maps/MapER17.jpg",
+ "gallery" : [
+  {"src" :  "../Articles/Attractions/Images/ER17-2.jpg" , "caption" :  "ER17-2"},
+  {"src" :  "../Articles/Attractions/Images/ER17-3.jpg" , "caption" :  "ER17-3"},
+  {"src" :  "../Articles/Attractions/Images/ER17-4.jpg" , "caption" :  "ER17-4"}
+ ]
+}

@@ -33,8 +33,9 @@ var (
 		"web/Pages/footer.html",
 		"web/Pages/attraction.html",
 	))
-	attractions *Attractions
-	intros      *Articles
+	attractions     *Attractions
+	attractionsList *AttractionsList
+	intros          *Articles
 )
 
 func makeHandler(fn func(http.ResponseWriter, *http.Request)) http.HandlerFunc {
@@ -46,7 +47,10 @@ func makeHandler(fn func(http.ResponseWriter, *http.Request)) http.HandlerFunc {
 }
 func main() {
 	LoadDatas()
-	SetupRouts()
+	var server Server
+	server = &HttpServer{}
+	server.Initialize("ServerConfig.json")
+	server.ListenAndServe()
 
 }
 func renderTemplate(w http.ResponseWriter, tmpl string, article *Article) {
@@ -71,7 +75,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 func articleHandler(w http.ResponseWriter, r *http.Request) {
 	articleName := r.URL.Path[len("/articles/"):]
 	var article Article
-	path := MakePath([]string{GlobalAticlesDirectory, articleName}, articleName, "json")
+	path := MakePath([]string{GlobalArticlesDirectory, articleName}, articleName, "json")
 	err := ReadJson(path, &article)
 	if nil != err {
 		fmt.Println(err)
@@ -86,22 +90,25 @@ func articleHandler(w http.ResponseWriter, r *http.Request) {
 
 }
 func attractionHandler(w http.ResponseWriter, r *http.Request) {
-	// link := r.URL.Path
-	// link = link[1:]
-	// fmt.Println(link)
-	// attraction := FindAttraction(link)
-	// if nil == attraction {
-	// 	fmt.Println("Not Found")
-	// } else {
-	// 	attractionPage.Execute(w, attraction)
-	// }
-	attraction := FindAttraction("attraction/everest")
-	attractionPage.Execute(w, attraction)
+	link := r.URL.Path
+	link = link[1:]
+	attraction := FindAttraction(link)
+	if nil == attraction {
+		fmt.Println("Not Found")
+	} else {
+		attractionPage.Execute(w, attraction)
+		fmt.Println(attraction.MapImage)
+	}
 
 }
 func introHandler(w http.ResponseWriter, r *http.Request) {
 	articlePage.Execute(w, intros)
 }
 func attractionsHandler(w http.ResponseWriter, r *http.Request) {
-	attractionsPage.Execute(w, attractions)
+	_ = attractionsPage.Execute(w, attractionsList)
+
+}
+func downloadHandler(w http.ResponseWriter, r *http.Request) {
+	http.ServeFile(w , r , "Articles/Attractions/Docs/Chah Dashi Marn.json")
+
 }

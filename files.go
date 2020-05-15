@@ -8,10 +8,10 @@ import (
 )
 
 const (
-	ArticlesPath           = "Articles"
-	GlobalAticlesDirectory = ArticlesPath + "/Glob"
-	AttractionsDirectory   = ArticlesPath + "/Attractions"
-	IntroDirectory         = ArticlesPath + "/Intro"
+	ArticlesPath            = "Articles"
+	GlobalArticlesDirectory = ArticlesPath + "/Glob"
+	AttractionsDirectory    = ArticlesPath + "/Attractions"
+	IntroDirectory          = ArticlesPath + "/Intro"
 )
 
 func MakePath(dir []string, file string, format string) string {
@@ -49,23 +49,38 @@ func ListDirectory(path string) ([]os.FileInfo, error) {
 
 }
 
-func LoadAttarctionsListFiles() *Attractions {
-	var attractions Attractions
+func LoadAttractionsListFiles() *AttractionsList {
+	var totattractions Attractions
+
+	var attractionsErosion Attractions
+	var attractionsSedimentary Attractions
 	files, err := ListDirectory(AttractionsDirectory + "/Docs")
 	if nil != err {
 		//HandleError
 		return nil
 	} else {
 		for _, v := range files {
-			var newAttarction Attraction
+			var newAttraction Attraction
 			path := MakePath([]string{AttractionsDirectory, "Docs"}, v.Name(), "")
-			err := ReadJson(path, &newAttarction)
+			err := ReadJson(path, &newAttraction)
 			if nil == err {
-				attractions.Attractions = append(attractions.Attractions, newAttarction)
+				if newAttraction.Phenomena == phenomena[1] {
+					attractionsErosion.Attractions = append(attractionsErosion.Attractions, newAttraction)
+					attractionsErosion.Count++
+				}else if newAttraction.Phenomena == phenomena[2]{
+					attractionsSedimentary.Attractions = append(attractionsSedimentary.Attractions , newAttraction)
+					attractionsSedimentary.Count++
+				}
+
+				totattractions.Attractions = append(totattractions.Attractions, newAttraction)
+
 			}
 		}
-		attractions.Count = len(files)
-		return &attractions
+		attractions = &totattractions
+		return &AttractionsList{
+			Erosion: attractionsErosion,
+			Sedimentary:attractionsSedimentary,
+		}
 	}
 
 }
