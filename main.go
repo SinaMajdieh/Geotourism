@@ -8,35 +8,40 @@ import (
 
 var (
 	templates = template.Must(template.ParseGlob("web/Pages/*"))
-	home      = template.Must(template.ParseFiles(
+	Pages map[string]*template.Template
+	attractions     *Attractions
+	attractionsList *AttractionsList
+	intros          *Articles
+)
+
+func DeclarePages(){
+	Pages = make(map[string]*template.Template)
+	Pages["home"] = template.Must(template.ParseFiles(
 		"web/Pages/base.html",
 		"web/Pages/navbar.html",
 		"web/Pages/footer.html",
 		"web/Pages/home.html",
 	))
-	articlePage = template.Must(template.ParseFiles(
+	Pages["article"] = template.Must(template.ParseFiles(
 		"web/Pages/base.html",
 		"web/Pages/navbar.html",
 		"web/Pages/footer.html",
 		"web/Pages/article.html",
 	))
-	attractionsPage = template.Must(template.ParseFiles(
+	Pages["attractions"] = template.Must(template.ParseFiles(
 		"web/Pages/base.html",
 		"web/Pages/navbar.html",
 		"web/Pages/footer.html",
 		"web/Pages/attractionsList.html",
 		"web/Pages/attractionItemGrid.html",
 	))
-	attractionPage = template.Must(template.ParseFiles(
+	Pages["attraction"] = template.Must(template.ParseFiles(
 		"web/Pages/base.html",
 		"web/Pages/navbar.html",
 		"web/Pages/footer.html",
 		"web/Pages/attraction.html",
 	))
-	attractions     *Attractions
-	attractionsList *AttractionsList
-	intros          *Articles
-)
+}
 
 func makeHandler(fn func(http.ResponseWriter, *http.Request)) http.HandlerFunc {
 
@@ -46,11 +51,12 @@ func makeHandler(fn func(http.ResponseWriter, *http.Request)) http.HandlerFunc {
 
 }
 func main() {
-	LoadDatas()
+	DeclarePages()
+	LoadData()
 	var server Server
 	server = &HttpServer{}
 	server.Initialize("ServerConfig.json")
-	server.ListenAndServe()
+	server.SetupServer()
 
 }
 func renderTemplate(w http.ResponseWriter, tmpl string, article *Article) {
@@ -66,7 +72,7 @@ func renderTemplate(w http.ResponseWriter, tmpl string, article *Article) {
 }
 func indexHandler(w http.ResponseWriter, r *http.Request) {
 
-	err := home.Execute(w, nil)
+	err := Pages["home"].Execute(w, nil)
 	if nil != err {
 		fmt.Println(err)
 	}
@@ -86,7 +92,7 @@ func articleHandler(w http.ResponseWriter, r *http.Request) {
 		Title:    title,
 		Articles: []Article{article},
 	}
-	articlePage.Execute(w, articles)
+	Pages["article"].Execute(w, articles)
 
 }
 func attractionHandler(w http.ResponseWriter, r *http.Request) {
@@ -96,19 +102,14 @@ func attractionHandler(w http.ResponseWriter, r *http.Request) {
 	if nil == attraction {
 		fmt.Println("Not Found")
 	} else {
-		attractionPage.Execute(w, attraction)
-		fmt.Println(attraction.MapImage)
+		Pages["attraction"].Execute(w, attraction)
 	}
 
 }
 func introHandler(w http.ResponseWriter, r *http.Request) {
-	articlePage.Execute(w, intros)
+	Pages["article"].Execute(w, intros)
 }
 func attractionsHandler(w http.ResponseWriter, r *http.Request) {
-	_ = attractionsPage.Execute(w, attractionsList)
-
-}
-func downloadHandler(w http.ResponseWriter, r *http.Request) {
-	http.ServeFile(w , r , "Articles/Attractions/Docs/Chah Dashi Marn.json")
+	_ = Pages["attractions"].Execute(w, attractionsList)
 
 }

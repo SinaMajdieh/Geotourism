@@ -23,7 +23,7 @@
     color: rgba(0, 0, 0, 0.6);
     padding: 16px 32px;
     align-items: center;
-	justify-content: center;
+    justify-content: center;
 }
 .footer-footer{
     font-size: 18px;
@@ -59,7 +59,7 @@
         height: 25%;
         text-align: left;
     }
-    
+
 }
 @media only screen and (max-width : 500px){
     .footer-footer{

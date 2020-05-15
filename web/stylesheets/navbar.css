@@ -1,12 +1,4 @@
-@font-face{
-    font-family: karla;
-    src: url(../fonts/Karla.ttf);
-}
-body{
-    padding: 0;
-    margin: 0;
-}
-.navbar{
+.st-navbar{
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 15%;
@@ -34,10 +26,10 @@ body{
     transform: translate(-5% , -50%);
     border-radius: 50%;
     font-size: 50px;
-    color: E2C600;
+    color: #E2C600;
     transition: 0.5s;
 }
-.button-group{
+.st-button-group{
     background-color: rgba(73, 65, 65, 0);
     position: absolute;
     display: flex;
@@ -49,7 +41,7 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-.navbar-button{
+.st-navbar-button{
     background-color: rgba(0, 0, 0, 0);
     padding: 8px 16px;
     font-size: 18px;
@@ -61,13 +53,17 @@ body{
     outline: none;
     font-weight: bold;
 }
-.navbar-button:hover{
+.st-navbar-button:hover{
     color: #E2C600;
 }
 
-.link{
+.st-link{
     text-decoration: none;
     color: inherit;
+}
+.st-link:hover{
+    color: inherit;
+    text-decoration: none;
 }
 @media only screen and (max-width: 800px){
     #navbr-icon{
@@ -78,19 +74,25 @@ body{
     #navbar-icon{
         display: none;
     }
-    .button-group{
+    .st-button-group{
         width: 100%;
     }
-    .navbar-button{
+    .st-navbar-button{
         font-size: 16px;
     }
 }
 @media only screen and (max-width: 500px) {
     /* For mobile phones: */
-    .navbar-button{
+    .st-navbar-button{
         font-size: 14px;
     }
-    .navbar{
+    .st-navbar{
         height: 10%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    .st-navbar-button{
+        font-size: 10px;
     }
 }

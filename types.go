@@ -7,7 +7,10 @@ import (
 )
 type Server interface {
 	Initialize(configFile string)
+	SetupAssets()
+	SetupRoutes()
     ListenAndServe()
+	SetupServer()
 }
 type Doc struct {
 	Title  string   `json:"title"`

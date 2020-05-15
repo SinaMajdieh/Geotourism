@@ -13,21 +13,6 @@
             <button class="st-navbar-button"><a href="/intro" class="st-link">Introduction</a></button>
         </div>
     </div>
-    <!-- <script src="web/javascripts/sticky-navbar.js"></script> -->
-    <script>
-        window.onscroll = function() {scrollFunction()};
+    <script src="/js/sticky-navbar.js"></script>
 
-        function scrollFunction() {
-        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-            document.getElementById("navbar").style.height = "10%";
-            document.getElementById("navbar-logo").style.height = "80px";
-            document.getElementById("navbar-logo").style.width = "80px";
-        } else {
-            document.getElementById("navbar").style.height = "15%";
-            document.getElementById("navbar-logo").style.height = "100px";
-            document.getElementById("navbar-logo").style.width = "100px";
-        }
-        }
-
-    </script>
 {{end}}
