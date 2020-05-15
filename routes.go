@@ -1,6 +1,8 @@
 package main
 
 import (
+	"github.com/SinaMajdieh/Geotourism/pkg/filePkg"
+	"github.com/SinaMajdieh/Geotourism/pkg/tourson"
 	"log"
 	"net/http"
 )
@@ -41,13 +43,13 @@ func (server HttpServer)SetupAssets(){
 	http.Handle("/docimg/", http.StripPrefix("/docimg/" , docImg))
 }
 func (server *HttpServer)Initialize(configFile string){
-	err := ReadJson(configFile , server)
+	err := filePkg.ReadJson(configFile , server)
 	if nil != err {
 		log.Fatal(err)
 	}
 }
 
 func LoadData() {
-	attractionsList = LoadAttractionsListFiles()
-	intros = LoadIntroListFiles()
+	attractionsList , attractions = tourson.LoadAttractionsListFiles(phenomena)
+	intros = tourson.LoadIntroListFiles(DocList)
 }

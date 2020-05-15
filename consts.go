@@ -5,5 +5,5 @@ const (
 )
 
 var (
-	phenomena = [...]string{"", "Erosional" , "Sedimentary"}
+	phenomena = []string{"", "Erosional" , "Sedimentary"}
 )

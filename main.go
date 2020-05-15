@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
+	"github.com/SinaMajdieh/Geotourism/pkg/filePkg"
 	"html/template"
 	"net/http"
 )
@@ -9,9 +11,9 @@ import (
 var (
 	templates = template.Must(template.ParseGlob("web/Pages/*"))
 	Pages map[string]*template.Template
-	attractions     *Attractions
-	attractionsList *AttractionsList
-	intros          *Articles
+	attractions *domModel.Attractions
+	attractionsList *domModel.AttractionsList
+	intros *domModel.Articles
 )
 
 func DeclarePages(){
@@ -59,7 +61,7 @@ func main() {
 	server.SetupServer()
 
 }
-func renderTemplate(w http.ResponseWriter, tmpl string, article *Article) {
+func renderTemplate(w http.ResponseWriter, tmpl string, article *domModel.Article) {
 
 	err := templates.ExecuteTemplate(w, tmpl+".html", article)
 
@@ -80,17 +82,17 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 }
 func articleHandler(w http.ResponseWriter, r *http.Request) {
 	articleName := r.URL.Path[len("/articles/"):]
-	var article Article
-	path := MakePath([]string{GlobalArticlesDirectory, articleName}, articleName, "json")
-	err := ReadJson(path, &article)
+	var article domModel.Article
+	path := filePkg.MakePath([]string{filePkg.GlobalArticlesDirectory, articleName}, articleName, "json")
+	err := filePkg.ReadJson(path, &article)
 	if nil != err {
 		fmt.Println(err)
 	}
 	title := article.Title
 	article.Title = ""
-	articles := Articles{
+	articles := domModel.Articles{
 		Title:    title,
-		Articles: []Article{article},
+		Articles: []domModel.Article{article},
 	}
 	Pages["article"].Execute(w, articles)
 

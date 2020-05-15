@@ -1,6 +1,8 @@
 package main
 
-func FindAttraction(link string) *Attraction {
+import "github.com/SinaMajdieh/Geotourism/pkg/domModel"
+
+func FindAttraction(link string) *domModel.Attraction {
 	for _, v := range attractions.Attractions {
 		if v.Link == link {
 			return &v
