@@ -1,0 +1,22 @@
+{
+    "title" : "Iran's Geography and Natural Specifications ",
+    "link" : "intro",
+    "docs" : "docs/",
+    "images": "images/",
+    "files": ["GeologyandStructuralDevelopmentofIran,aReview" , 
+            "Introduction",
+            "PrecambrianBasementandthePaleozoicPlatform",
+            "RegionalEmergenceinthePaleozoicPlatform",
+            "BasinDevelopmentduringLateDevonian-Permian",
+            "MesozoiceventsandsplittingofPaleozoicplatform",
+            "Zagrosfoldedbelt",
+            "ZagrosCrushedZoneMesotethys",
+            "CentralIranandAlborz",
+            "InnerAxialOphioliticBelt(MélangeRing)",
+            "KopetDagh",
+            "Sistan-BaluchFlyschZone",
+            "SouthCaspiandepression",
+            "SelectedReferences"
+    ],
+    "format" : ".json"
+}

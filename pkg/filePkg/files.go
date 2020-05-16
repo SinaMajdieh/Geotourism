@@ -7,10 +7,10 @@ import (
 )
 
 const (
-	ArticlesPath            = "Articles"
-	GlobalArticlesDirectory = ArticlesPath + "/Glob"
-	AttractionsDirectory    = ArticlesPath + "/Attractions"
-	IntroDirectory          = ArticlesPath + "/Intro"
+	ArticlesPath            = "website/articles"
+	GlobalArticlesDirectory = ArticlesPath + "/glob"
+	AttractionsDirectory    = ArticlesPath + "/attractions"
+	IntroDirectory          = ArticlesPath + "/intro"
 )
 
 func MakePath(dir []string, file string, format string) string {

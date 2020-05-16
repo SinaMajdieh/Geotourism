@@ -1,0 +1,54 @@
+{{define "attractionItem"}}
+    <head>
+        <!-- <link rel="stylesheet" href="web/stylesheets/attractionItem.css"> -->
+    </head>
+    <style>
+        .box{
+            background-color: #F2F1F3;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            padding: 2%;
+        }
+        .flexbox{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .image{
+            width: 20%;
+        }
+        .text{
+            width: 79%;
+            font-family: karla;
+            padding: 0;
+            align-self: flex-start;
+            color: rgba(0, 0, 0, 0.6);
+            width: calc(80% - 50px);
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .title{
+            color: rgba(0, 0, 0, 0.8);
+            font-size: 100%;
+            white-space: normal;
+            width: 100%;
+        }
+    </style>
+    <div class="box">
+        <div class="title">
+            <a class="link" href={{.Link}}><h4>{{.Title}}</h4></a>
+        </div>
+        <div class="flexbox">
+            {{if .Image}}
+                <img class="image" src={{.Image}}>
+            {{else}}
+                <img class="image" src="web/images/no-image.png">
+            {{end}}
+            <div class="text">
+                {{.ShortContent}}
+            </div>
+        </div>
+    </div><br>
+
+{{end}}

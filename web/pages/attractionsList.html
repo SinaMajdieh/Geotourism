@@ -1,0 +1,25 @@
+{{define "title"}}Attractions{{end}}
+{{define "content"}}
+    <head>
+        <link rel="stylesheet" href="/css/attractionsList.css">
+    </head>
+    
+    
+    <div class="item-bar">
+        <button id="start" class="item-text" value="Erosional" onclick="display(this)">Erosional({{.Map.Erosional.Count}})</button>
+        <button class="item-text" value="Structural" onclick="display(this)">Structural({{.Map.Structural.Count}})</button>
+        <button id="end" class="item-text" value="Sedimentary"  onclick="display(this)">Sedimentary({{.Map.Sedimentary.Count}})</button>
+    </div>
+    {{range .Map}}
+        <div id="{{.Phenomena}}" class="container" >
+            {{if .Count}}
+                {{range .Attractions}}
+                    {{block "attractionItem" .}}{{end}}
+                {{end}}
+            {{else}}
+                <h1 class="not-found">No result</h1>
+            {{end}}
+        </div>
+    {{end}}
+    <script src="/js/attractionList.js"></script>
+{{end}}

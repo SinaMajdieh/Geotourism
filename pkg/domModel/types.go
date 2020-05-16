@@ -11,14 +11,14 @@ type Doc struct {
 	Link   string   `json:"link"`
 	Docs   string   `json:"docs"`
 	Images string   `json:"images"`
-	Files  []string `json:"filePkg"`
+	Files  []string `json:"files"`
 	Format string   `json:"format"`
 }
 type Article struct {
 	Title   string   `json:"title"`
 	Image   string   `json:"image"`
 	Content []string `json:"content"`
-	//Images     []string `json:"Images"`
+	//images     []string `json:"images"`
 }
 type Picture struct {
 	Src     string `json:"src"`
@@ -45,10 +45,10 @@ type Attraction struct {
 type Attractions struct {
 	Attractions []Attraction
 	Count       int
+	Phenomena   string
 }
 type AttractionsList struct {
-	Erosion     Attractions
-	Sedimentary Attractions
+	Map map[string]*Attractions
 }
 
 func (attraction *Attraction) ReadFile(path string) error {
