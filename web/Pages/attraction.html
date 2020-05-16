@@ -49,7 +49,7 @@
             <div class="d-flex justify-content-around align-items-center flex-wrap">
                 {{range .Gallery}}
                     <div class="st-image-holder">
-                        <img class="st-image" src={{.Src}} alt="">
+                        <img class="st-image" src={{.Src}} alt="" onclick="openURL({{.Src}})">
                         <div class="st-caption">{{.Caption}}</div>
                     </div>
                         <!--<div class="st-view"><a class="st-link"> View Image</a></div>-->
@@ -58,6 +58,7 @@
         </div>
 
     </div>
+    <script src="/js/openURL.js"></script>
 
 
 {{end}}
