@@ -5,6 +5,7 @@ import (
 	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
 	"github.com/SinaMajdieh/Geotourism/pkg/filePkg"
 	"html/template"
+	"log"
 	"net/http"
 )
 
@@ -56,8 +57,11 @@ func main() {
 	DeclarePages()
 	LoadData()
 	var server Server
-	server = &HttpServer{}
-	server.Initialize("ServerConfig.json")
+	server = newHttpServer("","")
+	err := filePkg.ReadJson("configs/server.json" , server)
+	if nil != err{
+		log.Fatal("config file : " , err)
+	}
 	server.SetupServer()
 
 }
