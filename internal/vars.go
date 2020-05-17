@@ -36,8 +36,8 @@ func DeclarePages(){
 		"web/pages/base.html",
 		"web/pages/navbar.html",
 		"web/pages/footer.html",
-		"web/pages/attractionsList.html",
-		"web/pages/attractionItemGrid.html",
+		"web/pages/attractions_list.html",
+		"web/pages/attraction_item_grid.html",
 	))
 	Pages["attraction"] = template.Must(template.ParseFiles(
 		"web/pages/base.html",
