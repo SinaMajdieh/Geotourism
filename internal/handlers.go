@@ -7,9 +7,6 @@ import (
 	"net/http"
 )
 
-var (
-
-)
 
 func makeHandler(fn func(http.ResponseWriter, *http.Request)) http.HandlerFunc {
 
