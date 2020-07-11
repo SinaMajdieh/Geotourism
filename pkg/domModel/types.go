@@ -37,6 +37,7 @@ type Attraction struct {
 	SeasonsToVisit string    `json:"seasons"`
 	Code           string    `json:"code"`
 	Phenomena      string    `json:"phenomena"`
+	Value          string    `json:"_"`
 	Province       string    `json:"province"`
 	Significance   string    `json:"significance"`
 	MapImage       string    `json:"map-image"`
