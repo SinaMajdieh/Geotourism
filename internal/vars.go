@@ -10,7 +10,7 @@ const (
 )
 
 var (
-	phenomena = []string{"Erosional" , "Sedimentary" , "Structural"}
+	phenomena = []string{"Erosional" , "Sedimentary_Geology" , "Structural_Geology" , "Magmatic_and_Metamorphic" , "Geological_Landscape" , "Engineering_Geology"}
 	templates = template.Must(template.ParseGlob("web/pages/*"))
 	Pages map[string]*template.Template
 	attractions *domModel.Attractions
