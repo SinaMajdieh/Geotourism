@@ -8,7 +8,7 @@
         </div>
         <div class="image">
             {{if .Image}}
-                <img class="image" style="width: 100%;" src={{.Image}}>
+                <img class="image" style="width: 100%;" src={{.Image}} onerror="handle_image_not_found(this)">
             {{else}}
                 <img class="image" tyle="width: 100%;" src="web/images/no-image.png">
             {{end}}
@@ -36,5 +36,4 @@
         
         
     </div>
-
 {{end}}

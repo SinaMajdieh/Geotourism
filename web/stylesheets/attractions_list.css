@@ -5,6 +5,7 @@
 .item-bar{
     position: relative;
     left: 50%;
+    margin-top: 5%;
     transform: translateX(-50%);
     display: inline-block;
     border-radius: 10px;
@@ -81,4 +82,9 @@
     left: 50%;
     top: 50%;
     transform: translate(-50% , -50%);
+}
+@media only screen and (max-width: 980px) {
+    .item-bar{
+        display: inline-grid;
+    }
 }

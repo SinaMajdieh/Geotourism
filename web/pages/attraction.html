@@ -33,7 +33,7 @@
                         <td>{{.SeasonsToVisit}}</td>
                     </tr>
                 </table>
-                <img src="{{.MapImage}}" class="st-map">
+                <img src="{{.MapImage}}" onerror="handle_image_not_found(this)" class="st-map">
 
             </div>
 
@@ -49,7 +49,7 @@
             <div class="d-flex justify-content-around align-items-center flex-wrap">
                 {{range .Gallery}}
                     <div class="st-image-holder">
-                        <img class="st-image" src={{.Src}} alt="" onclick="open_url({{.Src}})">
+                        <img class="st-image" src={{.Src}} alt="" onerror="handle_image_not_found(this)" onclick="open_url({{.Src}})">
                         <div class="st-caption">{{.Caption}}</div>
                     </div>
                         <!--<div class="st-view"><a class="st-link"> View Image</a></div>-->

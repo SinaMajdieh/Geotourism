@@ -7,8 +7,11 @@
     
     <div class="item-bar">
         <button id="start" class="item-text" value="Erosional" onclick="display(this)">Erosional({{.Map.Erosional.Count}})</button>
-        <button class="item-text" value="Structural" onclick="display(this)">Structural({{.Map.Structural.Count}})</button>
-        <button id="end" class="item-text" value="Sedimentary"  onclick="display(this)">Sedimentary({{.Map.Sedimentary.Count}})</button>
+        <button class="item-text" value="Structural_Geology" onclick="display(this)">Structural Geology({{.Map.Structural_Geology.Count}})</button>
+        <button class="item-text" value="Magmatic_and_Metamorphic" onclick="display(this)">Magmatic and Metamorphic({{.Map.Magmatic_and_Metamorphic.Count}})</button>
+        <button class="item-text" value="Engineering_Geology" onclick="display(this)">Engineering Geology({{.Map.Engineering_Geology.Count}})</button>
+        <button class="item-text" value="Geological_Landscape" onclick="display(this)">Geological Landscape({{.Map.Geological_Landscape.Count}})</button>
+        <button id="end" class="item-text" value="Sedimentary_Geology"  onclick="display(this)">Sedimentary Geology({{.Map.Sedimentary_Geology.Count}})</button>
     </div>
     {{range .Map}}
         <div id="{{.Phenomena}}" class="container" >
