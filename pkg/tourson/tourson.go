@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
 	"github.com/SinaMajdieh/Geotourism/pkg/file_pkg"
+	"strings"
 )
 func LoadAttractionsListFiles(phenomena []string) (*domModel.AttractionsList , *domModel.Attractions) {
 	var totattractions domModel.Attractions
@@ -24,8 +25,10 @@ func LoadAttractionsListFiles(phenomena []string) (*domModel.AttractionsList , *
 			path := file_pkg.MakePath([]string{file_pkg.AttractionsDirectory, "docs"}, v.Name(), "")
 			err := file_pkg.ReadJson(path, &newAttraction)
 			if nil == err {
-				attractions[newAttraction.Phenomena].Attractions = append(attractions[newAttraction.Phenomena].Attractions , newAttraction)
-				attractions[newAttraction.Phenomena].Count++
+				newAttraction.Value = strings.Replace(newAttraction.Phenomena , " " , "_" , -1)
+				fmt.Println(newAttraction.Title)
+				attractions[newAttraction.Value].Attractions = append(attractions[newAttraction.Value].Attractions , newAttraction)
+				attractions[newAttraction.Value].Count++
 				totattractions.Attractions = append(totattractions.Attractions, newAttraction)
 			}
 		}
