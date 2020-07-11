@@ -32,7 +32,7 @@ func ReadJson(path string, v interface{}) error {
 }
 
 // func ReadArticle(name string) (*Article, error) {
-// 	jsonFile, err := os.Open(AticlesDirectory + name + ".json")
+// 	jsonFile, err := os.Open(AticlesDirectory + name + "Chele' Gah.json")
 // 	if err != nil {
 // 		return nil, err
 // 	}
