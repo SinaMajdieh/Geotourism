@@ -36,6 +36,8 @@ func (server HttpServer)SetupAssets(){
 	http.Handle("/js/", http.StripPrefix("/js/" , js))
 	img := http.FileServer(http.Dir("./web/images"))
 	http.Handle("/img/", http.StripPrefix("/img/" , img))
+	gif := http.FileServer(http.Dir("./web/gifs"))
+	http.Handle("/gif/", http.StripPrefix("/gif/" , gif))
 	fonts := http.FileServer(http.Dir("./web/fonts"))
 	http.Handle("/fonts/", http.StripPrefix("/fonts/" , fonts))
 	docImg := http.FileServer(http.Dir("./website/articles/img"))
