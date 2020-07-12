@@ -30,7 +30,11 @@
                     <tr>
                         <th>Season To Visit</th>
                         <th> | </th>
-                        <td>{{.SeasonsToVisit}}</td>
+                        <td>
+                            {{range .Seasons}}
+                                <img src="/img/seasons/{{.}}.png" onerror="handle_image_not_found(this)" width="25px" height="auto">
+                            {{end}}
+                        </td>
                     </tr>
                 </table>
                 <img src="{{.MapImage}}" onerror="handle_image_not_found(this)" class="st-map">
