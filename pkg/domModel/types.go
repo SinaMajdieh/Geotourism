@@ -35,6 +35,7 @@ type Attraction struct {
 	Link           string    `json:"link"`
 	Accessibility  string    `json:"accessibility"`
 	SeasonsToVisit string    `json:"seasons"`
+	Seasons        []string  `json:"seasons_arr"`
 	Code           string    `json:"code"`
 	Phenomena      string    `json:"phenomena"`
 	Value          string    `json:"_"`
