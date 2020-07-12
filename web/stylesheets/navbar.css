@@ -1,5 +1,8 @@
 .st-navbar{
-    background-color: goldenrod;
+    /*background-color: goldenrod;*/
+    background-image: url("/gif/rainy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 15%;
     position: sticky;
