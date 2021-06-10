@@ -44,5 +44,10 @@ func DeclarePages(){
 		"web/pages/navbar.html",
 		"web/pages/footer.html",
 		"web/pages/attraction.html",
+		"web/pages/comment.html",
+	))
+	Pages["comment"] = template.Must(template.ParseFiles(
+		"web/pages/base.html",
+		"web/pages/comment.html",
 	))
 }

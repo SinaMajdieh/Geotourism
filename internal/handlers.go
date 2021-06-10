@@ -69,3 +69,8 @@ func attractionsHandler(w http.ResponseWriter, r *http.Request) {
 	_ = Pages["attractions"].Execute(w, attractionsList)
 
 }
+var comments []string
+func comment_handler(w http.ResponseWriter, r *http.Request) {
+	_ = Pages["comment"].Execute(w, comments)
+
+}

@@ -37,10 +37,12 @@
     font-size: 14px;
     color: goldenrod;
     font-weight: bold;
+    text-align: right;
 }
 .st-info td{
     font-size: 14px;
     color: white;
+    text-align: left;
 }
 .content-header{
     font-size: 14px;

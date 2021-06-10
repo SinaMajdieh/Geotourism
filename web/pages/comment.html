@@ -1,0 +1,17 @@
+{{define "comment"}}
+<head>
+    <link rel="stylesheet" href="/css/comment.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+</head>
+
+<div id="container" onload="load()">
+    <div id="msg"></div>
+    <div class="form">
+        <input type="text" name="name" placeholder="name : " id="name"  autocomplete="off">
+        <input type="text" name="text" placeholder="message : " id="text"  autocomplete="off">
+        <input type="submit" onclick="send()" value="send">
+        <pre id="status" style="height: 10px"></pre>
+    </div>
+</div>
+<script src="/js/comment.js"></script>
+{{end}}

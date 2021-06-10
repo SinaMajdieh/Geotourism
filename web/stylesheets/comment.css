@@ -1,0 +1,35 @@
+.box{
+    border-radius: 10px;
+    word-wrap: break-word;
+    background-color: rgba(0, 0, 0,0.05);
+    padding: 10px;
+    margin: 1% 0;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.name{
+   font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0 , 0 , 0 , 0.1);
+    font-family: karla;
+}
+.comment-content{
+    font-size: 14px;
+    padding-top: 10px;
+    font-family: karla;
+}
+.comment-date{
+    font-size: 11px;
+    font-family: karla;
+    text-align: right;
+}
+.form{
+    margin-top: 3%;
+}
+#msg{
+    height: 500px;
+    overflow-y: scroll;
+    padding-right: 2%;
+}
+#container{
+    padding: 5%;
+}

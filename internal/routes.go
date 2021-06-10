@@ -1,6 +1,7 @@
 package internal
 
 import (
+	"github.com/SinaMajdieh/Geotourism/pkg/commenting"
 	"github.com/SinaMajdieh/Geotourism/pkg/tourson"
 	"log"
 	"net/http"
@@ -20,6 +21,10 @@ func (server HttpServer) SetupRoutes() {
 	http.HandleFunc("/attraction/", makeHandler(attractionHandler))
 	http.HandleFunc("/attractions", makeHandler(attractionsHandler))
 	http.HandleFunc("/intro", makeHandler(introHandler))
+	//testing route for commenting
+	http.HandleFunc("/comment" , makeHandler(comment_handler))
+	http.HandleFunc("/comment-echo" , makeHandler(commenting.Comment_handler))
+	http.HandleFunc("/comment-load" , makeHandler(commenting.Comment_load_handler))
 }
 func (server HttpServer)ListenAndServe(){
 	log.Println("Listening on :80...")

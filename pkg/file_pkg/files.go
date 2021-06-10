@@ -18,7 +18,7 @@ func MakePath(dir []string, file string, format string) string {
 	for _, v := range dir {
 		Dir += v + "/"
 	}
-	return Dir + file + "." + format
+	return Dir + file + format
 }
 func ReadJson(path string, v interface{}) error {
 	jsonFile, err := os.Open(path)

@@ -6,7 +6,7 @@
     padding: 5%
 }
 .st-general-info{
-    font-family: karla;
+    font-family: roboto;
     padding-right: 2%;
     text-align: center;
     border-right: 1px solid goldenrod;
@@ -21,18 +21,20 @@
     font-size: 16px;
     color: goldenrod;
     font-weight: bold;
+    text-align: right;
 }
 .st-info td{
     font-size: 16px;
+    text-align: left;
 
 }
 .st-content{
-    font-family: karla;
+    font-family: roboto;
     padding: 2% 2%;
 }
 .st-content h1{
     font-weight: bold;
-    font-family: karla;
+    font-family: roboto;
 }
 .st-content p{
     text-align: justify;
@@ -64,7 +66,7 @@
     display: none;
     position: absolute;
     color: black;
-    font-family: karla;
+    font-family: roboto;
     font-size: 16px;
     font-weight: bold;
     top: 50%;
@@ -78,7 +80,7 @@
 
 .st-caption{
     font-size: 16px;
-    font-family: karla;
+    font-family: roboto;
     position: absolute;
     bottom: 2%;
     left: 2%;

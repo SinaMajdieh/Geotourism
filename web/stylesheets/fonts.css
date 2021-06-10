@@ -6,3 +6,15 @@
     font-family: thinoo;
     src: url(/fonts/thinoothin.otf);
 }
+@font-face {
+    font-family: bebas;
+    src: url(/fonts/Bebas.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(/fonts/Roboto.ttf);
+}
+@font-face {
+    font-family: comfortaa;
+    src: url(/fonts/Comfortaa.ttf);
+}
