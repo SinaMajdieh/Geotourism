@@ -6,11 +6,13 @@ import (
 	"log"
 	"net/http"
 )
-type HttpServer struct{
+
+type HttpServer struct {
 	IP   string `json:"ip"`
 	Port string `json:"port"`
 }
-func (server HttpServer) SetupServer(){
+
+func (server HttpServer) SetupServer() {
 	server.SetupAssets()
 	server.SetupRoutes()
 	server.ListenAndServe()
@@ -22,33 +24,33 @@ func (server HttpServer) SetupRoutes() {
 	http.HandleFunc("/attractions", makeHandler(attractionsHandler))
 	http.HandleFunc("/intro", makeHandler(introHandler))
 	//testing route for commenting
-	http.HandleFunc("/comment" , makeHandler(comment_handler))
-	http.HandleFunc("/comment-echo" , makeHandler(commenting.Comment_handler))
-	http.HandleFunc("/comment-load" , makeHandler(commenting.Comment_load_handler))
+	http.HandleFunc("/comment", makeHandler(comment_handler))
+	http.HandleFunc("/comment-echo", makeHandler(commenting.Comment_handler))
+	http.HandleFunc("/comment-load", makeHandler(commenting.Comment_load_handler))
 }
-func (server HttpServer)ListenAndServe(){
-	log.Println("Listening on :80...")
-	err := http.ListenAndServe(server.IP + server.Port, nil)
+func (server HttpServer) ListenAndServe() {
+	log.Println("Listening")
+	err := http.ListenAndServe(server.IP+server.Port, nil)
 	if err != nil {
 		log.Fatal(err)
 	}
 
 }
-func (server HttpServer)SetupAssets(){
+func (server HttpServer) SetupAssets() {
 	css := http.FileServer(http.Dir("./web/stylesheets"))
-	http.Handle("/css/", http.StripPrefix("/css/" , css))
+	http.Handle("/css/", http.StripPrefix("/css/", css))
 	js := http.FileServer(http.Dir("./web/javascripts"))
-	http.Handle("/js/", http.StripPrefix("/js/" , js))
+	http.Handle("/js/", http.StripPrefix("/js/", js))
 	img := http.FileServer(http.Dir("./web/images"))
-	http.Handle("/img/", http.StripPrefix("/img/" , img))
+	http.Handle("/img/", http.StripPrefix("/img/", img))
 	gif := http.FileServer(http.Dir("./web/gifs"))
-	http.Handle("/gif/", http.StripPrefix("/gif/" , gif))
+	http.Handle("/gif/", http.StripPrefix("/gif/", gif))
 	fonts := http.FileServer(http.Dir("./web/fonts"))
-	http.Handle("/fonts/", http.StripPrefix("/fonts/" , fonts))
+	http.Handle("/fonts/", http.StripPrefix("/fonts/", fonts))
 	docImg := http.FileServer(http.Dir("./website/articles/img"))
-	http.Handle("/docimg/", http.StripPrefix("/docimg/" , docImg))
+	http.Handle("/docimg/", http.StripPrefix("/docimg/", docImg))
 }
-func NewHttpServer(ip string , port string)*HttpServer{
+func NewHttpServer(ip string, port string) *HttpServer {
 	return &HttpServer{}
 }
 
