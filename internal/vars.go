@@ -10,15 +10,15 @@ const (
 )
 
 var (
-	phenomena = []string{"Erosional" , "Sedimentary_Geology" , "Structural_Geology" , "Magmatic_and_Metamorphic" , "Geological_Landscape" , "Engineering_Geology"}
-	templates = template.Must(template.ParseGlob("web/pages/*"))
-	Pages map[string]*template.Template
-	attractions *domModel.Attractions
+	phenomena       = []string{"Erosional", "Sedimentary_Geology", "Structural_Geology", "Magmatic_and_Metamorphic", "Geological_Landscape", "Engineering_Geology", "Cultural_Geology"}
+	templates       = template.Must(template.ParseGlob("web/pages/*"))
+	Pages           map[string]*template.Template
+	attractions     *domModel.Attractions
 	attractionsList *domModel.AttractionsList
-	intros *domModel.Articles
+	intros          *domModel.Articles
 )
 
-func DeclarePages(){
+func DeclarePages() {
 	Pages = make(map[string]*template.Template)
 	Pages["home"] = template.Must(template.ParseFiles(
 		"web/pages/base.html",

@@ -29,7 +29,7 @@ func (server HttpServer) SetupRoutes() {
 	http.HandleFunc("/comment-load", makeHandler(commenting.Comment_load_handler))
 }
 func (server HttpServer) ListenAndServe() {
-	log.Println("Listening")
+	log.Println("Listening on : " + server.IP + server.Port)
 	err := http.ListenAndServe(server.IP+server.Port, nil)
 	if err != nil {
 		log.Fatal(err)
