@@ -1,7 +1,7 @@
 package main
 
 import (
-	"C/Go/src/github.com/Geotourism/internal"
+	"github.com/SinaMajdieh/Geotourism/internal"
 	"github.com/SinaMajdieh/Geotourism/pkg/file_pkg"
 	"log"
 )
