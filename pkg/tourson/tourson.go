@@ -4,12 +4,28 @@ import (
 	"fmt"
 	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
 	"github.com/SinaMajdieh/Geotourism/pkg/file_pkg"
+	"github.com/TwiN/go-color"
+	"strconv"
 	"strings"
 )
-func LoadAttractionsListFiles(phenomena []string) (*domModel.AttractionsList , *domModel.Attractions) {
+
+// To log the LoadAttractionsListFiles function results
+func log_attractions_loading_result(errors []string) {
+	if 0 != len(errors) {
+		fmt.Println(color.Ize(color.Yellow, strconv.Itoa(len(errors))+" error(s) found:"))
+		for _, v := range errors {
+			fmt.Println(color.Ize(color.Red, "Could not load "+v))
+		}
+	} else {
+		fmt.Println(color.Ize(color.Green, "No errors detected. All is good!"))
+	}
+}
+
+func LoadAttractionsListFiles(phenomena []string) (*domModel.AttractionsList, *domModel.Attractions) {
 	var totattractions domModel.Attractions
+	errored_files := make([]string, 0)
 	attractions := make(map[string]*domModel.Attractions)
-	for _ , v := range phenomena{
+	for _, v := range phenomena {
 		attractions[v] = &domModel.Attractions{}
 		attractions[v].Phenomena = v
 	}
@@ -17,7 +33,7 @@ func LoadAttractionsListFiles(phenomena []string) (*domModel.AttractionsList , *
 	files, err := file_pkg.ListDirectory(file_pkg.AttractionsDirectory + "/docs")
 	if nil != err {
 		//HandleError
-		return nil,nil
+		return nil, nil
 	} else {
 		for _, v := range files {
 			var newAttraction domModel.Attraction
@@ -25,18 +41,24 @@ func LoadAttractionsListFiles(phenomena []string) (*domModel.AttractionsList , *
 			path := file_pkg.MakePath([]string{file_pkg.AttractionsDirectory, "docs"}, v.Name(), "")
 			err := file_pkg.ReadJson(path, &newAttraction)
 			if nil == err {
-				newAttraction.Value = strings.Replace(newAttraction.Phenomena , " " , "_" , -1)
-				fmt.Println(newAttraction.Title)
-				attractions[newAttraction.Value].Attractions = append(attractions[newAttraction.Value].Attractions , newAttraction)
-				attractions[newAttraction.Value].Count++
-				totattractions.Attractions = append(totattractions.Attractions, newAttraction)
-			}else{
-				fmt.Println(err)
+				newAttraction.Value = strings.Replace(newAttraction.Phenomena, " ", "_", -1)
+				fmt.Println(color.Ize(color.Blue, "Successfully loaded "+newAttraction.Title))
+				if _, ok := attractions[newAttraction.Value]; ok {
+					attractions[newAttraction.Value].Attractions = append(attractions[newAttraction.Value].Attractions, newAttraction)
+					attractions[newAttraction.Value].Count++
+					totattractions.Attractions = append(totattractions.Attractions, newAttraction)
+				} else {
+					errored_files = append(errored_files, v.Name())
+				}
+
+			} else {
+				errored_files = append(errored_files, v.Name())
 			}
 		}
+		log_attractions_loading_result(errored_files)
 		return &domModel.AttractionsList{
-			Map : attractions,
-		} , &totattractions
+			Map: attractions,
+		}, &totattractions
 	}
 
 }
