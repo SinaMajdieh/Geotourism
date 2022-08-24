@@ -1,12 +1,14 @@
 package internal
 
 import (
-	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
 	"html/template"
+
+	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
 )
 
 const (
-	DocList = "website/doc_list"
+	DocList   = "website/doc_list"
+	pages_dir = "web/pages/"
 )
 
 var (
@@ -21,33 +23,46 @@ var (
 func DeclarePages() {
 	Pages = make(map[string]*template.Template)
 	Pages["home"] = template.Must(template.ParseFiles(
-		"web/pages/base.html",
-		"web/pages/navbar.html",
-		"web/pages/footer.html",
-		"web/pages/home.html",
+		pages_dir+"base.html",
+		pages_dir+"navbar.html",
+		pages_dir+"footer.html",
+		pages_dir+"home.html",
 	))
 	Pages["article"] = template.Must(template.ParseFiles(
-		"web/pages/base.html",
-		"web/pages/navbar.html",
-		"web/pages/footer.html",
-		"web/pages/article.html",
+		pages_dir+"base.html",
+		pages_dir+"navbar.html",
+		pages_dir+"footer.html",
+		pages_dir+"article.html",
 	))
 	Pages["attractions"] = template.Must(template.ParseFiles(
-		"web/pages/base.html",
-		"web/pages/navbar.html",
-		"web/pages/footer.html",
-		"web/pages/attractions_list.html",
-		"web/pages/attraction_item_grid.html",
+		pages_dir+"base.html",
+		pages_dir+"navbar.html",
+		pages_dir+"footer.html",
+		pages_dir+"attractions_list.html",
+		pages_dir+"attraction_item_grid.html",
 	))
 	Pages["attraction"] = template.Must(template.ParseFiles(
-		"web/pages/base.html",
-		"web/pages/navbar.html",
-		"web/pages/footer.html",
-		"web/pages/attraction.html",
-		"web/pages/comment.html",
+		pages_dir+"base.html",
+		pages_dir+"navbar.html",
+		pages_dir+"footer.html",
+		pages_dir+"attraction.html",
+		// TODO : invent the wheel (comment section)
+		// backend : pkg/commenting
+		//frontend : comment.htm, comment.js
+		//disabled comment for now
+		//"web/pages/comment.html",
 	))
 	Pages["comment"] = template.Must(template.ParseFiles(
-		"web/pages/base.html",
-		"web/pages/comment.html",
+		pages_dir+"base.html",
+		pages_dir+"comment.html",
+	))
+	//for editing test purposes
+	Pages["editing"] = template.Must(template.ParseFiles(
+		pages_dir+"base.html",
+		pages_dir+"edit.html",
+	))
+	Pages["edit_attraction"] = template.Must(template.ParseFiles(
+		pages_dir+"base.html",
+		pages_dir+"edit_attraction.html",
 	))
 }

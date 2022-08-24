@@ -1,10 +1,11 @@
 package internal
 
 import (
-	"github.com/SinaMajdieh/Geotourism/pkg/commenting"
-	"github.com/SinaMajdieh/Geotourism/pkg/tourson"
 	"log"
 	"net/http"
+
+	"github.com/SinaMajdieh/Geotourism/pkg/commenting"
+	"github.com/SinaMajdieh/Geotourism/pkg/tourson"
 )
 
 type HttpServer struct {
@@ -27,6 +28,9 @@ func (server HttpServer) SetupRoutes() {
 	http.HandleFunc("/comment", makeHandler(comment_handler))
 	http.HandleFunc("/comment-echo", makeHandler(commenting.Comment_handler))
 	http.HandleFunc("/comment-load", makeHandler(commenting.Comment_load_handler))
+	//for editing purposes
+	http.HandleFunc("/edit/attractions", makeHandler(edit_list_handler))
+	http.HandleFunc("/edit/attraction/", makeHandler(edit_attraction_handler))
 }
 func (server HttpServer) ListenAndServe() {
 	log.Println("Listening on : " + server.IP + server.Port)
