@@ -1,0 +1,24 @@
+{{define "content"}}
+
+    <style>
+        a{
+            font-family: roboto;
+            text-decoration: none;
+            color: red;
+        }
+        h1{
+            font-family: karla;
+        }
+    </style>
+
+    {{range .Map}}
+        <h1>{{.Phenomena}}</h1>
+        {{if .Count}}
+            {{range .Attractions}}
+                <a href="{{.Link}}">{{.Title}}</a><br>
+            {{end}}
+        {{else}}
+            <h2>No result</h2>
+        {{end}}
+    {{end}}
+{{end}}

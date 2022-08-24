@@ -1,0 +1,113 @@
+{{define "content"}}
+    <link rel="stylesheet" href="/css/edit_attraction.css">
+    <div class="container">
+        <form action="/edit-result" method="post">
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="title">Title : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="title" name="title" value="{{.Title}}">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="content">Content : </label>
+                </div>
+                <div class="col-75">
+                    <textarea id="content" name="content" rows="15" >{{index .Content 0}}</textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="image">Image : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="image" name="image" value="{{.Image}}">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="link">Link : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="link" name="link" value="{{.Link}}">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="accessibility">Accessibility : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="accessibility" name="accessibility" value="{{.Accessibility}}">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="seasons_to_visit">SeasonsToVisit : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="seasons_to_visit" name="seasons_to_visit" value="{{.SeasonsToVisit}}">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="code">Code : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="code" name="code" value="{{.Code}}">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="phenomena">Phenomena : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="phenomena" name="phenomena" value="{{.Phenomena}}">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="province">Province : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="province" name="province" value="{{.Province}}">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="significance">Significance : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="significance" name="significance" value="{{.Significance}}">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="map_image">MapImage : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="map_image" name="map_image" value="{{.MapImage}}"><br>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <input type="submit" value="Submit">
+                <button><a href="/edit/attractions">cancel</a></button>
+            </div>
+        </form>
+    </div>
+
+
+{{end}}
