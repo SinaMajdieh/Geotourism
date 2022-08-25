@@ -2,9 +2,14 @@ package internal
 
 import (
 	"fmt"
-	"net/http"
-
+	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
+	"github.com/SinaMajdieh/Geotourism/pkg/log"
+	"github.com/SinaMajdieh/Geotourism/pkg/tourson"
 	"github.com/TwiN/go-color"
+	"github.com/gorilla/schema"
+	"net/http"
+	"strconv"
+	"strings"
 )
 
 func edit_list_handler(w http.ResponseWriter, r *http.Request) {
@@ -24,4 +29,48 @@ func edit_attraction_handler(w http.ResponseWriter, r *http.Request) {
 	} else {
 		Pages["edit_attraction"].Execute(w, attraction)
 	}
+}
+
+func editing_result(w http.ResponseWriter, r *http.Request) {
+	if r.Method == "GET" {
+		http.Redirect(w, r, "/edit/attractions", http.StatusSeeOther)
+	} else {
+		att := set_edited_attraction_attributes(r)
+		err := tourson.Save_attrction_file(&att)
+		log.Log_err(err, att.Title+" was edited successfully!")
+		Update_attractions_list(&att)
+		http.Redirect(w, r, "/edit/attractions", http.StatusSeeOther)
+	}
+}
+
+func set_edited_attraction_attributes(r *http.Request) domModel.Attraction {
+	err := r.ParseForm()
+	log.Log_err(err, "")
+	var att domModel.Attraction
+
+	att = domModel.Attraction{}
+	decoder := schema.NewDecoder()
+	_ = decoder.Decode(&att, r.PostForm)
+
+	att.Content = strings.Split(att.Content[0], "\r\n")
+	att.Seasons = make_seasons_arr(att.SeasonsToVisit)
+	att.Gallery = set_pics(r)
+
+	return att
+}
+func make_seasons_arr(seasons string) []string {
+	seasons = strings.ReplaceAll(seasons, " ", "")
+	seasons_arr := strings.Split(seasons, ",")
+	return seasons_arr
+}
+func set_pics(r *http.Request) []domModel.Picture {
+	pics := make([]domModel.Picture, 0)
+	for i := 0; r.PostForm.Has("src" + strconv.Itoa(i)); i++ {
+		pic := domModel.Picture{
+			Src:     r.Form["src"+strconv.Itoa(i)][0],
+			Caption: r.Form["cap"+strconv.Itoa(i)][0],
+		}
+		pics = append(pics, pic)
+	}
+	return pics
 }
