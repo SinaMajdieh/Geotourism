@@ -13,7 +13,7 @@ const (
 	IntroDirectory          = ArticlesPath + "/intro"
 )
 
-func MakePath(dir []string, file string, format string) string {
+func Make_path(dir []string, file string, format string) string {
 	Dir := ""
 	for _, v := range dir {
 		Dir += v + "/"
