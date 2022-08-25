@@ -1,11 +1,9 @@
 package internal
 
 import (
+	"github.com/SinaMajdieh/Geotourism/pkg/commenting"
 	"log"
 	"net/http"
-
-	"github.com/SinaMajdieh/Geotourism/pkg/commenting"
-	"github.com/SinaMajdieh/Geotourism/pkg/tourson"
 )
 
 type HttpServer struct {
@@ -31,6 +29,7 @@ func (server HttpServer) SetupRoutes() {
 	//for editing purposes
 	http.HandleFunc("/edit/attractions", makeHandler(edit_list_handler))
 	http.HandleFunc("/edit/attraction/", makeHandler(edit_attraction_handler))
+	http.HandleFunc("/edit-result", makeHandler(editing_result))
 }
 func (server HttpServer) ListenAndServe() {
 	log.Println("Listening on : " + server.IP + server.Port)
@@ -56,9 +55,4 @@ func (server HttpServer) SetupAssets() {
 }
 func NewHttpServer(ip string, port string) *HttpServer {
 	return &HttpServer{}
-}
-
-func LoadData() {
-	attractionsList, attractions = tourson.LoadAttractionsListFiles(phenomena)
-	intros = tourson.LoadIntroListFiles(DocList)
 }

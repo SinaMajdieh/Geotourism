@@ -7,7 +7,6 @@ import (
 	"net/http"
 )
 
-
 func makeHandler(fn func(http.ResponseWriter, *http.Request)) http.HandlerFunc {
 
 	return func(w http.ResponseWriter, r *http.Request) {
@@ -37,7 +36,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 func articleHandler(w http.ResponseWriter, r *http.Request) {
 	articleName := r.URL.Path[len("/articles/"):]
 	var article domModel.Article
-	path := file_pkg.MakePath([]string{file_pkg.GlobalArticlesDirectory, articleName}, articleName, "json")
+	path := file_pkg.Make_path([]string{file_pkg.GlobalArticlesDirectory, articleName}, articleName, "json")
 	err := file_pkg.ReadJson(path, &article)
 	if nil != err {
 		fmt.Println(err)
@@ -69,7 +68,9 @@ func attractionsHandler(w http.ResponseWriter, r *http.Request) {
 	_ = Pages["attractions"].Execute(w, attractionsList)
 
 }
+
 var comments []string
+
 func comment_handler(w http.ResponseWriter, r *http.Request) {
 	_ = Pages["comment"].Execute(w, comments)
 

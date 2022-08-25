@@ -8,7 +8,7 @@ import (
 
 func main() {
 	internal.DeclarePages()
-	internal.LoadData()
+	internal.Load_Data()
 	var server internal.Server
 	server = internal.NewHttpServer("", "")
 	err := file_pkg.ReadJson("configs/server.json", server)
