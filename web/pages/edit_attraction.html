@@ -50,10 +50,10 @@
 
             <div class="row">
                 <div class="col-25">
-                    <label for="seasons_to_visit">SeasonsToVisit : </label>
+                    <label for="seasons">SeasonsToVisit : </label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="seasons_to_visit" name="seasons_to_visit" value="{{.SeasonsToVisit}}">
+                    <input type="text" id="seasons" name="seasons" value="{{.SeasonsToVisit}}">
                 </div>
             </div>
 
@@ -95,12 +95,31 @@
 
             <div class="row">
                 <div class="col-25">
-                    <label for="map_image">MapImage : </label>
+                    <label for="map-image">MapImage : </label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="map_image" name="map_image" value="{{.MapImage}}"><br>
+                    <input type="text" id="map-image" name="map-image" value="{{.MapImage}}"><br>
                 </div>
             </div>
+
+            {{range $i, $a := .Gallery}}
+                <div class="row">
+                    <div class="col-25">
+                        <label for="src{{$i}}">Source of image {{$i}}</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="src{{$i}}" name="src{{$i}}" value="{{.Src}}">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="cap{{$i}}">Caption of image {{$i}}</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="cap{{$i}}" name="cap{{$i}}" value="{{.Caption}}">
+                    </div>
+                </div>
+            {{end}}
             <br>
             <div class="row">
                 <input type="submit" value="Submit">
