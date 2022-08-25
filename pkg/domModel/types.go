@@ -29,20 +29,20 @@ type Articles struct {
 	Articles []Article
 }
 type Attraction struct {
-	Title          string    `json:"title"`
-	Content        []string  `json:"content"`
-	Image          string    `json:"image"`
-	Link           string    `json:"link"`
-	Accessibility  string    `json:"accessibility"`
-	SeasonsToVisit string    `json:"seasons"`
-	Seasons        []string  `json:"seasons_arr"`
-	Code           string    `json:"code"`
-	Phenomena      string    `json:"phenomena"`
-	Value          string    `json:"_"`
-	Province       string    `json:"province"`
-	Significance   string    `json:"significance"`
-	MapImage       string    `json:"map-image"`
-	Gallery        []Picture `json:"gallery"`
+	Title          string    `json:"title" schema:"title"`
+	Content        []string  `json:"content" schema:"content"`
+	Image          string    `json:"image" schema:"image"`
+	Link           string    `json:"link" schema:"link"`
+	Accessibility  string    `json:"accessibility" schema:"accessibility"`
+	SeasonsToVisit string    `json:"seasons" schema:"seasons"`
+	Seasons        []string  `json:"seasons_arr" schema:"_"`
+	Code           string    `json:"code" schema:"code"`
+	Phenomena      string    `json:"phenomena" schema:"phenomena"`
+	Value          string    `json:"_" schema:"_"`
+	Province       string    `json:"province" schema:"province"`
+	Significance   string    `json:"significance" schema:"significance"`
+	MapImage       string    `json:"map-image" schema:"map-image"`
+	Gallery        []Picture `json:"gallery" schema:"_"`
 }
 type Attractions struct {
 	Attractions []Attraction
