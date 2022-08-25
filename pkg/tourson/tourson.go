@@ -1,15 +1,17 @@
 package tourson
 
 import (
+	"encoding/json"
 	"fmt"
 	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
 	"github.com/SinaMajdieh/Geotourism/pkg/file_pkg"
 	"github.com/TwiN/go-color"
+	"os"
 	"strconv"
 	"strings"
 )
 
-// To log the LoadAttractionsListFiles function results
+// To log the Load_attractions_list_files function results
 func log_attractions_loading_result(errors []string) {
 	if 0 != len(errors) {
 		fmt.Println(color.Ize(color.Yellow, strconv.Itoa(len(errors))+" error(s) found:"))
@@ -20,8 +22,17 @@ func log_attractions_loading_result(errors []string) {
 		fmt.Println(color.Ize(color.Green, "No errors detected. All is good!"))
 	}
 }
+func Save_attrction_file(att *domModel.Attraction) error {
+	path := file_pkg.Make_path([]string{file_pkg.AttractionsDirectory, "docs"}, att.Title, ".json")
+	file, err := json.MarshalIndent(*att, "", " ")
+	if nil == err {
+		err = os.WriteFile(path, file, 0644)
+		return err
+	}
+	return err
 
-func LoadAttractionsListFiles(phenomena []string) (*domModel.AttractionsList, *domModel.Attractions) {
+}
+func Load_attractions_list_files(phenomena []string) (*domModel.AttractionsList, *domModel.Attractions) {
 	var totattractions domModel.Attractions
 	errored_files := make([]string, 0)
 	attractions := make(map[string]*domModel.Attractions)
@@ -38,7 +49,7 @@ func LoadAttractionsListFiles(phenomena []string) (*domModel.AttractionsList, *d
 		for _, v := range files {
 			var newAttraction domModel.Attraction
 
-			path := file_pkg.MakePath([]string{file_pkg.AttractionsDirectory, "docs"}, v.Name(), "")
+			path := file_pkg.Make_path([]string{file_pkg.AttractionsDirectory, "docs"}, v.Name(), "")
 			err := file_pkg.ReadJson(path, &newAttraction)
 			if nil == err {
 				newAttraction.Value = strings.Replace(newAttraction.Phenomena, " ", "_", -1)
@@ -64,7 +75,7 @@ func LoadAttractionsListFiles(phenomena []string) (*domModel.AttractionsList, *d
 }
 func LoadIntroListFiles(DocList string) *domModel.Articles {
 	var doc domModel.Doc
-	path := file_pkg.MakePath([]string{DocList}, "intro", ".json")
+	path := file_pkg.Make_path([]string{DocList}, "intro", ".json")
 	err := file_pkg.ReadJson(path, &doc)
 	if nil != err {
 		fmt.Println(err)
@@ -72,7 +83,7 @@ func LoadIntroListFiles(DocList string) *domModel.Articles {
 	var intros []domModel.Article
 	for _, v := range doc.Files {
 		var file domModel.Article
-		path := file_pkg.MakePath([]string{file_pkg.ArticlesPath, "intro", "docs"}, v, ".json")
+		path := file_pkg.Make_path([]string{file_pkg.ArticlesPath, "intro", "docs"}, v, ".json")
 		err := file_pkg.ReadJson(path, &file)
 		if nil != err {
 			fmt.Println(err)
