@@ -26,10 +26,18 @@ func (server HttpServer) SetupRoutes() {
 	http.HandleFunc("/comment", makeHandler(comment_handler))
 	http.HandleFunc("/comment-echo", makeHandler(commenting.Comment_handler))
 	http.HandleFunc("/comment-load", makeHandler(commenting.Comment_load_handler))
+	//panel for all kinds of crazy stuff!
+	http.HandleFunc("/panel", makeHandler(panel_handler))
 	//for editing purposes
 	http.HandleFunc("/edit/attractions", makeHandler(edit_list_handler))
 	http.HandleFunc("/edit/attraction/", makeHandler(edit_attraction_handler))
-	http.HandleFunc("/edit-result", makeHandler(editing_result))
+	http.HandleFunc("/edit-result", makeHandler(editing_result_handler))
+	//for adding purposes
+	http.HandleFunc("/add/attraction", makeHandler(add_attraction_handler))
+	http.HandleFunc("/add-result", makeHandler(add_result_handler))
+	//for removing purposes
+	http.HandleFunc("/remove/attraction", makeHandler(remove_handler))
+	http.HandleFunc("/remove/attraction/", makeHandler(remove_result_handler))
 }
 func (server HttpServer) ListenAndServe() {
 	log.Println("Listening on : " + server.IP + server.Port)

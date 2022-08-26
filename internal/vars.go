@@ -46,7 +46,7 @@ func DeclarePages() {
 		pages_dir+"navbar.html",
 		pages_dir+"footer.html",
 		pages_dir+"attraction.html",
-		// TODO : invent the wheel (comment section)
+		// TODO : reinvent the wheel (comment section)
 		// backend : pkg/commenting
 		//frontend : comment.htm, comment.js
 		//disabled comment for now
@@ -56,13 +56,31 @@ func DeclarePages() {
 		pages_dir+"base.html",
 		pages_dir+"comment.html",
 	))
+	//for all kinds of crazy stuff!
+	Pages["panel"] = template.Must(template.ParseFiles(
+		pages_dir+"base.html",
+		pages_dir+"navbar.html",
+		//pages_dir+"footer.html",  doesn't stick to the bottom
+		pages_dir+"panel.html",
+	))
 	//for editing test purposes
 	Pages["editing"] = template.Must(template.ParseFiles(
 		pages_dir+"base.html",
+		pages_dir+"navbar.html",
+		pages_dir+"footer.html",
 		pages_dir+"edit.html",
 	))
 	Pages["edit_attraction"] = template.Must(template.ParseFiles(
 		pages_dir+"base.html",
+		pages_dir+"navbar.html",
+		pages_dir+"footer.html",
 		pages_dir+"edit_attraction.html",
+	))
+	//for adding purposes
+	Pages["add_attraction"] = template.Must(template.ParseFiles(
+		pages_dir+"base.html",
+		pages_dir+"navbar.html",
+		pages_dir+"footer.html",
+		pages_dir+"add_attraction.html",
 	))
 }

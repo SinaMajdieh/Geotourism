@@ -75,3 +75,6 @@ func comment_handler(w http.ResponseWriter, r *http.Request) {
 	_ = Pages["comment"].Execute(w, comments)
 
 }
+func panel_handler(w http.ResponseWriter, r *http.Request) {
+	_ = Pages["panel"].Execute(w, nil)
+}
