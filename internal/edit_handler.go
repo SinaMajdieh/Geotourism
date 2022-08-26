@@ -1,7 +1,6 @@
 package internal
 
 import (
-	"fmt"
 	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
 	"github.com/SinaMajdieh/Geotourism/pkg/log"
 	"github.com/SinaMajdieh/Geotourism/pkg/tourson"
@@ -14,9 +13,7 @@ import (
 
 func edit_list_handler(w http.ResponseWriter, r *http.Request) {
 	err := Pages["editing"].Execute(w, attractionsList)
-	if nil != err {
-		fmt.Println(err)
-	}
+	log.Log_err(err, "")
 }
 
 func edit_attraction_handler(w http.ResponseWriter, r *http.Request) {
@@ -31,14 +28,18 @@ func edit_attraction_handler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func editing_result(w http.ResponseWriter, r *http.Request) {
+func editing_result_handler(w http.ResponseWriter, r *http.Request) {
 	if r.Method == "GET" {
 		http.Redirect(w, r, "/edit/attractions", http.StatusSeeOther)
 	} else {
 		att := set_edited_attraction_attributes(r)
-		err := tourson.Save_attrction_file(&att)
+		err := tourson.Save_attraction_file(&att)
 		log.Log_err(err, att.Title+" was edited successfully!")
-		Update_attractions_list(&att)
+		/*
+			TODO make it work
+			Update_attractions_list(&att)
+		*/
+		Load_attractions()
 		http.Redirect(w, r, "/edit/attractions", http.StatusSeeOther)
 	}
 }

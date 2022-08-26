@@ -8,7 +8,7 @@
                     <label for="title">Title : </label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="title" name="title" value="{{.Title}}">
+                    <input type="text" id="title" name="title" value="{{.Title}}" required>
                 </div>
             </div>
 
@@ -17,7 +17,7 @@
                     <label for="content">Content : </label>
                 </div>
                 <div class="col-75">
-                    <textarea id="content" name="content" rows="15" >{{index .Content 0}}</textarea>
+                    <textarea id="content" name="content" rows="15" required>{{index .Content 0}}</textarea>
                 </div>
             </div>
 
@@ -26,7 +26,7 @@
                     <label for="image">Image : </label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="image" name="image" value="{{.Image}}">
+                    <input type="text" id="image" name="image" value="{{.Image}}" required>
                 </div>
             </div>
 
@@ -35,7 +35,7 @@
                     <label for="link">Link : </label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="link" name="link" value="{{.Link}}">
+                    <input type="text" id="link" name="link" value="{{.Link}}" required>
                 </div>
             </div>
 
@@ -44,7 +44,7 @@
                     <label for="accessibility">Accessibility : </label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="accessibility" name="accessibility" value="{{.Accessibility}}">
+                    <input type="text" id="accessibility" name="accessibility" value="{{.Accessibility}}" required>
                 </div>
             </div>
 
@@ -53,7 +53,7 @@
                     <label for="seasons">SeasonsToVisit : </label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="seasons" name="seasons" value="{{.SeasonsToVisit}}">
+                    <input type="text" id="seasons" name="seasons" value="{{.SeasonsToVisit}}" required>
                 </div>
             </div>
 
@@ -62,7 +62,7 @@
                     <label for="code">Code : </label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="code" name="code" value="{{.Code}}">
+                    <input type="text" id="code" name="code" value="{{.Code}}" required>
                 </div>
             </div>
 
@@ -71,7 +71,7 @@
                     <label for="phenomena">Phenomena : </label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="phenomena" name="phenomena" value="{{.Phenomena}}">
+                    <input type="text" id="phenomena" name="phenomena" value="{{.Phenomena}}" required>
                 </div>
             </div>
 
@@ -80,7 +80,7 @@
                     <label for="province">Province : </label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="province" name="province" value="{{.Province}}">
+                    <input type="text" id="province" name="province" value="{{.Province}}" required>
                 </div>
             </div>
 
@@ -89,7 +89,7 @@
                     <label for="significance">Significance : </label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="significance" name="significance" value="{{.Significance}}">
+                    <input type="text" id="significance" name="significance" value="{{.Significance}}" required>
                 </div>
             </div>
 
@@ -98,35 +98,38 @@
                     <label for="map-image">MapImage : </label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="map-image" name="map-image" value="{{.MapImage}}"><br>
+                    <input type="text" id="map-image" name="map-image" value="{{.MapImage}}" required>
                 </div>
             </div>
-
-            {{range $i, $a := .Gallery}}
-                <div class="row">
-                    <div class="col-25">
-                        <label for="src{{$i}}">Source of image {{$i}}</label>
+            <div id="gallery">
+                {{range $i, $a := .Gallery}}
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="src{{$i}}">Source of image {{$i}}</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="src{{$i}}" name="src{{$i}}" value="{{.Src}}" required>
+                        </div>
                     </div>
-                    <div class="col-75">
-                        <input type="text" id="src{{$i}}" name="src{{$i}}" value="{{.Src}}">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="cap{{$i}}">Caption of image {{$i}}</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="cap{{$i}}" name="cap{{$i}}" value="{{.Caption}}" required>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="cap{{$i}}">Caption of image {{$i}}</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" id="cap{{$i}}" name="cap{{$i}}" value="{{.Caption}}">
-                    </div>
-                </div>
-            {{end}}
+                {{end}}
+            </div>
             <br>
             <div class="row">
                 <input type="submit" value="Submit">
-                <button><a href="/edit/attractions">cancel</a></button>
+                <button type="button" class="cancel"><a href="/edit/attractions">cancel</a></button>
+                <button type="button" class="add" onclick="add_new_img_field()">+</button>
+                <button type="button" class="remove" onclick="remove_last_img_field()">-</button>
             </div>
         </form>
     </div>
-
+    <script src="/js/add_attraction.js"></script>
 
 {{end}}

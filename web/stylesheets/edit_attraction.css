@@ -37,7 +37,6 @@ input[type=submit]:hover {
 }
 button{
     font-family: roboto;
-    background-color: red;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -46,8 +45,23 @@ button{
     float: right;
     margin-left: 5px;
 }
-button:hover {
+.cancel{
+    background-color: red;
+}
+.cancel:hover {
     background-color: darkred;
+}
+.add{
+    background-color: lightgrey;
+}
+.add:hover{
+    background-color: darkgrey;
+}
+.remove{
+    background-color: orange;
+}
+.remove:hover{
+    background-color: orangered;
 }
 .container {
     border-radius: 5px;
