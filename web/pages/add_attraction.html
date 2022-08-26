@@ -1,0 +1,116 @@
+{{define "content"}}
+    <link rel="stylesheet" href="/css/edit_attraction.css">
+    <div class="container">
+        <form action="/add-result" method="post">
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="title">Title : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="title" name="title" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="content">Content : </label>
+                </div>
+                <div class="col-75">
+                    <textarea id="content" name="content" rows="15" required></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="image">Image : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="image" name="image" value="/docimg/Attractions/" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="link">Link : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="link" name="link" value="attraction/" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="accessibility">Accessibility : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="accessibility" name="accessibility" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="seasons">SeasonsToVisit : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="seasons" name="seasons" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="code">Code : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="code" name="code" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="phenomena">Phenomena : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="phenomena" name="phenomena" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="province">Province : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="province" name="province" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="significance">Significance : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="significance" name="significance" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="map-image">MapImage : </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="map-image" name="map-image" value="/docimg/Attractions/maps/" required>
+                </div>
+            </div>
+            <div id="gallery">
+
+            </div>
+            <br>
+            <div class="row">
+                <input type="submit" value="Submit">
+                <button type="button" class="add" onclick="add_new_img_field()">+</button>
+                <button type="button" class="remove" onclick="remove_last_img_field()">-</button>
+            </div>
+        </form>
+    </div>
+    <script src="/js/add_attraction.js"></script>
+{{end}}
