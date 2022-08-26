@@ -22,7 +22,7 @@ func log_attractions_loading_result(errors []string) {
 		fmt.Println(color.Ize(color.Green, "No errors detected. All is good!"))
 	}
 }
-func Save_attrction_file(att *domModel.Attraction) error {
+func Save_attraction_file(att *domModel.Attraction) error {
 	path := file_pkg.Make_path([]string{file_pkg.AttractionsDirectory, "docs"}, att.Title, ".json")
 	file, err := json.MarshalIndent(*att, "", " ")
 	if nil == err {
@@ -31,6 +31,10 @@ func Save_attrction_file(att *domModel.Attraction) error {
 	}
 	return err
 
+}
+func Remove_attraction_file(title string) error {
+	path := file_pkg.Make_path([]string{file_pkg.AttractionsDirectory, "docs"}, title, ".json")
+	return os.Remove(path)
 }
 func Load_attractions_list_files(phenomena []string) (*domModel.AttractionsList, *domModel.Attractions) {
 	var totattractions domModel.Attractions
