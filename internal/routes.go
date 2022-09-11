@@ -38,14 +38,20 @@ func (server HttpServer) SetupRoutes() {
 	//for removing purposes
 	http.HandleFunc("/remove/attraction", makeHandler(remove_handler))
 	http.HandleFunc("/remove/attraction/", makeHandler(remove_result_handler))
+	//blog
+	http.HandleFunc("/blog", makeHandler(blog_handler))
+	http.HandleFunc("/blog/", makeHandler(blog_post_handler))
+
+	//the very start of my comment system
+	http.HandleFunc("/comment-api/", makeHandler(commentApiHandler))
 }
 func (server HttpServer) ListenAndServe() {
 	log.Println("Listening on : " + server.IP + server.Port)
+	//srv := http.Server{Addr: server.IP + server.Port}
 	err := http.ListenAndServe(server.IP+server.Port, nil)
 	if err != nil {
 		log.Fatal(err)
 	}
-
 }
 func (server HttpServer) SetupAssets() {
 	css := http.FileServer(http.Dir("./web/stylesheets"))
