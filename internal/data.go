@@ -2,6 +2,7 @@ package internal
 
 import (
 	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
+	"github.com/SinaMajdieh/Geotourism/pkg/markml"
 	"github.com/SinaMajdieh/Geotourism/pkg/tourson"
 )
 
@@ -19,7 +20,14 @@ func Update_attractions_list(att *domModel.Attraction) {
 func Load_intros() {
 	intros = tourson.LoadIntroListFiles(DocList)
 }
+func Load_blog() {
+	blogPosts = markml.Read_posts()
+}
 func Load_Data() {
 	Load_attractions()
 	Load_intros()
+	Load_blog()
+}
+func AllAttractions() *domModel.Attractions {
+	return attractions
 }
