@@ -2,6 +2,7 @@ package internal
 
 import (
 	"fmt"
+	"github.com/SinaMajdieh/Geotourism/pkg/commdown"
 	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
 	"github.com/SinaMajdieh/Geotourism/pkg/file_pkg"
 	"net/http"
@@ -50,17 +51,42 @@ func articleHandler(w http.ResponseWriter, r *http.Request) {
 	Pages["article"].Execute(w, articles)
 
 }
-func attractionHandler(w http.ResponseWriter, r *http.Request) {
+
+// original handler with no comment loading
+/*func attractionHandler(w http.ResponseWriter, r *http.Request) {
 	link := r.URL.Path
 	link = link[1:]
 	attraction := FindAttraction(link)
 	if nil == attraction {
-		fmt.Println("Not Found")
+		Pages["404"].Execute(w, nil)
 	} else {
 		Pages["attraction"].Execute(w, attraction)
 	}
+}*/
 
+func attractionHandler(w http.ResponseWriter, r *http.Request) {
+	link := r.URL.Path
+	link = link[1:]
+
+	Pages["navbar"].Execute(w, nil)
+
+	attraction := FindAttraction(link)
+	if nil == attraction {
+		Pages["404"].Execute(w, nil)
+	} else {
+		Pages["attraction_trimmed"].Execute(w, attraction)
+	}
+
+	comments := commdown.GetIt(link)
+	if nil != comments {
+		Pages["comments"].Execute(w, comments)
+	}
+
+	Pages["send_comment"].Execute(w, link)
+
+	Pages["footer"].Execute(w, nil)
 }
+
 func introHandler(w http.ResponseWriter, r *http.Request) {
 	Pages["article"].Execute(w, intros)
 }
