@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"os"
+	"path/filepath"
 )
 
 const (
@@ -46,4 +47,22 @@ func ReadJson(path string, v interface{}) error {
 func ListDirectory(path string) ([]os.FileInfo, error) {
 	return ioutil.ReadDir(path)
 
+}
+
+// FileExists check if a file exists
+func FileExists(path string) bool {
+	if _, err := os.Stat(path); nil != err {
+		return false
+	}
+	return true
+}
+
+// RemoveFileExt removes file name's extension
+func RemoveFileExt(fileName string) string {
+	return fileName[:len(fileName)-len(filepath.Ext(fileName))]
+}
+
+// AddFileExt adds an extension to a file's name
+func AddFileExt(fileName, ext string) string {
+	return fileName + "." + ext
 }
