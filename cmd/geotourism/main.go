@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/SinaMajdieh/Geotourism/internal"
+	"github.com/SinaMajdieh/Geotourism/pkg/cli"
 	"github.com/SinaMajdieh/Geotourism/pkg/file_pkg"
 	"log"
 )
@@ -15,6 +16,7 @@ func main() {
 	if nil != err {
 		log.Fatal("config file : ", err)
 	}
+	go cli.Cmd()
 	server.SetupServer()
 
 }
