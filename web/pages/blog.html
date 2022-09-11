@@ -1,0 +1,26 @@
+{{define "title"}}Blog{{end}}
+{{define "content"}}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link rel="stylesheet" href="css/blog.css">
+  <div class="row d-flex justify-content-center mt-100 mb-100">
+    <ul class="list-style-none">
+      {{range . }}
+        <li class="d-flex no-block card-body">
+          <i class="fa fa-check-circle w-30px m-t-5"></i>
+          <div>
+            <a href="{{.Link}}" class="m-b-0 font-medium p-0" data-abc="true">{{.Title}}</a>
+          </div>
+          <div class="ml-auto">
+            <div class="tetx-right">
+              <h5 class="text-muted m-b-0">26</h5>
+              <span class="text-muted font-16">FEB</span>
+            </div>
+          </div>
+        </li>
+      {{end}}
+    </ul>
+  </div>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+{{end}}
