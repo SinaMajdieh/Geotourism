@@ -2,6 +2,7 @@ package domModel
 
 import (
 	"encoding/json"
+	"html/template"
 	"io/ioutil"
 	"os"
 )
@@ -51,6 +52,19 @@ type Attractions struct {
 }
 type AttractionsList struct {
 	Map map[string]*Attractions
+}
+type BlogPost struct {
+	Title string
+	Link  string
+	Html  template.HTML
+}
+type Comment struct {
+	Name    string `schema:"name"`
+	Link    string
+	Content string `schema:"comment"`
+}
+type CommentSection struct {
+	Html template.HTML
 }
 
 func (attraction *Attraction) ReadFile(path string) error {

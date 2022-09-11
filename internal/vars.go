@@ -18,6 +18,7 @@ var (
 	attractions     *domModel.Attractions
 	attractionsList *domModel.AttractionsList
 	intros          *domModel.Articles
+	blogPosts       []*domModel.BlogPost
 )
 
 func DeclarePages() {
@@ -52,6 +53,10 @@ func DeclarePages() {
 		//disabled comment for now
 		//"web/pages/comment.html",
 	))
+	Pages["attraction_trimmed"] = template.Must(template.ParseFiles(
+		pages_dir+"base.html",
+		pages_dir+"attraction.html",
+	))
 	Pages["comment"] = template.Must(template.ParseFiles(
 		pages_dir+"base.html",
 		pages_dir+"comment.html",
@@ -82,5 +87,55 @@ func DeclarePages() {
 		pages_dir+"navbar.html",
 		pages_dir+"footer.html",
 		pages_dir+"add_attraction.html",
+	))
+	//blog
+	Pages["blog"] = template.Must(template.ParseFiles(
+		pages_dir+"base.html",
+		pages_dir+"navbar.html",
+		pages_dir+"footer.html",
+		pages_dir+"blog.html",
+	))
+	//blog post
+	Pages["blog_post"] = template.Must(template.ParseFiles(
+		pages_dir+"base.html",
+		pages_dir+"navbar.html",
+		pages_dir+"footer.html",
+		pages_dir+"markml.html",
+	))
+	Pages["blog_post_trimmed"] = template.Must(template.ParseFiles(
+		pages_dir+"base.html",
+		pages_dir+"markml.html",
+	))
+	//404
+	Pages["404"] = template.Must(template.ParseFiles(
+		pages_dir + "404.html",
+	))
+	//comments
+	Pages["comments"] = template.Must(template.ParseFiles(
+		pages_dir+"comment_section.html",
+		pages_dir+"comments.html",
+		pages_dir+"commdown.html",
+	))
+	//comments
+	Pages["comments"] = template.Must(template.ParseFiles(
+		pages_dir+"base.html",
+		pages_dir+"comment_section.html",
+		pages_dir+"comments.html",
+		//pages_dir+"commdown.html",
+	))
+	Pages["send_comment"] = template.Must(template.ParseFiles(
+		pages_dir+"base.html",
+		pages_dir+"comment_section.html",
+		//pages_dir+"comments.html",
+		pages_dir+"commdown.html",
+	))
+	//navbar
+	Pages["navbar"] = template.Must(template.ParseFiles(
+		pages_dir+"base.html",
+		pages_dir+"navbar.html",
+	))
+	Pages["footer"] = template.Must(template.ParseFiles(
+		pages_dir+"base.html",
+		pages_dir+"footer.html",
 	))
 }
