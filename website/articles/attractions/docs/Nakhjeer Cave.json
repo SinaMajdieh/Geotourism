@@ -1,0 +1,41 @@
+{
+ "title": "Nakhjeer Cave",
+ "content": [
+  "The karst cave of Nakhjeer has recently been discovered and located amidst the town of Delijan and Naraq. This cave has beautiful deposit forms, some of which have been seen in no other caves. For instance, one can name the significant pine-like cave deposits. In this cave depths, there is a little lake, but it cannot place the cave among the lake or water caves. In the more intact corners of this cave inside the small side corridors, a group of sharp and dense stalactites and stalagmites show an incredible beauty. It is recommended that any visit to this cave be done with great care and in tiny groups.",
+  ""
+ ],
+ "image": "/docimg/Attractions/SE5-1.jpg",
+ "link": "attraction/Nakhjeer-Cave",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "SE5",
+ "phenomena": "Sedimentary Geology",
+ "_": "Sedimentary_Geology",
+ "province": "Markazi",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/SE5.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/SE5-1.jpg",
+   "caption": "SE5-1 :Intact eye-catching parts in Nakhjeer cave"
+  },
+  {
+   "src": "/docimg/Attractions/SE5-2.jpg",
+   "caption": "SE5-2 :Rare pin-like cave deposits in Nakhjeer cave"
+  },
+  {
+   "src": "/docimg/Attractions/SE5-3.jpg",
+   "caption": "SE5-3 :A series of pin-like deposits"
+  },
+  {
+   "src": "/docimg/Attractions/SE5-4.jpg",
+   "caption": "SE5-4 :One of the Nakhjeer cave wonderful halls"
+  }
+ ]
+}

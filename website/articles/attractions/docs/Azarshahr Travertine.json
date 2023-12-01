@@ -1,0 +1,60 @@
+{
+ "title": "Azarshahr Travertine",
+ "content": [
+  "There is a vast area of travertine deposits around the city of Azarshahr. In some places, the dry springs remnants with shield, cone, or strip-like forms can be seen. Also, the active springs, which are still producing travertine deposits abound. The best region to see such springs and deposits is Tap Tapan near Qalezar village. The Azarshahr Travertines are nut-brown and red and have a unique beauty. The travertine deposits form due to acidic water's interpolation into the lime formations and releasing C02 after the water flows out of the spring mouth. These springs are mostly formed along the faults.",
+  ""
+ ],
+ "image": "/docimg/Attractions/SE13-1.jpg",
+ "link": "attraction/Azarshahr-Travertine",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "SE13",
+ "phenomena": "Sedimentary Geology",
+ "_": "Sedimentary_Geology",
+ "province": "East Azerbaijan",
+ "significance": "International",
+ "map-image": "/docimg/Attractions/maps/SE13.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/SE13-1.jpg",
+   "caption": "SE13-1 :An active springs in Tap Tapan"
+  },
+  {
+   "src": "/docimg/Attractions/SE13-2.jpg",
+   "caption": "SE13-2 :A rather big spring with a high discharge "
+  },
+  {
+   "src": "/docimg/Attractions/SE13-3.jpg",
+   "caption": "SE13-3 :An active springs in Tap Tapan"
+  },
+  {
+   "src": "/docimg/Attractions/SE13-4.jpg",
+   "caption": "SE13-4 :A travertine cone remained from a died-up spring"
+  },
+  {
+   "src": "/docimg/Attractions/SE13-5.jpg",
+   "caption": "SE13-5 :A shield-like travertine deposit and its extinct spring"
+  },
+  {
+   "src": "/docimg/Attractions/SE13-6.jpg",
+   "caption": "SE13-6 :A shield-like travertine deposit with distinct travertine layers "
+  },
+  {
+   "src": "/docimg/Attractions/SE13-7.jpg",
+   "caption": "SE13-7 :Iron compounds bearing waters following from a spring"
+  },
+  {
+   "src": "/docimg/Attractions/SE13-8.jpg",
+   "caption": "SE13-8 :A travertine brook which seems like a long strip"
+  },
+  {
+   "src": "/docimg/Attractions/SE13-9.jpg",
+   "caption": "SE13-9 :A high travertine cone demonstrating rapid sedimentation"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "title": "Red Formation Landscape in North of Eshtehard",
+ "content": [
+  "In the north of Eshtehard, the syncline and anticline of “Halqédar” have made beautiful landscapes. These phenomena are located in the upper Sorkh formations (Miocene-Pliocene) in colorful strip-like features with the west-east trend. This formation has exposed conglomerate (slag), marl, gypsum, and sandstone in red, pink, brown, and white. The river Shoor passes through these heights, and a few salt pits are operating in this region.  ",
+  ""
+ ],
+ "image": "/docimg/Attractions/GL3-1.jpg",
+ "link": "attraction/Red-Formation-Landscape-in-North-of-Eshtehard",
+ "accessibility": "Moderate",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "GL3",
+ "phenomena": "Geological Landscape",
+ "_": "Geological_Landscape",
+ "province": "Tehran-Qazvin",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/GL3.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL3-1.jpg",
+   "caption": "GL3-1 :Scenic forms of Salt deposits near the salt mine"
+  },
+  {
+   "src": "/docimg/Attractions/GL3-2.jpg",
+   "caption": "GL3-2 :Appearance of beautiful salt forms around water ponds"
+  },
+  {
+   "src": "/docimg/Attractions/GL3-3.jpg",
+   "caption": "GL3-3 :Parallel colorful strips in marl"
+  },
+  {
+   "src": "/docimg/Attractions/GL3-4.jpg",
+   "caption": "GL3-4 :A beautiful landscape of various layers in Red Formation"
+  }
+ ]
+}

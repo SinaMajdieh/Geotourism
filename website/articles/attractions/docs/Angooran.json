@@ -1,0 +1,40 @@
+{
+ "title": "Angooran",
+ "content": [
+  "In one of the surrounding slopes of Angooran village in Zanjan, a big series of the erosion phenomenon of chimney-rock can be found, which reaches a few dozen. In this slope and the sandstone and conglomeratic deposits of Pliocene, the formation, evolution, and extinction trends of such phenomena can be clearly seen. This region can be given the name “The chimney-rocks’ forest.” Due to the steep slope and lack of an access road to reach such phenomena, this region has turned to be a refuge for the animals which have fled the hunters. It seems there is no account of such a population of chimney-rocks in the same region (The initial report by Khoshraftar R., 2007).",
+  ""
+ ],
+ "image": "/docimg/Attractions/ER6-1.jpg",
+ "link": "attraction/Angooran",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "ER6",
+ "phenomena": "Erosional",
+ "_": "Erosional",
+ "province": "Zanjan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ER6.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ER6-1.jpg",
+   "caption": "ER6-1 :The Rough morphology of the walls of conglomerate chimney rocks"
+  },
+  {
+   "src": "/docimg/Attractions/ER6-2.jpg",
+   "caption": "ER6-2 :Hoodoos (fairy chimney rocks) with various forms"
+  },
+  {
+   "src": "/docimg/Attractions/ER6-3.jpg",
+   "caption": "ER6-3 :The rough morphology of hoodoos from the main cliff (wall)"
+  },
+  {
+   "src": "/docimg/Attractions/ER6-4.jpg",
+   "caption": "ER6-4 :A general view of the mountainside covered with hoodoos"
+  }
+ ]
+}

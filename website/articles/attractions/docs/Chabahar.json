@@ -1,0 +1,65 @@
+{
+ "title": "Chabahar",
+ "content": [
+  "The erodible formations of Clay and Marn surrounding the city of Chabahar have been eroded by the heavy seasonal rains creating attractive erosion forms. These forms sometimes appear in the form of parallel stream ways, branching stream ways, hummocky dune-bedded masses. The variety of colors and unique erosion forms have created attractive sceneries in this region. The green, gray, white tertiary Marns have made the formations of this region.",
+  ""
+ ],
+ "image": "/docimg/Attractions/ER3-1.jpg",
+ "link": "attraction/Chabahar",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "ER3",
+ "phenomena": "Erosional",
+ "_": "Erosional",
+ "province": "Sistan \u0026 Baluchestan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ER3.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ER3-1.jpg",
+   "caption": "ER3-1 :Erosion with the form of parallel waterways in marl formations"
+  },
+  {
+   "src": "/docimg/Attractions/ER3-2.jpg",
+   "caption": "ER3-2 :The statuary art of erosion along the coasts of Oman sea"
+  },
+  {
+   "src": "/docimg/Attractions/ER3-3.jpg",
+   "caption": "ER3-3 :Erosion in marl formation between Kenarak and Kahir"
+  },
+  {
+   "src": "/docimg/Attractions/ER3-4.jpg",
+   "caption": "ER3-4 :A beautiful landscape near Kahir village"
+  },
+  {
+   "src": "/docimg/Attractions/ER3-5.jpg",
+   "caption": "ER3-5 :Badland forms near Kahir"
+  },
+  {
+   "src": "/docimg/Attractions/ER3-6.jpg",
+   "caption": "ER3-6 :Scenic erosion in marl formations"
+  },
+  {
+   "src": "/docimg/Attractions/ER3-7.jpg",
+   "caption": "ER3-7 :A ship-like erosion hill"
+  },
+  {
+   "src": "/docimg/Attractions/ER3-8.jpg",
+   "caption": "ER3-8 :Scenic forms of erosion on the from Chabahar to Jask"
+  },
+  {
+   "src": "/docimg/Attractions/ER3-9.jpg",
+   "caption": "ER3-9 :A statuary art of erosion"
+  },
+  {
+   "src": "/docimg/Attractions/ER3-10.jpg",
+   "caption": "ER3-10 :A vast landscape of badlands"
+  }
+ ]
+}

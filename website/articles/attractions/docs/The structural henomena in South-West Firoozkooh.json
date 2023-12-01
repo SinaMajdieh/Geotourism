@@ -1,0 +1,48 @@
+{
+ "title": "The structural henomena in South-West Firoozkooh",
+ "content": [
+  "Numerous structural phenomena can be found in the south-west of Firoozkooh town. Such phenomena can be seen along the road from Seyyed Abad to Firoozkooh via Zarrin Dasht. The various formations of Jurassic and Cretaceous limestones, and Karaj formation (Eocene), and Neogene deposits have their outcrops along this course. The movements of the south part of central Alborz have created various structural phenomena in this region.",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST23-1.jpg",
+ "link": "attraction/The-structural-henomena-in-South-West-Firoozkooh",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "ST23",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Tehran",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/ST23.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST23-1.jpg",
+   "caption": "ST23-1 :The folding in Karaj formation (Eocene) near Farah Abad"
+  },
+  {
+   "src": "/docimg/Attractions/ST23-2.jpg",
+   "caption": "ST23-2 :A folding in Karaj formation"
+  },
+  {
+   "src": "/docimg/Attractions/ST23-3.jpg",
+   "caption": "ST23-3 :A scenic landscape of colorful layers in the Neogene formations"
+  },
+  {
+   "src": "/docimg/Attractions/ST23-4.jpg",
+   "caption": "ST23-4 :The angular unconformity in the Neogene formations"
+  },
+  {
+   "src": "/docimg/Attractions/ST23-5.jpg",
+   "caption": "ST23-5 :A normal fault in the Neogene formations"
+  },
+  {
+   "src": "/docimg/Attractions/ST23-6.jpg",
+   "caption": "ST23-6 :The folding in the Neogene formations and Karaj formation (Eocene)"
+  }
+ ]
+}

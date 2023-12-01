@@ -1,0 +1,37 @@
+{
+ "title": "Naqshé Rostam",
+ "content": [
+  "In the ancient area of Naqshé Rostam and the Cretaceous calcareous (Limy) walls where Achaemenid royal tombs are located, there are very evident normal faults. The accompaniment of the tectonic phenomena with such glorious ancient sights are eye-catching.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST24-1.jpg",
+ "link": "attraction/Naqshé-Rostam",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "ST24",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Fars",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ST24.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/MG1-1.jpg",
+   "caption": "MG1-1 :Many faults and joints in Sarvak calcareous formation (Cretaceous)"
+  },
+  {
+   "src": "/docimg/Attractions/MG1-2.jpg",
+   "caption": "MG1-2 :A general view of Mount Naqshé Rostam"
+  },
+  {
+   "src": "/docimg/Attractions/MG1-3.jpg",
+   "caption": "MG1-3 :A normal fault in Naqshé Rostam wall amid the Achaemenid royal tombs"
+  }
+ ]
+}

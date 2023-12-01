@@ -1,0 +1,44 @@
+{
+ "title": "Structural Phenomena in Karaj Region",
+ "content": [
+  "The structural examples of tectonic activities in central Alborz can be seen in Karaj surroundings, especially along Chaloos road (the north of Karaj). The steep slopes of the mountain walls and sides (laps), the trend of various layers, are among the phenomena created by the dynamic tectonics. The variety of structural phenomena and outcrops results from the work of Varish-Sangan anticline and Arangé syncline.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST10-1.jpg",
+ "link": "attraction/Structural-Phenomena-in-Karaj-Region",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "ST10",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Tehran",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/ST10.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST10-1.jpg",
+   "caption": "ST10-1 :Layers with very steep slope next to Amir Kabir Dam lake"
+  },
+  {
+   "src": "/docimg/Attractions/ST10-2.jpg",
+   "caption": "ST10-2 :Layers with very steep slope next to Amir Kabir Dam lake"
+  },
+  {
+   "src": "/docimg/Attractions/ST10-3.jpg",
+   "caption": "ST10-3 :Folded layers near Asara"
+  },
+  {
+   "src": "/docimg/Attractions/ST10-4.jpg",
+   "caption": "ST10-4 :A widespread outcrop of various layers in Karaj formation (Eocene)"
+  },
+  {
+   "src": "/docimg/Attractions/ST10-5.jpg",
+   "caption": "ST10-5 :A scenic view of Mount Siahrang"
+  }
+ ]
+}

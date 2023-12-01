@@ -1,0 +1,44 @@
+{
+ "title": "Makoo Cliff",
+ "content": [
+  "The ancient city of Makoo is situated on the sides of the heights of Qom formation. These heights are the northeast outcrop of Qom formation in Iran. Makoo cliff is a popular name among the rock climbers. Much instability can be seen along the heights surrounding the city where the occasional slips and slumps are related signs. Everywhere in the city, one can find the remnants of so many houses all already destroyed by rock slides. A lot of small and big boulders can be seen in the steep slopes above the city, which have already slid down, all ready to slide again. The face of the town is so dreadful from this point of view, and the risk of imminent slide of rock and soil masses over the people’s houses is so apparent. However, people are still living their lives in the lap of danger and have no serious concern. The slides and slumps hang around, waiting for the quakes and heavy rains to make the town suffer more blows. The Makoo cliff is an obvious example of geological hazards, which has a special significance in geotourism. ",
+  ""
+ ],
+ "image": "/docimg/Attractions/EN7-1.jpg",
+ "link": "attraction/Makoo-Cliff",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer,Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "EN7",
+ "phenomena": "Engineering Geology",
+ "_": "Engineering_Geology",
+ "province": "West Azerbaijan",
+ "significance": "International",
+ "map-image": "/docimg/Attractions/maps/EN7.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/EN7-1.jpg",
+   "caption": "EN7-1 :The huge collapse of rocks from the limy wall of Qom formation  "
+  },
+  {
+   "src": "/docimg/Attractions/EN7-2.jpg",
+   "caption": "EN7-2 :Houses taken refuge in the lap of danger"
+  },
+  {
+   "src": "/docimg/Attractions/EN7-3.jpg",
+   "caption": "EN7-3 :Newly built houses by the old ruined ones"
+  },
+  {
+   "src": "/docimg/Attractions/EN7-4.jpg",
+   "caption": "EN7-4 :The rocks likely slip any minute"
+  },
+  {
+   "src": "/docimg/Attractions/EN7-5.jpg",
+   "caption": "EN7-5 :Makoo wall"
+  }
+ ]
+}

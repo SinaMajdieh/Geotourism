@@ -1,0 +1,52 @@
+{
+ "title": "Landscapes in the vicinity of Gilvan",
+ "content": [
+  "ln the surroundings of Gilvan town, some very colorful and scenic landscapes of Neogene deposits (known as piggy back) can be seen. In the upper heights of these deposits, Alborz igneous masses of Eocene are located in the form of over thrusting. The variety of colors in the red and white Neogene and igneous deposits along with the green colors in nature have created rare sceneries in this area.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/GL5-1.jpg",
+ "link": "attraction/Landscapes-in-the-vicinity-of-Gilvan",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "GL5",
+ "phenomena": "Geological Landscape",
+ "_": "Geological_Landscape",
+ "province": "Gilan-Zanjan-Qazvin",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/GL5.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL5-1.jpg",
+   "caption": "GL5-1 :The landscape of volcanic and pyroclastic layers by the lake behind Manjil Dam (Sefidrud Dam)"
+  },
+  {
+   "src": "/docimg/Attractions/GL5-2.jpg",
+   "caption": "GL5-2 :Minor folds in the quaternary deposits near Manjil Dam (Sefidrud Dam)"
+  },
+  {
+   "src": "/docimg/Attractions/GL5-3.jpg",
+   "caption": "GL5-3 :Variety of colors in the Neogene deposits"
+  },
+  {
+   "src": "/docimg/Attractions/GL5-4.jpg",
+   "caption": "GL5-4 :Variety of colors in the Neogene deposits"
+  },
+  {
+   "src": "/docimg/Attractions/GL5-5.jpg",
+   "caption": "GL5-5 :Scenic erosional forms in the red sandstone"
+  },
+  {
+   "src": "/docimg/Attractions/GL5-6.jpg",
+   "caption": "GL5-6 :Numerous veins of gypsum in the alluvial deposits"
+  },
+  {
+   "src": "/docimg/Attractions/GL5-7.jpg",
+   "caption": "GL5-7 :A rare landscape of the Neogene formations in the lush nature of Gilvan region"
+  }
+ ]
+}

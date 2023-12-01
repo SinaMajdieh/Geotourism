@@ -1,0 +1,44 @@
+{
+ "title": "Makoo's Basalt Columns",
+ "content": [
+  "In the vicinity of Makoo city, there lies a vastness of Hexagon Basalt Columns. Such columns have formed as the result of tensile forces when the lava solidiﬁed, and they are perpendicular to the solidified surface. These columns are located along a valley; they are 50 m high and have open splits among them. Makoo basalts are the result of the last phase of igneous events in Iran in the Quaternary period. ",
+  ""
+ ],
+ "image": "/docimg/Attractions/MG9-1.jpg",
+ "link": "attraction/Makoo's-Basalt-Columns",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "MG9",
+ "phenomena": "Magmatic and Metamorphic",
+ "_": "Magmatic_and_Metamorphic",
+ "province": "West Azerbaijan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/MG9.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/MG9-1.jpg",
+   "caption": "MG9-1 :Transverse joints in Basalt prisms"
+  },
+  {
+   "src": "/docimg/Attractions/MG9-2.jpg",
+   "caption": "MG9-2 :Parts of prisms on the bottom of the valley sheared by the river"
+  },
+  {
+   "src": "/docimg/Attractions/MG9-3.jpg",
+   "caption": "MG9-3 :A general view of Basalt prisms underneath the limy formation"
+  },
+  {
+   "src": "/docimg/Attractions/MG9-4.jpg",
+   "caption": "MG9-4 :Numerous transvers joints in Basaltic columns"
+  },
+  {
+   "src": "/docimg/Attractions/MG9-5.jpg",
+   "caption": "MG9-5 :Diversity of forms and widths in prisms in various parts of Basalt mass"
+  }
+ ]
+}

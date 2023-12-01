@@ -1,0 +1,69 @@
+{
+ "title": "Structural Phenomenad near Zanjan",
+ "content": [
+  "",
+  "Along the Zanjan-Tabriz freeway, in an outcrop (at the 50-km distance to Zanjan), a group of faults and various fractures are rare not only in Iran but also in the world. These faults have occurred in the Pliocene-Pleistocene formations. They are very clear and distinct due to the diversity of colors in layers, and valuable for scientific and educational means.",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST12-1.jpg",
+ "link": "attraction/Structural-Phenomenad-near-Zanjan",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "ST12",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Zanjan",
+ "significance": "International",
+ "map-image": "/docimg/Attractions/maps/ST12.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST12-1.jpg",
+   "caption": "ST12-1 :Normal Faults"
+  },
+  {
+   "src": "/docimg/Attractions/ST12-2.jpg",
+   "caption": "ST12-2 :Normal Faults"
+  },
+  {
+   "src": "/docimg/Attractions/ST12-3.jpg",
+   "caption": "ST12-3 :Normal Faults"
+  },
+  {
+   "src": "/docimg/Attractions/ST12-4.jpg",
+   "caption": "ST12-4 :A Normal Fault"
+  },
+  {
+   "src": "/docimg/Attractions/ST12-5.jpg",
+   "caption": "ST12-5 :Normal faults And Grabens"
+  },
+  {
+   "src": "/docimg/Attractions/ST12-6.jpg",
+   "caption": "ST12-6 :Normal faults And Grabens"
+  },
+  {
+   "src": "/docimg/Attractions/ST12-7.jpg",
+   "caption": "ST12-7 :Normal faults And Grabens"
+  },
+  {
+   "src": "/docimg/Attractions/ST12-8.jpg",
+   "caption": "ST12-8 :Normal faults And Brecciation"
+  },
+  {
+   "src": "/docimg/Attractions/ST12-9.jpg",
+   "caption": "ST12-9 : Normal faults And Brecciation"
+  },
+  {
+   "src": "/docimg/Attractions/ST12-10.jpg",
+   "caption": "ST12-10 :A Normal Fault"
+  },
+  {
+   "src": "/docimg/Attractions/ST12-11.jpg",
+   "caption": "ST12-11 :Normal faults And Brecciation"
+  }
+ ]
+}

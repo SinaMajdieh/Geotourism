@@ -1,0 +1,40 @@
+{
+ "title": "Andabad Anticline",
+ "content": [
+  "Andabad village, 70km away from the west of Zanjan, is located in the middle of an anticline with its beautiful outcrops. This anticline has formed in Qom and Upper red formations (Miocene), and Karaj formation (Eocene). The red and white colors of this anticline bare core beside surrounding green trees and plants have created a unique landscape. Here, a spectacular water Gap has torn apart Lar limestone formation (Jurassic).",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST21-1.jpg",
+ "link": "attraction/Andabad-Anticline",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "ST21",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Zanjan",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/ST21.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST21-1.jpg",
+   "caption": " ST21-1.jpg :Andabad Anticline"
+  },
+  {
+   "src": "/docimg/Attractions/ST21-2.jpg",
+   "caption": " ST21-2.jpg :A General view of Andabad region"
+  },
+  {
+   "src": "/docimg/Attractions/ST21-3.jpg",
+   "caption": " ST21-3.jpg :A scenic water gap in lar limestone (Jurassic)"
+  },
+  {
+   "src": "/docimg/Attractions/ST21-4.jpg",
+   "caption": " ST21-4.jpg :A shear in Andabad Anticline"
+  }
+ ]
+}

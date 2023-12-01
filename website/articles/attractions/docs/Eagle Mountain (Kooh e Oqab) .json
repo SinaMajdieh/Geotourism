@@ -1,0 +1,41 @@
+{
+ "title": "Eagle Mountain (Kooh e Oqab) ",
+ "content": [
+  "Eagle mountain is a type of erosion forms which has formed in the limes of Jurassic and Cretaceous. Eagle mountain is located near the entrance of the Tait town in Yazd province. From the East, the landscape of this mountain looks like an Eagle body.   ",
+  ""
+ ],
+ "image": "/docimg/Attractions/ER1-1.jpg",
+ "link": "attraction/Eagle-Mountain-(Kooh-e-Oqab)-",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "ER1",
+ "phenomena": "Erosional",
+ "_": "Erosional",
+ "province": "Yazd",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ER1.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ER1-1.jpg",
+   "caption": "ER1-1 :Oqab (Eagle) Mountain"
+  },
+  {
+   "src": "/docimg/Attractions/ER1-2.jpg",
+   "caption": "ER1-2 :A landscape of Oqab (Eagle) Mountain From Taft town"
+  },
+  {
+   "src": "/docimg/Attractions/ER1-3.jpg",
+   "caption": "ER1-3 :A view of Oqab Mountain from behind"
+  },
+  {
+   "src": "/docimg/Attractions/ER1-4.jpg",
+   "caption": "ER1-4 :A close view of Oqab Mountain"
+  }
+ ]
+}

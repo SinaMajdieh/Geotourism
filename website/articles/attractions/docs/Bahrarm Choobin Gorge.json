@@ -1,0 +1,40 @@
+{
+ "title": "Bahrarm Choobin Gorge",
+ "content": [
+  "One of the scenic water gaps in Kabirkooh is Bahramé Choobin Gorge. This gorge is located on the east side of Kabirkooh near the valley town of Ilam. There are the ruins of an ancient fort at the gorge entrance, which has enhanced its touristic value. In these ruins, some cisterns can be seen. The ancient buildings date in this gorge back to the Sassanid period. The high walls on the gorge sides, the outcrop of the formations slope layers are significant characteristics of this geological phenomenon. A seasonal river flows down the canyon, reaching the Seymaré river.",
+  ""
+ ],
+ "image": "/docimg/Attractions/ER14-1.jpg",
+ "link": "attraction/Bahrarm-Choobin-Gorge",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "ER14",
+ "phenomena": "Erosional",
+ "_": "Erosional",
+ "province": "Ilam",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ER14.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ER14-1.jpg",
+   "caption": "ER14-1 :The landscape of Bahramé Choobin Gorge"
+  },
+  {
+   "src": "/docimg/Attractions/ER14-2.jpg",
+   "caption": "ER14-2 :The very steeped anticline layers sheared in  Bahramé Choobin Gorge"
+  },
+  {
+   "src": "/docimg/Attractions/ER14-3.jpg",
+   "caption": "ER14-3 :The river flowing through the gorge turns dry in less rainy (dry) seasons"
+  },
+  {
+   "src": "/docimg/Attractions/ER14-4.jpg",
+   "caption": "ER14-4 :The entrance of  Bahramé Choobin Gorge"
+  }
+ ]
+}

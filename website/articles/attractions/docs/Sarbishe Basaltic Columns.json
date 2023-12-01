@@ -1,0 +1,39 @@
+{
+ "title": "Sarbishe Basaltic Columns",
+ "content": [
+  "Gurit mine is located near the township of Sarbishé in Birjand. ln this mine, there are beautiful outcrops of hexagon basalt columns (Andesite Basalt) over which a cream layer can be seen. A characteristic oi these columns is their bendings in some parts which has given them a graceful landscape. Basalt columns of Sarbishé are now extracted to be used in various construction works. The age of Sarbishe Basalt Columns dates back to neogen period.    "
+ ],
+ "image": "/docimg/Attractions/MG10-4.jpg",
+ "link": "attraction/Sarbishe-Basaltic-Columns",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "Spring",
+  "Summer",
+  "Fall"
+ ],
+ "code": "MG100",
+ "phenomena": "Magmatic and Metamorphic",
+ "_": "",
+ "province": "South Khorasan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/MG100.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/MG10-1.jpg",
+   "caption": "MG10-1 :Flexure and torsion along the columns"
+  },
+  {
+   "src": "/docimg/Attractions/MG10-2.jpg",
+   "caption": "MG10-2 :A cross section of columns"
+  },
+  {
+   "src": "/docimg/Attractions/MG10-3.jpg",
+   "caption": "MG10-3 :A view of hexagonal surface of columns on earth "
+  },
+  {
+   "src": "/docimg/Attractions/MG10-4.jpg",
+   "caption": "MG10-4 :A step-like extraction of basaltic columns "
+  }
+ ]
+}

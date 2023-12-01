@@ -1,0 +1,45 @@
+{
+ "title": "Koogan Cave",
+ "content": [
+  "Koogan Cave is located at the 50km distance of the south-east of Khoram Abad city in Lorestan province This cave has been dug in Ashkanid (Parthian) period by hand into the heart of a mountain and has been people’s living place in different historical periods. This cave is two-storied and consists of a few separate rooms. Being dug at a height and out of reach, this cave is now equipped with a metal stair- case to help the visitors reach the cave. This cave has been put in the list of lran’s national sites; it also has very beautiful and scenic natural surroundings. The eye-catching landscapes can be view from the mouth of the cave. The cave is situated in the Eocene-Oligocene formations.  ",
+  ""
+ ],
+ "image": "/docimg/Attractions/GL24-1.jpg",
+ "link": "attraction/Koogan-Cave",
+ "accessibility": "Easy",
+ "seasons": "spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "GL24",
+ "phenomena": "Geological Landscape",
+ "_": "Geological_Landscape",
+ "province": "Lorestan",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/GL24.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL24-1.jpg",
+   "caption": "GL24-1 :Natural joints and fractures forming the cave windows"
+  },
+  {
+   "src": "/docimg/Attractions/GL24-2.jpg",
+   "caption": "GL24-2 :The access road into the cave"
+  },
+  {
+   "src": "/docimg/Attractions/GL24-3.jpg",
+   "caption": "GL24-3 :One of the halls in Koogan Cave"
+  },
+  {
+   "src": "/docimg/Attractions/GL24-4.jpg",
+   "caption": "GL24-4 :Access roads to various floors in the cave"
+  },
+  {
+   "src": "/docimg/Attractions/GL24-5.jpg",
+   "caption": "GL24-5 :The view of surroundings through the natural windows"
+  }
+ ]
+}

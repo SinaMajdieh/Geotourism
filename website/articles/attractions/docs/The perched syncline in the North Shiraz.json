@@ -1,0 +1,45 @@
+{
+ "title": "The perched syncline in the North Shiraz",
+ "content": [
+  "Some spectacular signs of a perched syncline can be seen in the north of Shiraz, near Marvdasht. This syncline has formed in the calcareous formation of Tarboro (upper Cretaceous) in the Zagros Mountains range. Mount Qal-é is one of such signs reaching the altitude of 2200m has an eye-catching beauty. This mountain manifests a 400m thickness of massive lime, which looks like a great fortress on the far horizon. The other parts of this syncline are located on the west side of Qal-é Mount in the form of sheared segments.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST22-1.jpg",
+ "link": "attraction/The-perched-syncline-in-the-North-Shiraz",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer ,Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "ST22",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Fars",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ST22.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST22-1.jpg",
+   "caption": "ST22-1 :Perched synclines (South-West view)"
+  },
+  {
+   "src": "/docimg/Attractions/ST22-2.jpg",
+   "caption": "ST22-2 :Perched synclines (North-East view)"
+  },
+  {
+   "src": "/docimg/Attractions/ST22-3.jpg",
+   "caption": "ST22-3 :The landscape of perched synclines near Marvdasht"
+  },
+  {
+   "src": "/docimg/Attractions/ST22-4.jpg",
+   "caption": "ST22-4 :The thick layers of massive lime in Mount Qal-é syncline"
+  },
+  {
+   "src": "/docimg/Attractions/ST22-5.jpg",
+   "caption": "ST22-5 : Mount Qal-é perched syncline"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "title": "Baadab Soort Springs",
+ "content": [
+  "Baadab Soort springs, registered as one of the country's natural-national sights, are a rare instance of travertine springs that have created eye-catching displays of colorful deposits. Situated in the Kiasar region south of Mazandaran province in the vicinity of Semnan province, these springs have the village of Arvast in their nearest neighbor. The distinguishing feature of such springs is the natural formation of step-like basins after the settlement of colorful travertine deposits along the mild slope of a hill. The colors of red, brown, orange, and cream have combined here to create extraordinary scenery. Although such springs can also be found in other parts of the world (for instance, Pamukkale in Turkey), the color combination of Baadab Soort shows higher excellence and attractiveness from an aesthetic point of view.",
+  ""
+ ],
+ "image": "/docimg/Attractions/SE1-1.jpg",
+ "link": "attraction/Baadab-Soort-Springs",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "SE1",
+ "phenomena": "Sedimentary Geology",
+ "_": "Sedimentary_Geology",
+ "province": "Mazandaran",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/SE1.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/SE1-1.jpg",
+   "caption": "SE1-1 :A water-and-gas outlet"
+  },
+  {
+   "src": "/docimg/Attractions/SE1-2.jpg",
+   "caption": "SE1-2 :The step-like structure and wave like layers in the hill "
+  },
+  {
+   "src": "/docimg/Attractions/SE1-3.jpg",
+   "caption": "SE1-3 :The eye-catching  colors of the spring deposits"
+  },
+  {
+   "src": "/docimg/Attractions/SE1-4.jpg",
+   "caption": "SE1-4 :The landscape of the hill hosting the spring"
+  },
+  {
+   "src": "/docimg/Attractions/SE1-5.jpg",
+   "caption": "SE1-5 :A close view of the granular and fibrous sediments in the basin bedding"
+  },
+  {
+   "src": "/docimg/Attractions/SE1-6.jpg",
+   "caption": "SE1-6 :A perspective of the step-like hill"
+  },
+  {
+   "src": "/docimg/Attractions/SE1-7.jpg",
+   "caption": "SE1-7 :A spectacular view of the reddish layers in juxtaposition to the white snow"
+  }
+ ]
+}

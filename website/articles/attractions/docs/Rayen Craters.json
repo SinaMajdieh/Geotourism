@@ -1,0 +1,43 @@
+{
+ "title": "Rayen Craters",
+ "content": [
+  "In the vicinity of Rayen city in the Qalé Hassan Ali region, 14 volcanic craters, circular and oval in shapes, are seen as the biggest one with a diameter as big as 1200m and depth approximately reaching to 300m.",
+  "According to an old belief, these craters have formed as the result of the collision of meteors; but based on recent researches, that idea was rejected. It is estimated that such eruptive craters be linked to the volcanic events of the magmatic arc in the subduction zone of Makran. ",
+  "Another group of the craters is seen at a 200 km distance of Rine craters and 100 km distance of Bazman volcano. In the vicinity of these craters, some young lava flows are seen, and the lack of considerable erosion works signify their young age. The most prominent crater in this zone has a form far much similar to the forms of the impact craters. Due to the inaccessibility of this crater, only the 3-D Google-Earth picture has been used.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/MG5-1.jpg",
+ "link": "attraction/Rayen-Craters",
+ "accessibility": "Moderate",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "MG5",
+ "phenomena": "Magmatic and Metamorphic",
+ "_": "Magmatic_and_Metamorphic",
+ "province": "Kerman-Sistan and Baluchestan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/MG5.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/MG5-1.jpg",
+   "caption": "MG5-1 :A crater with a form similar to impact craters"
+  },
+  {
+   "src": "/docimg/Attractions/MG5-2.jpg",
+   "caption": "MG5-2 :Sodium sulfate and potassium chloride sediments at the bottom of the big crater in the Qale Hassan Ali region"
+  },
+  {
+   "src": "/docimg/Attractions/MG5-3.jpg",
+   "caption": "MG5-3 :Rayen biggest crater (by Google Earth)"
+  },
+  {
+   "src": "/docimg/Attractions/MG5-4.jpg",
+   "caption": "MG5-4 :The biggest cinder cone in the Qale Hassan Ali region"
+  }
+ ]
+}

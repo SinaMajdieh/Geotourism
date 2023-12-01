@@ -1,0 +1,41 @@
+{
+ "title": "The Eternal Fire",
+ "content": [
+  "The seeping of hydrocarboric material and gas out of the joints and fissures and their getting aflame has created a rare scene in Raam Hormoz. This scenic phenomenon can be seen in the vicinity of Gonbad Loraan due to gas emissions from Mamatin oil ﬁelds which have been aflame from very far past. The hill which hosts this phenomenon is composed of evaporative materials and marl (Miocene). Due to the Zoroastrian belief in the sacredness of fire, such blazing springs have been given the name 'Eternal Fire' (adopted from A Rahmani et al., 2007)    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/GS1-1.jpg",
+ "link": "attraction/The-Eternal-Fire",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "GS1",
+ "phenomena": "Cultural Geology",
+ "_": "Cultural_Geology",
+ "province": "Khuzestan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/GS1.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GS1-1.jpg",
+   "caption": "GS1-1 :A close view of a flaming spring"
+  },
+  {
+   "src": "/docimg/Attractions/GS1-2.jpg",
+   "caption": "GS1-2 :The remnants of burning fires in the formations around the springs"
+  },
+  {
+   "src": "/docimg/Attractions/GS1-3.jpg",
+   "caption": "GS1-3 :The general view of the hill hosting the flaming oil and gas springs"
+  },
+  {
+   "src": "/docimg/Attractions/GS1-4.jpg",
+   "caption": "GS1-4 :Flaming springs at night"
+  }
+ ]
+}

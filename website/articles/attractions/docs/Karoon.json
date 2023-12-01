@@ -1,0 +1,48 @@
+{
+ "title": "Karoon",
+ "content": [
+  "Karoon river, the most affluent and longest river in Iran, has made beautiful phenomena all along its course. Shearing and eroding the formations by the river is one of such a series of phenomena. In the upstream part of Karoon I dam (Shahid Abbaspoor dam) and Paleogene Limestones, such erosions are eye-catching and scenic. Boating in the narrow water channels behind the clam while looking up at the beautiful high walls is so attractive."
+ ],
+ "image": "/docimg/Attractions/ER15-2.jpg",
+ "link": "attraction/-Karoon",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "Spring",
+  "Summer",
+  "Fall",
+  "Winter"
+ ],
+ "code": "ER15",
+ "phenomena": "Erosional",
+ "_": "",
+ "province": "Khuzestan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ER15.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ER15-1.jpg",
+   "caption": "ER15-1 :A high wall surrounding the Karoon I dam lake"
+  },
+  {
+   "src": "/docimg/Attractions/ER15-2.jpg",
+   "caption": "ER15-2 :Rare sceneries of erosion"
+  },
+  {
+   "src": "/docimg/Attractions/ER15-3.jpg",
+   "caption": "ER15-3 :Lushness of  lands surrounding the dam lake has given a beautiful natural scenery to the region  "
+  },
+  {
+   "src": "/docimg/Attractions/ER15-4.jpg",
+   "caption": "ER15-4 :One of the waterways in the surroundings of Karoon river"
+  },
+  {
+   "src": "/docimg/Attractions/ER15-5.jpg",
+   "caption": "ER15-5 :Various limy formations shared along Karoon river course"
+  },
+  {
+   "src": "/docimg/Attractions/ER15-6.jpg",
+   "caption": "ER15-6 :A very scenic gorge along Karoon river course"
+  }
+ ]
+}

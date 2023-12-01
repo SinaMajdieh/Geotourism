@@ -1,0 +1,41 @@
+{
+ "title": "Sardar Valley",
+ "content": [
+  "In the East of Tabas city, there is a valley called Sardar, which holds lots of scenic phenomena in itself. This valley, which is not deep, has formed amid the deposits of Neogene and Quaternary. The formations of this valley are a type of conglomerate(slag) which do not show much lithification and continuity among the particles and is loose. At the height of 10 to 20m from the bottom of the river, some square holes can be seen in the walls of the valley called “Khané ye Gabr” as human’s living place or shelter in the past. On a visit to this region by the author in 2000, a family was still living in one of such cave-like holes; this very hole was easy to access and located at a little height from the bottom of the valley. In this valley, some historical buildings such as ton, bridge, and bar (weir) can also be seen.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/GL25-1.jpg",
+ "link": "attraction/Sardar-Valley",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "GL25",
+ "phenomena": "Geological Landscape",
+ "_": "Geological_Landscape",
+ "province": "Yazd",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/GL25.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL25-1.jpg",
+   "caption": "GL25-1 :The outside view of the only hole where life still goes on and the household furniture"
+  },
+  {
+   "src": "/docimg/Attractions/GL25-2.jpg",
+   "caption": "GL25-2 :A view of Sardar valley"
+  },
+  {
+   "src": "/docimg/Attractions/GL25-3.jpg",
+   "caption": "GL25-3 :The inside view of a hand-dug hole"
+  },
+  {
+   "src": "/docimg/Attractions/GL25-4.jpg",
+   "caption": "GL25-4 :Gabr Houses"
+  }
+ ]
+}

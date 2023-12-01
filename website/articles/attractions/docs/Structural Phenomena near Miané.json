@@ -1,0 +1,39 @@
+{
+ "title": "Structural Phenomena near Miané",
+ "content": [
+  "In the outcrops along the Zanjan-Tabriz freeway, especially around Miané city, a group of rare and beautiful structural phenomena can be seen. Numerous fractures and foldings can be seen in the Neogene formations. The variety of colors in the layers has made such phenomena more vivid and beautiful.    "
+ ],
+ "image": "/docimg/Attractions/ST11-2.jpg",
+ "link": "attraction/Structural-Phenomena-near-Miané",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "Spring",
+  "Summer",
+  "Fall"
+ ],
+ "code": "ST11",
+ "phenomena": "Structural Geology",
+ "_": "",
+ "province": "East Azerbaijan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ST11.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST11-1.jpg",
+   "caption": "ST11-1 :A rare view of numerous foldings and faultings in the Neogene formations"
+  },
+  {
+   "src": "/docimg/Attractions/ST11-2.jpg",
+   "caption": "ST11-2 :Numerous foldings and faultings in the Neogene formations "
+  },
+  {
+   "src": "/docimg/Attractions/ST11-3.jpg",
+   "caption": "ST11-3 :Numerous foldings and faultings in the Neogene formations "
+  },
+  {
+   "src": "/docimg/Attractions/ST11-4.jpg",
+   "caption": "ST11-4 :Scenic foldings in the Neogene formations"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "title": "Semnan Salt Fronts",
+ "content": [
+  "The south of Semnan is the location of the outcrop of a group of salt domes that are very beautiful and scenic. Therefore, so many salt mines exist in the region. One of the biggest salt mines in the region is the Melhé mine wherein numerous spectacular phenomenal forms of salt can be found. Two bodies of salt similar to two dolphins or sea seals twisting round each other are among the most scenic salt phenomena in the mine. Forms of salt dissolution and crystallization, wall stalactites, and the variety of color in crystals and sediments are among the other phenomena in the region.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/SE28-1.jpg",
+ "link": "attraction/Semnan-Salt-Fronts",
+ "accessibility": "Easy",
+ "seasons": "Spring, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "fall",
+  "winter"
+ ],
+ "code": "SE28",
+ "phenomena": "Sedimentary Geology",
+ "_": "Sedimentary_Geology",
+ "province": "Semnan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/SE28.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/SE28-1.jpg",
+   "caption": "SE28-1 :A few sections of Salt rocks and a layering type in them"
+  },
+  {
+   "src": "/docimg/Attractions/SE28-2.jpg",
+   "caption": "SE28-2 :The rain water dissolves the Salt and creates Salt stalactites"
+  },
+  {
+   "src": "/docimg/Attractions/SE28-3.jpg",
+   "caption": "SE28-3 :A very scenic phenomenon in Salt rock"
+  },
+  {
+   "src": "/docimg/Attractions/SE28-4.jpg",
+   "caption": "SE28-4 :A very beautiful erosional and dissolutional phenomenon"
+  }
+ ]
+}

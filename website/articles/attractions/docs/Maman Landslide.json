@@ -1,0 +1,32 @@
+{
+ "title": "Maman Landslide",
+ "content": [
+  "Maman is a village near Miyaneh city. A landslide not so big yet scenic accompanied by the striking slip phenomena easily accessible. The length of the slip area is near 100m. This landslide has occurred in the salt and gypsum formations with interbeds of Miocene marl.",
+  ""
+ ],
+ "image": "/docimg/Attractions/EN4-1.jpg",
+ "link": "attraction/Maman-Landslide",
+ "accessibility": "Moderate",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "EN4",
+ "phenomena": "Engineering Geology",
+ "_": "Engineering_Geology",
+ "province": "East Azerbaijan",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/EN4.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/EN4-1.jpg",
+   "caption": "EN4-1 :The side view of Maman Landslide"
+  },
+  {
+   "src": "/docimg/Attractions/EN4-2.jpg",
+   "caption": "EN4-2 :The facing view of Maman Landslide"
+  }
+ ]
+}

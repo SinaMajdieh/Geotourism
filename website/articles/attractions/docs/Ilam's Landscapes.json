@@ -1,0 +1,37 @@
+{
+ "title": "Ilam's Landscapes",
+ "content": [
+  "Ilam province is located in the folded part of the Zagros mountain range, and some scenic examples of the landscapes in this mountain range catch the eyes in this area. The rare view of strip-like heights of Mount Sharézool in the north-west of Ilam city near Chevar, which has formed along the Zagros mountain chain, is one of the scenic sites in this region. Mount Sharézool has formed and appeared in the formations of Pabdé and Asmari (Paleocene) at the altitude of 2025m. The oak trees are found in profusion in the sides of this mountain. The fort-like mountain of Qalaqiran, known as the symbol of Ilam city, is an eroded height in the formations of Goorpi and Pabdé (Cretaceous - Paleocene). This mountain and its surrounding green environment have a touristic and epic significance to people of Ilam, and its unique form is so eye-catching.",
+  ""
+ ],
+ "image": "/docimg/Attractions/GL17-1.jpg",
+ "link": "attraction/Ilam's-Landscapes",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "GL17",
+ "phenomena": "Geological Landscape",
+ "_": "Geological_Landscape",
+ "province": "Ilam",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/GL17.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL17-1.jpg",
+   "caption": "GL17-1 :Extended walls of mount Shahr-e-Zol"
+  },
+  {
+   "src": "/docimg/Attractions/GL17-2.jpg",
+   "caption": "GL17-2 :Erosional forms in the less visited part of Kabir Kooh (South-West part) "
+  },
+  {
+   "src": "/docimg/Attractions/GL17-3.jpg",
+   "caption": "GL17-3 :The beautiful mountain of Qalaqiran"
+  }
+ ]
+}

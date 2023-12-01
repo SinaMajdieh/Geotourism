@@ -1,0 +1,88 @@
+{
+ "title": "Dasht-e-Kavir",
+ "content": [
+  "The vastness of the Dasht-e Kavir or lran’s Central Kavir spreads across the provinces of Tehran, Semnan, Qom, Yazd, Khorasan é Razavi, and Esfahan. In this area, the various desert and kavir phenomena can be found. Multiple types of Aeolian dunes, mudflats, and diverse Kavir textures are seen throughout the plain. Two of lran’s significant protected zones, the National Park of Kavir and Khartooran, are located in the Dasht-e Kavir. The endangered species of Asian cheetah and zebra live in such areas."
+ ],
+ "image": "/docimg/Attractions/GL28-1.jpg",
+ "link": "attraction/Dasht-e-Kavir",
+ "accessibility": "Moderate",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "Spring",
+  "Summer",
+  "Fall",
+  "Winter"
+ ],
+ "code": "GL28",
+ "phenomena": "Geological Landscape",
+ "_": "",
+ "province": "Yazd-Tehran-Esfahan-Semnan-Qom-Khorasan e Razavi",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/GL28.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL28-1.jpg",
+   "caption": "GL28-1 :The eolian sand dunes in the surrounding of Maranjab"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-2.jpg",
+   "caption": "GL28-2 :The eolian sand dunes in the surrounding of Maranjab"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-3.jpg",
+   "caption": "GL28-3 :The Maranjab historical caravanserai"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-4.jpg",
+   "caption": "GL28-4 :A Nabkha plain on the way from Aran-e-Bid Gol to Maranjab"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-5.jpg",
+   "caption": "GL28-5 :Potash extraction pools surrounding Khoor"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-6.jpg",
+   "caption": "GL28-6 :A satellite Image of Kavir plain's central region"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-7.jpg",
+   "caption": "GL28-7 :Eolian sand dunes"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-8.jpg",
+   "caption": "GL28-8 :Eolian sand dunes"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-9.jpg",
+   "caption": "GL28-9 :Hexagonal and polygonal forms of salt, Namak lake"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-10.jpg",
+   "caption": "GL28-10 :Hexagonal and polygonal forms of salt, East Khoor"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-11.jpg",
+   "caption": "GL28-11 :Colorful dune-bedded hills of gypsum-bearing Marl and Sandstone in Kavir plain"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-12.jpg",
+   "caption": "GL28-12 :Colorful dune-bedded hills of gypsum-bearing Marl and Sandstone in Kavir plain"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-13.jpg",
+   "caption": "GL28-13 :The Clay-Salt Playa surrounding Tabas"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-14.jpg",
+   "caption": "GL28-14 :Mud cracks covered with a thin layer of salt "
+  },
+  {
+   "src": "/docimg/Attractions/GL28-15.jpg",
+   "caption": "GL28-15 :A part of the puffed-up Kavir near Tabas"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-16.jpg",
+   "caption": "GL28-16 :Clayey area between Jandaq and Moaleman after the rain"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "title": "Hamedan's Igneous and Metamorphic Zone",
+ "content": [
+  "Hamedan's granite mass has created widespread metamorphic events. This mass has moved into the near formations during the cretaceous period and created spectacular metamorphic and igneous phenomena. Abbas Abad and Ganjnamé valleys, as well as Ganjnamé road to the town of Serkan, are among the areas in which these phenomena can be seen. Near the village of Zaman Abad also some outcrops valuable for igneous and metamorphic petrological researches can be seen.   "
+ ],
+ "image": "/docimg/Attractions/MG13-1.jpg",
+ "link": "attraction/Hamedan's-Igneous-and-Metamorphic-Zone",
+ "accessibility": "Easy",
+ "seasons": "Late spring, Summer, Early fall",
+ "seasons_arr": [
+  "Latespring",
+  "Summer",
+  "Earlyfall"
+ ],
+ "code": "MG13",
+ "phenomena": "Magmatic and Metamorphic",
+ "_": "Magmatic_and_Metamorphic",
+ "province": "Hamedan",
+ "significance": "International",
+ "map-image": "/docimg/Attractions/maps/MG13.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/MG13-1.jpg",
+   "caption": "MG13-1 :Tourmaline-bearing pegmatites"
+  },
+  {
+   "src": "/docimg/Attractions/MG13-2.jpg",
+   "caption": "MG13-2 :Garnet-bearing schists"
+  },
+  {
+   "src": "/docimg/Attractions/MG13-3.jpg",
+   "caption": "MG13-3 :A landscape of intrusive and metamorphic rocks"
+  },
+  {
+   "src": "/docimg/Attractions/MG13-4.jpg",
+   "caption": "MG13-4 :The lion-like body created by erosion in Hamedan region granites"
+  },
+  {
+   "src": "/docimg/Attractions/MG13-5.jpg",
+   "caption": "MG13-5 :Andalusite -bearing schists"
+  },
+  {
+   "src": "/docimg/Attractions/MG13-6.jpg",
+   "caption": "MG13-6 :A slickenside in migmatites"
+  },
+  {
+   "src": "/docimg/Attractions/MG13-7.jpg",
+   "caption": "MG13-7 :A view of beautiful phyllites"
+  },
+  {
+   "src": "/docimg/Attractions/MG13-8.jpg",
+   "caption": "MG13-8 :Pegmatite veins along the Hamedan-Shahrestan e road"
+  },
+  {
+   "src": "/docimg/Attractions/MG13-9.jpg",
+   "caption": "MG13-9 :Migmatite veins in Hamedan region"
+  },
+  {
+   "src": "/docimg/Attractions/MG13-10.jpg",
+   "caption": "MG13-10 :A close-up view of schists"
+  }
+ ]
+}

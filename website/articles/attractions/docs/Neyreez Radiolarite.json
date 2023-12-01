@@ -1,0 +1,57 @@
+{
+ "title": "Neyreez Radiolarite",
+ "content": [
+  "From Estahban to Neyreez, in the heights near Neyreez, very scenic outcrops of the Peechakan radiolarian area can be seen. There are numerous structural phenomena in these outcrops which the variety of colors in radiolarian layers has made them more beautiful. These outcrops include radiolarite, red siliceous shale, turbidite lime of the Late Jurassic to the Early Cretaceous.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST25-1.jpg",
+ "link": "attraction/Neyreez-Radiolarite",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "ST25",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Fars",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ST25.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST25-1.jpg",
+   "caption": "ST25-1 :Various structural phenomena in Radiolarite"
+  },
+  {
+   "src": "/docimg/Attractions/ST25-2.jpg",
+   "caption": "ST25-2 :Various structural phenomena in Radiolarite"
+  },
+  {
+   "src": "/docimg/Attractions/ST25-3.jpg",
+   "caption": "ST25-3 :Various structural phenomena in Radiolarite"
+  },
+  {
+   "src": "/docimg/Attractions/ST25-4.jpg",
+   "caption": "ST25-4 :Various structural phenomena in Radiolarite"
+  },
+  {
+   "src": "/docimg/Attractions/ST25-5.jpg",
+   "caption": "ST25-5 :Various structural phenomena in Radiolarite"
+  },
+  {
+   "src": "/docimg/Attractions/ST25-6.jpg",
+   "caption": "ST25-6 :Various structural phenomena in Radiolarite"
+  },
+  {
+   "src": "/docimg/Attractions/ST25-7.jpg",
+   "caption": "ST25-7 :Various structural phenomena in Radiolarite"
+  },
+  {
+   "src": "/docimg/Attractions/ST25-8.jpg",
+   "caption": "ST25-8 :Various structural phenomena in Radiolarite"
+  }
+ ]
+}

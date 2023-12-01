@@ -1,0 +1,37 @@
+{
+ "title": "Gonbad's Loess Sediments",
+ "content": [
+  "Loesses are the wind deposits of Quaternary, which mostly consist of the fine grains of silt and clay and are in cream, buff, and brown colors. The wind deposits have no distinct layerings and mainly spread the surroundings of Gonbad and Gorgan. Amid the Loesses, sometimes, little water deposits can be found. Loesses can keep the moisture, so they are very useful in agriculture.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/SE24-1.jpg",
+ "link": "attraction/Gonbad's-Loess-Sediments",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter ",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "SE24",
+ "phenomena": "Sedimentary Geology",
+ "_": "Sedimentary_Geology",
+ "province": "Golestan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/SE24.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/SE24-1.jpg",
+   "caption": "SE24-1 :Dune-bedded losses the North of Gonbad city"
+  },
+  {
+   "src": "/docimg/Attractions/SE24-2.jpg",
+   "caption": "SE24-2 :A cross sectional view in loess created by flood erosion"
+  },
+  {
+   "src": "/docimg/Attractions/SE24-3.jpg",
+   "caption": "SE24-3 :Vast farmlands amid fertile loesses"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "title": "Structural Phenomena Surrounding Sepeed Dasht",
+ "content": [
+  "The small town of Sepeed Dasht is situated in the south-east of Khorram Abad city in Lorestan province and the middle of the Tehran-Khuzestan railway route. In the surroundings of this town, one can find eye-catching and spectacular structural phenomena. These phenomena are among the structural aspects of the Zagros mountain range. Due to its being out of reach, this region has not revealed its valuable and intact phenomena yet.",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST17-1.jpg",
+ "link": "attraction/Structural-Phenomena-Surrounding-Sepeed-Dasht",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "ST17",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Lorestan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ST17.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST17-1.jpg",
+   "caption": "ST17-1 :A general view of the small town of Sepeedm Dasht and its surrounding heights"
+  },
+  {
+   "src": "/docimg/Attractions/ST17-2.jpg",
+   "caption": "ST17-2 :A pop-up thrust structure"
+  },
+  {
+   "src": "/docimg/Attractions/ST17-3.jpg",
+   "caption": "ST17-3 :The duplex structure"
+  }
+ ]
+}

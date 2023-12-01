@@ -1,0 +1,40 @@
+{
+ "title": "Kaftar Lake",
+ "content": [
+  "The freshwater lake of Kaftar or Shadkam with an average of 5000 acres is located in the south of Eghleed (Eglid) town. This lake is a vital habitat for local and migratory birds, as well as some species. The lake is not deep, reaching about 1.5m in depth. Kaftar Lake on its south coast is embraced by Bar Aftab mount; the landscape of this mountain, which is being reflected in the water of Kaftar Lake is so beautiful. Sometimes due to the high temperature and dryness in the air and low rate of the intake water, the lake totally turns to be dry, seeming like a vast desert. The scenic geotectonic phenomena can be seen in the mountain of Meshkan and Gandbuyee in the north of the lake. These mountains have formed in Kajzhdomi formation (Cretaceous) of Chert-bearing limestone.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/GL14-1.jpg",
+ "link": "attraction/Kaftar-Lake",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summmer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "fall",
+  "winter"
+ ],
+ "code": "GL14",
+ "phenomena": "Geological Landscape",
+ "_": "Geological_Landscape",
+ "province": "Fars",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/GL14.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL14-1.jpg",
+   "caption": "GL14-1:A mud area around Kaftar Lake"
+  },
+  {
+   "src": "/docimg/Attractions/GL14-2.jpg",
+   "caption": "GL14-2 :A major part of the lake dried up in the time of the drought"
+  },
+  {
+   "src": "/docimg/Attractions/GL14-3.jpg",
+   "caption": "GL14-3 :Scenic structures in Meshkan mountain"
+  },
+  {
+   "src": "/docimg/Attractions/GL14-4.jpg",
+   "caption": "GL14-4 :The beautiful landscape of Kaftar lake and bar Aftab mountain"
+  }
+ ]
+}

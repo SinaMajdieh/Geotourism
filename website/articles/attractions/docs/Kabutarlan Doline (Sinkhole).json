@@ -1,0 +1,36 @@
+{
+ "title": "Kabutarlan Doline (Sinkhole)",
+ "content": [
+  "Kabutarlan doline is one of the eye-catching phenomena in Ilam Province. This doline with the diameter of 80m and depth of 15m has a surface near 500m-2. Kabutarlan doline has formed in the gypsum- bearing (gypsiferous) calcareous-dolomitic formation of Gachsaran (Miocene). Numerous birds, particularly wild pigeons live in this doline, which flee away when approached by human beings; that’s why people have given it the name “Kabutarlan,” meaning “nest of pigeons.”   ",
+  ""
+ ],
+ "image": "/docimg/Attractions/EN11-1.jpg",
+ "link": "attraction/Kabutarlan-Doline-(Sinkhole)",
+ "accessibility": "Moderate",
+ "seasons": " Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "EN11",
+ "phenomena": "Engineering Geology",
+ "_": "Engineering_Geology",
+ "province": "Ilam",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/EN11.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/EN11-1.jpg",
+   "caption": "EN11-1 :Limy and gypsum formations surrounding Kabutarlan Sinkhole"
+  },
+  {
+   "src": "/docimg/Attractions/EN11-2.jpg",
+   "caption": "EN11-2 :A general view of Kabutarlan Sinkhole"
+  },
+  {
+   "src": "/docimg/Attractions/EN11-3.jpg",
+   "caption": "EN11-3 :The entrance of Kabutarlan Sinkhole"
+  }
+ ]
+}

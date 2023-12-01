@@ -1,0 +1,36 @@
+{
+ "title": "The Sedimentay phenomena near Karaj",
+ "content": [
+  "On the way of Challoos-Karaj and near Karaj, there are various sedimentary phenomena. There are some spectacular foldings created during sedimentation (slumping), which show the high slope and depth of the bedding when the sediments have been settled down. Various ripple marks are among the scenic sedimentary phenomena in this region as well.",
+  ""
+ ],
+ "image": "/docimg/Attractions/SE20-1.jpg",
+ "link": "attraction/The-Sedimentay-phenomena-near-Karaj",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "SE20",
+ "phenomena": "Sedimentary Geology",
+ "_": "Sedimentary_Geology",
+ "province": "Alborz",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/SE20.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/SE20-1.jpg",
+   "caption": "SE20-1 :Slumping phenomenon by Amir Kabir Dam Lake"
+  },
+  {
+   "src": "/docimg/Attractions/SE20-2.jpg",
+   "caption": "SE20-2 :Ripple Marks"
+  },
+  {
+   "src": "/docimg/Attractions/SE20-3.jpg",
+   "caption": "SE20-3 : Slumping phenomenon in Amir Kabir field"
+  }
+ ]
+}

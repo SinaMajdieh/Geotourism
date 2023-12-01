@@ -1,0 +1,53 @@
+{
+ "title": "Arjan Plain",
+ "content": [
+  "The plain of Arjan is a karst plain (Polje). This plain is a graben between the faults of Kazeroon and Arjan. The plain slope is eastward, and the water collected in it flows down toward the Parishan lake with the help of ponors. Along the margins of this plain, the lofty Jahrom and Asmary formations are visible. Numerous karst springs have appeared by the faulting surface of this graben. The abundance of water has created unique natural landscapes in this plain.",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST4-1.jpg",
+ "link": "attraction/Arjan-Plain",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "ST4",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Fars",
+ "significance": "International",
+ "map-image": "/docimg/Attractions/maps/ST4.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST4-1.jpg",
+   "caption": "ST4-1 :A definite (clear and plain) view of the slickenside in the west part of Arjan Plain"
+  },
+  {
+   "src": "/docimg/Attractions/ST4-2.jpg",
+   "caption": "ST4-2 :A general view of Arjan Plain "
+  },
+  {
+   "src": "/docimg/Attractions/ST4-3.jpg",
+   "caption": "ST4-3 :The Heights of Asmari-Jahrom formation"
+  },
+  {
+   "src": "/docimg/Attractions/ST4-4.jpg",
+   "caption": "ST4-4 :One of the Arjan Plain’s pure springs in the faulting zone"
+  },
+  {
+   "src": "/docimg/Attractions/ST4-5.jpg",
+   "caption": "ST4-5 :An eye-catching erosion in the west walls"
+  },
+  {
+   "src": "/docimg/Attractions/ST4-6.jpg",
+   "caption": "ST4-6 :A scenic view of how springs are used to provide freshwater in Arjan Plain "
+  },
+  {
+   "src": "/docimg/Attractions/ST4-7.jpg",
+   "caption": "ST4-7 :A view of Arjan Plain’s west fault plane and its trend stretching so far"
+  }
+ ]
+}

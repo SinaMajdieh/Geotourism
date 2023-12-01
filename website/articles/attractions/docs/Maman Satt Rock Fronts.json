@@ -1,0 +1,36 @@
+{
+ "title": "Maman Satt Rock Fronts",
+ "content": [
+  "Maman salt mine is situated near Miyané city. In this region, there is a group of salt mines in some of which the beautiful outcrops of pure salt, as well as salt in a combination of other colorful ores, can be seen. The layers of gypsum and marl, along with layers of salt, have made unique colorings in this mine.",
+  ""
+ ],
+ "image": "/docimg/Attractions/SE26-1.jpg",
+ "link": "attraction/Maman-Satt-Rock-Fronts",
+ "accessibility": "Moderate",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "SE26",
+ "phenomena": "Sedimentary Geology",
+ "_": "Sedimentary_Geology",
+ "province": "East Azerbaijan",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/SE26.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/SE26-1.jpg",
+   "caption": "SE26-1 :Colorful layers of salt in Maman salt mine"
+  },
+  {
+   "src": "/docimg/Attractions/SE26-2.jpg",
+   "caption": "SE26-2 :A salt extraction opening"
+  },
+  {
+   "src": "/docimg/Attractions/SE26-3.jpg",
+   "caption": "SE26-3 :Eye-catching colors in Maman salt deposit"
+  }
+ ]
+}

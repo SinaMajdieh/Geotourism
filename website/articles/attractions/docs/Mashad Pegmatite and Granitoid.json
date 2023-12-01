@@ -1,0 +1,44 @@
+{
+ "title": "Mashad Pegmatite and Granitoid",
+ "content": [
+  "Near Mashad city somewhere called “Khajé Morad,” one can see conspicuous outcrops of granite and pegmatite. These outcrops are a part of Mashad’s very wide-spread granitoid mass in the Permian-Triassic period. In this mass, various igneous phenomena, like a book, have numerous lessons for geology researchers. So many Aplitic and Orthose veins are seen amid the granites in this region. The various igneous events and many types of its outcrops have turned this vast area into a valuable site for geotourism.",
+  ""
+ ],
+ "image": "/docimg/Attractions/MG12-1.jpg",
+ "link": "attraction/Mashad-Pegmatite-and-Granitoid",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "MG12",
+ "phenomena": "Magmatic and Metamorphic",
+ "_": "Magmatic_and_Metamorphic",
+ "province": "Khorasan-e-Razavi",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/MG12.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/MG12-1.jpg",
+   "caption": "MG12-1 :Mashad Granite mass sheared by a Pegmatite vein"
+  },
+  {
+   "src": "/docimg/Attractions/MG12-2.jpg",
+   "caption": "MG12-2 :Three generations of plutonic rocks"
+  },
+  {
+   "src": "/docimg/Attractions/MG12-3.jpg",
+   "caption": "MG12-3 :Mashad Granite mass sheared by Pegmatite-Aplite veins"
+  },
+  {
+   "src": "/docimg/Attractions/MG12-4.jpg",
+   "caption": "MG12-4 :Three generations of plutonic rocks"
+  },
+  {
+   "src": "/docimg/Attractions/MG12-5.jpg",
+   "caption": "MG12-5 :A beautiful view of several generations of plutonic rocks"
+  }
+ ]
+}

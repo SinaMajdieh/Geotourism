@@ -1,0 +1,41 @@
+{
+ "title": "Sea Terraces",
+ "content": [
+  "One of the most spectacular neo-tectonic phenomena in lran is the lofty sea terraces in Cha Bahar region. These terraces are uplifted lands created through the seduction of Arabic plate beneath the Iranian plate. ln some places, the altitude of these terraces mounts to over 100m. the landscape of Oman sea from above these terraces is so eye-catching.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST2-1.jpg",
+ "link": "attraction/Sea-Terraces",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "ST2",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Sistan \u0026 Baluchestan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ST2.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST2-1.jpg",
+   "caption": "ST2-1 :High marginal walls near Chah Bahar"
+  },
+  {
+   "src": "/docimg/Attractions/ST2-2.jpg",
+   "caption": "ST2-2 :A coastal cliff eroded by sea waves"
+  },
+  {
+   "src": "/docimg/Attractions/ST2-3.jpg",
+   "caption": "ST2-3 :A landscape of lofty sea coasts (cliffs) stretched so far ( west view)"
+  },
+  {
+   "src": "/docimg/Attractions/ST2-4.jpg",
+   "caption": "ST2-4 :An part of lofty sea terraces"
+  }
+ ]
+}

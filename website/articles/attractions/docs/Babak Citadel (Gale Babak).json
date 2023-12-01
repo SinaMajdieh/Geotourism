@@ -1,0 +1,40 @@
+{
+ "title": "Babak Citadel (Gale Babak)",
+ "content": [
+  "Jomhoor or Babak citadel is located near Kaleybar town in East Azerbaijan province. This citadel has been built in the Sassanid period and used subsequently in different historical periods. Geologically, Babak citadel has been built on a nepheline-syenite intrusive mass. The deep valleys surround the fortress, and there is only one narrow access road to the fortress. This citadel has used to be a safe defensive fort making it difficult for the outsiders, the enemies, to break through and enter it. One can view very scenic landscapes from above this high citadel.",
+  ""
+ ],
+ "image": "/docimg/Attractions/GL23-1.jpg",
+ "link": "attraction/Babak-Citadel-(Gale-Babak)",
+ "accessibility": "Moderate",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "GL23",
+ "phenomena": "Geological Landscape",
+ "_": "Geological_Landscape",
+ "province": "East Azerbaijan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/GL23.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL23-1.jpg",
+   "caption": "GL23-1 :A rare scenery of natural surroundings of Kaleybar"
+  },
+  {
+   "src": "/docimg/Attractions/GL23-2.jpg",
+   "caption": "GL23-2 :The location of Babak fort on the high plains and its surrounding heights "
+  },
+  {
+   "src": "/docimg/Attractions/GL23-3.jpg",
+   "caption": "GL23-3 :Nepheline-Syenite mass atop which Babak fort is located"
+  },
+  {
+   "src": "/docimg/Attractions/GL23-4.jpg",
+   "caption": "GL23-4 :The narrow access road to the fortress with so many tourists mounted atop "
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "title": "Hayqer Gorge",
+ "content": [
+  "Hayqer gorge is an eye-catching canyon (a deep yet narrow vale) in the south of Firooz Abad in Fars province. The work of the active tectonics has made many anticlines in this part of the Zagros mountain chain. Hayqer gorge is a breccia in an anticline that has initially been made by the work of tectonics and then developed and deepened by the water erosion. The valley's high waits, the roaring river ?owing in it, and the echoing sounds of birds have all made a rare site that is valuable bedding for tourism in nature. This gorge has formed in Asmari-Jahrom formations.",
+  ""
+ ],
+ "image": "/docimg/Attractions/ER10-1.jpg",
+ "link": "attraction/Hayqer-Gorge",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "ER10",
+ "phenomena": "Erosional",
+ "_": "Erosional",
+ "province": "Fars",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ER10.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ER10-1.jpg",
+   "caption": "ER10-1 :Grand and lofty walls"
+  },
+  {
+   "src": "/docimg/Attractions/ER10-2.jpg",
+   "caption": "ER10-2 :Hayger gorge has turned in alignment with the river course"
+  },
+  {
+   "src": "/docimg/Attractions/ER10-3.jpg",
+   "caption": "ER10-3 :A landscape of Hayger gorge and two younger advancing gorges (on the left)"
+  },
+  {
+   "src": "/docimg/Attractions/ER10-4.jpg",
+   "caption": "ER10-4 :A beautiful landscape amid Hayger gorge"
+  },
+  {
+   "src": "/docimg/Attractions/ER10-5.jpg",
+   "caption": "ER10-5 Another beautiful landscape amid Hayger gorge"
+  },
+  {
+   "src": "/docimg/Attractions/ER10-6.jpg",
+   "caption": "ER10-6 :The river flowing through Hayger gorge"
+  }
+ ]
+}

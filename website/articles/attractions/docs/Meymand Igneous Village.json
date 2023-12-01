@@ -1,0 +1,41 @@
+{
+ "title": "Meymand Igneous Village",
+ "content": [
+  "Meymand village is near the town of Babak in Kerman province. The origin of the ancient village of the Meymand goes back to 1000 B.C. (Homayoon Gh., 1982) 400 houses hand-dug in the igneous deposits have given this village an eye-catching vastness. The houses in Meymand are mostly used in wintertime. A mosque and a Hosseinyeh with the areas of 120 and 200 m2 are the biggest hand-dug spaces in Meymand. The houses in Meymand are around an oval stair-like area. Meymand is situated in the igneous deposits of the south hillsides and south-east of Mozahem volcano.",
+  ""
+ ],
+ "image": "/docimg/Attractions/MG7-1.jpg",
+ "link": "attraction/Meymand-Igneous-Village",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "MG7",
+ "phenomena": "Magmatic and Metamorphic",
+ "_": "Magmatic_and_Metamorphic",
+ "province": "Kerman",
+ "significance": "International",
+ "map-image": "/docimg/Attractions/maps/MG7.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/MG7-1.jpg",
+   "caption": "MG7-1 :A general view of houses in Meymand village"
+  },
+  {
+   "src": "/docimg/Attractions/MG7-2.jpg",
+   "caption": "MG7-2 :The entrance to a house which has a porch"
+  },
+  {
+   "src": "/docimg/Attractions/MG7-3.jpg",
+   "caption": "MG7-3 :Meymand village Mosque"
+  },
+  {
+   "src": "/docimg/Attractions/MG7-4.jpg",
+   "caption": "MG7-4 :So many doors and windows in houses"
+  }
+ ]
+}

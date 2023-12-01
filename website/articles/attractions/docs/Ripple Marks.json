@@ -1,0 +1,41 @@
+{
+ "title": "Ripple Marks",
+ "content": [
+  "The ripple marks have always been interesting for geologists and geomorphologists as scenic phenomena. These marks are of various types, each of which has formed in some particular way. In the vicinity of Sepeed Dasht in Lorestan province, some outcrops are located in the multiple layers of blue marl (Cretaceous) formation. ",
+  ""
+ ],
+ "image": "/docimg/Attractions/SE19-1.jpg",
+ "link": "attraction/Ripple-Marks",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "SE19",
+ "phenomena": "Sedimentary Geology",
+ "_": "Sedimentary_Geology",
+ "province": "Lorestan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/SE19.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/SE19-1.jpg",
+   "caption": "SE19-1 :Outcrop of ripple marks where the road sheared the earth"
+  },
+  {
+   "src": "/docimg/Attractions/SE19-2.jpg",
+   "caption": "SE19-2 :A scenic example of ripple marks"
+  },
+  {
+   "src": "/docimg/Attractions/SE19-3.jpg",
+   "caption": "SE19-3 :A rare type of big-sized ripple marks and their gradual form variation (on the right)"
+  },
+  {
+   "src": "/docimg/Attractions/SE19-4.jpg",
+   "caption": "SE19-4 :The outcrop of various layers and their diverse ripple marks"
+  }
+ ]
+}

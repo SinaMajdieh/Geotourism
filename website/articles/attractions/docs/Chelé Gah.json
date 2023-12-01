@@ -1,0 +1,36 @@
+{
+ "title": "Chelé Gah",
+ "content": [
+  "Chelé Gah having a fresh and salubrious climate, is located near Sepidan in Fars province. Chelé Gah shoes one of the scenic examples of karst erosion. This little valley that is situated amid the Cretaceous limestones exhibits the small and big phenomena of karst erosion. The lush land of the valley and gushing of water out of the joints and holes which about the walls have made the whole region so green and scenic, attracting a lot of people to tour in the nature of the region.",
+  ""
+ ],
+ "image": "/docimg/Attractions/ER9-1.jpg",
+ "link": "attraction/Chelé-Gah",
+ "accessibility": "Easy",
+ "seasons": " Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "ER9",
+ "phenomena": "Erosional",
+ "_": "Erosional",
+ "province": "Fars",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/ER9.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ER9-1.jpg",
+   "caption": "ER9-1 :The entrance of Chelé Gah valley"
+  },
+  {
+   "src": "/docimg/Attractions/ER9-2.jpg",
+   "caption": "ER9-2 :Water seepage from joints and fractures of limy layers"
+  },
+  {
+   "src": "/docimg/Attractions/ER9-3.jpg",
+   "caption": "ER9-3 :Scenic forms of karstic erosion"
+  }
+ ]
+}

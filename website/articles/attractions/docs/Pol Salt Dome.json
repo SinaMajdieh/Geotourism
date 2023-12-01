@@ -1,0 +1,44 @@
+{
+ "title": "Pol Salt Dome",
+ "content": [
+  "Pol salt dome at a 60-km distance away from west Bandar Abbas has appeared in the east of Pol anticline. This salt dome has created a landscape all red (crimson) along the Persian Gulf coastline. The discovery of Potash ore deposit in this dome has added to its economic and research-related values. At the foot and surroundings of this salt dome, such beautiful phenomena resulting from dissolution and sedimentation of salt and other various crystals can be found. The salt streams flowing down from this dome have left white-colored strips behind reaching to the far distance.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST6-1.jpg",
+ "link": "attraction/Pol-Salt-Dome",
+ "accessibility": "Easy",
+ "seasons": "Spring, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "fall",
+  "winter"
+ ],
+ "code": "ST6",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Hormozgan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ST6.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST6-1.jpg",
+   "caption": "ST6-1 :The Landscape of Pol salt dome (the east view)"
+  },
+  {
+   "src": "/docimg/Attractions/ST6-2.jpg",
+   "caption": "ST6-2 :Pol salt dome colorful wall displaying ferruginous (Iron bearing) minerals"
+  },
+  {
+   "src": "/docimg/Attractions/ST6-3.jpg",
+   "caption": "ST6-3 :Ovoid salt deposits surrounding Pol salt dome"
+  },
+  {
+   "src": "/docimg/Attractions/ST6-4.jpg",
+   "caption": "ST6-4 :A brook carrying the salt-saturated water from pol salt dome to faraway"
+  },
+  {
+   "src": "/docimg/Attractions/ST6-5.jpg",
+   "caption": "ST6-5 :Scenic forms of salt dissolution and erosion in Pol salt dome"
+  }
+ ]
+}

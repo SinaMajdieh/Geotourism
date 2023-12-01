@@ -1,0 +1,56 @@
+{
+ "title": "Southern Firoozkooh",
+ "content": [
+  "The Pliocene-Pleistocene conglomeratic formation in the south-west of Firoozkooh (Simin Dasht and Zarrin Dasht) includes a series of pillars that resulted from erosion. Many erosional phenomena can be found in this region. Also, the wide-open valleys are very scenic and eye-catching amid the conglomeratic formation.",
+  ""
+ ],
+ "image": "/docimg/Attractions/ER7-1.jpg",
+ "link": "attraction/Southern-Firoozkooh",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "ER7",
+ "phenomena": "Erosional",
+ "_": "Erosional",
+ "province": "Tehran",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ER7.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ER7-1.jpg",
+   "caption": "ER7-1 :The landscape of Simin Dasht region where the railroad passes"
+  },
+  {
+   "src": "/docimg/Attractions/ER7-2.jpg",
+   "caption": "ER7-2 :A scenic example of erosion in the Pliocene formations and forming erosional pillars"
+  },
+  {
+   "src": "/docimg/Attractions/ER7-3.jpg",
+   "caption": "ER7-3 :The appearance of layers in the eroded parts has added more beauty to them "
+  },
+  {
+   "src": "/docimg/Attractions/ER7-4.jpg",
+   "caption": "ER7-4 :A scenic example of erosion in the Pliocene formations"
+  },
+  {
+   "src": "/docimg/Attractions/ER7-5.jpg",
+   "caption": "ER7-5 :The eye-catching beauty of the red sandstone outcrops and its gypsum interlayers"
+  },
+  {
+   "src": "/docimg/Attractions/ER7-6.jpg",
+   "caption": "ER7-6 :New valleys generation as a result of progressive erosion"
+  },
+  {
+   "src": "/docimg/Attractions/ER7-7.jpg",
+   "caption": "ER7-7 :A hoodoo (chimney rock)"
+  },
+  {
+   "src": "/docimg/Attractions/ER7-8.jpg",
+   "caption": "ER7-8 :A vast view of eroded mass"
+  }
+ ]
+}

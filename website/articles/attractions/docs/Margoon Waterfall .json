@@ -1,0 +1,48 @@
+{
+ "title": "Margoon Waterfall ",
+ "content": [
+  "The grand waterfall of Margoon in Fars province is one of Iran’s most famous waterfalls which the greenery and beauty of its surroundings have made it more graceful. Komehr River falls over this waterfall. What characterizes this waterfall is the many separate series of water falling from it. These series each have formed a narrow groove on the wall of the waterfall. The height of the waterfall is about 70m, and its width reaches to about 100m. Plants and moss(es) on its wall has created a beautiful scenery.   ",
+  ""
+ ],
+ "image": "/docimg/Attractions/GL7-1.jpg",
+ "link": "attraction/Margoon-Waterfall-",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "GL7",
+ "phenomena": "Geological Landscape",
+ "_": "Geological_Landscape",
+ "province": "Fars",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/GL7.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL7-1.jpg",
+   "caption": "GL7-1 :A landscape of Margoon Waterfall"
+  },
+  {
+   "src": "/docimg/Attractions/GL7-2.jpg",
+   "caption": "GL7-2 :The vastness and width of Margoon waterfall"
+  },
+  {
+   "src": "/docimg/Attractions/GL7-3.jpg",
+   "caption": "GL7-3 :Margoon "
+  },
+  {
+   "src": "/docimg/Attractions/GL7-4.jpg",
+   "caption": "GL7-4 :Beautiful sceneries of nature surrounding the waterfall"
+  },
+  {
+   "src": "/docimg/Attractions/GL7-5.jpg",
+   "caption": "GL7-5 :Numerous series of water flowing from the waterfall"
+  },
+  {
+   "src": "/docimg/Attractions/GL7-6.jpg",
+   "caption": "GL7-6 :A gully erosion wall of the waterfall"
+  }
+ ]
+}

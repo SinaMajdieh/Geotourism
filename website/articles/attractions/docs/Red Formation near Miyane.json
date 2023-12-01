@@ -1,0 +1,40 @@
+{
+ "title": "Red Formation near Miyane",
+ "content": [
+  "Zanjan-Tabriz freeway on its way passed through the Miocene formation in the south of Miyané. These formations have formed and made of mostly of sandstone, marl, gypsum, and conglomerate (slag) in colors of red, brown, white, orange, and ray. The morphology of the region is hilly with mild slopes. It is so pleasure-giving to pass through these colorful formations, which some passengers consider them to look like chocolate cakes.   ",
+  ""
+ ],
+ "image": "/docimg/Attractions/GL2-1.jpg",
+ "link": "attraction/Red-Formation-near-Miyane",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "GL2",
+ "phenomena": "Geological Landscape",
+ "_": "Geological_Landscape",
+ "province": "East Azerbaijan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/GL2.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL2-1.jpg",
+   "caption": "GL2-1 :Beautiful bedded hills with parallel waterways"
+  },
+  {
+   "src": "/docimg/Attractions/GL2-2.jpg",
+   "caption": "GL2-2 :Colorful strips of various layers in the Red Formation"
+  },
+  {
+   "src": "/docimg/Attractions/GL2-3.jpg",
+   "caption": "GL2-3 :A scenic landscape of colorful bedded hills"
+  },
+  {
+   "src": "/docimg/Attractions/GL2-4.jpg",
+   "caption": "GL2-4 :The landscape of colorful layers in the region"
+  }
+ ]
+}

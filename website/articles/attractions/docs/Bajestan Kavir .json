@@ -1,0 +1,45 @@
+{
+ "title": "Bajestan Kavir ",
+ "content": [
+  "Kavir or the Playa of Bajestan is in Khorasan é Razavi province. This Kavir has an area of 4000km2 and is called Salt Kavir. The subsidence resulting from Qasem Abad and the Great Kavir faults movements have created this Kavir, and all region's running waters flow down there. In terms of geotourism, this Kavir has scenic landscapes. In this Kavir, evaporative deposits are also abundant, with a high economic value (H.Torshizian \u0026 S.Musavi Harami, 1998).",
+  ""
+ ],
+ "image": "/docimg/Attractions/SE25-1.jpg",
+ "link": "attraction/Bajestan-Kavir-",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "SE25",
+ "phenomena": "Sedimentary Geology",
+ "_": "Sedimentary_Geology",
+ "province": "Khorasan-e-Razavi",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/SE25.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/SE25-1.jpg",
+   "caption": "SE25-1 :Various layers of salt and clay in Bajestan salt pan"
+  },
+  {
+   "src": "/docimg/Attractions/SE25-2.jpg",
+   "caption": "SE25-2 :The landscape of saline region"
+  },
+  {
+   "src": "/docimg/Attractions/SE25-3.jpg",
+   "caption": "SE25-3 :The landscape of clay region"
+  },
+  {
+   "src": "/docimg/Attractions/SE25-4.jpg",
+   "caption": "SE25-4 :Various salt deposits in sinks"
+  },
+  {
+   "src": "/docimg/Attractions/SE25-5.jpg",
+   "caption": "SE25-5 :Scenic widespread forms in evaporative deposits"
+  }
+ ]
+}

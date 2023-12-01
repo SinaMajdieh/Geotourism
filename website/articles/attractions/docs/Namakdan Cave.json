@@ -1,0 +1,37 @@
+{
+ "title": "Namakdan Cave",
+ "content": [
+  "Phenomen:Sedimentary Geology",
+  "In Namakdan salt dome of Qeshm Island, various salt caves have been formed, of which one with the length of 6000m is the world's biggest salt cave. These caves have formed by the help of tectonic movements and sinking waters inside the salt masses. All cave deposits are of salt, and sometimes mixtures of minerals such as hematite, oligist, and sulfur have given them various colorings. On the walls of Namakdan Cave, the outcrops of salt are sometimes seen in combination with the minerals mentioned above, which, like colorful strips, dazzle the visitors' eyes. In this cave, cauliflower-like, kidney, columnar, and needle-like deposits abound. Springs surround this cave whose ochre beds of hematite confined by the white edges of salt have created a rarely scenic landscape.  ",
+  ""
+ ],
+ "image": "/docimg/Attractions/SE11-1.jpg",
+ "link": "attraction/Namakdan-Cave",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "SE11",
+ "phenomena": "",
+ "province": "Hormozgan",
+ "significance": "International",
+ "map-image": "/docimg/Attractions/maps/SE11.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/MG1-1",
+   "caption": "MG1-1 :Stalactites of pure salt in Namakdan Cave"
+  },
+  {
+   "src": "/docimg/Attractions/MG1-2",
+   "caption": "MG1-2 :The entrance to Namakdan Cave and various layers of salt and Hematite"
+  },
+  {
+   "src": "/docimg/Attractions/MG1-3",
+   "caption": "MG1-3 :The crystal floor and salt columns in Namakdan Cave"
+  }
+ ]
+}

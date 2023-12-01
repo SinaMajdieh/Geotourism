@@ -1,0 +1,36 @@
+{
+ "title": "Shotormel landslide",
+ "content": [
+  "One of the spectacular landslides in the Zagros Mountains has occurred near the town of Chevar in Ilam, somewhere called Shotormel. This landslide has blocked the river Chevar, yet the river through a (metamorphic) change in its course and shearing apart the Jurassic and Cretaceous lime layers has opened its way and flowed on. This phenomenon is a rare occurrence in landslides (Muhammad Hasan Nabavi’s initial report, 2000).    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/EN2-1.jpg",
+ "link": "attraction/Shotormel-landslide",
+ "accessibility": "Moderate",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "EN2",
+ "phenomena": "Engineering Geology",
+ "_": "Engineering_Geology",
+ "province": "Ilam",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/EN2.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/EN2-1.jpg",
+   "caption": "EN2-1 :A general view of Shotormel landslide"
+  },
+  {
+   "src": "/docimg/Attractions/EN2-2.jpg",
+   "caption": "EN2-2 :Limy layers sheared by the river flow"
+  },
+  {
+   "src": "/docimg/Attractions/EN2-3.jpg",
+   "caption": "EN2-3 :A view of the surface of slid mass"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "title": "Landscapes surrounding Ovan ",
+ "content": [
+  "ln the heights of north Qazvin especially Alamout valley, beautiful geological landscapes can be seen. This area includes the roughness and various forms all resulted from the active tectonic of Alborz. The huge thrust fault of Alamout and thrust of Kushk are among the outstanding geotectonic phenomena in this region. One of the scenic landscapes in this region is Ovan Lake which has always attracted so many tourists from the surrounding cities. The well-known fortress of Alamout is also located in this region. ln the Neogene formations at Alamout valley, the spectacular types of erosion can be seen. These formations are made of green and red marl, conglomerate, and sandstone."
+ ],
+ "image": "/docimg/Attractions/GL15-2.jpg",
+ "link": "attraction/Landscapes-surrounding-Ovan-",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "Spring",
+  "Summer",
+  "Fall"
+ ],
+ "code": "GL15",
+ "phenomena": "Geological Landscape",
+ "_": "",
+ "province": "Qazvin",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/GL15.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL15-1.jpg",
+   "caption": "GL15-1 :A huge landslide in Alamout region"
+  },
+  {
+   "src": "/docimg/Attractions/GL15-2.jpg",
+   "caption": "GL15-2 :A close view of trench-like (ditch-like) erosion form and its smaller type on the left"
+  },
+  {
+   "src": "/docimg/Attractions/GL15-3.jpg",
+   "caption": "GL15-3 :A spectacular view of Alamout region"
+  }
+ ]
+}

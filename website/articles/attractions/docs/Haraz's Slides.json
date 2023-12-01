@@ -1,0 +1,37 @@
+{
+ "title": "Haraz's Slides",
+ "content": [
+  "The young age of Damavand volcano and its surrounding valleys that are still active and in the process of metamorphism have led to much instability. Landslides are among these instabilities, which sometimes suddenly and sometimes gradually cause mass movements downward. The existence of fine-grained layers of clay and marl which have absorbed the moisture and changed their volume and form is one of the causes behind slides. The landslide in the Emam Zadé Ali region near Ab Ask in spring 1377, sank not only a part of Haraz road but also Emam Zadé Ali building and some other houses and shops into Haraz valley; it then has made a beautiful lake through blocking the passway of Haraz river. ",
+  "Near Bayjan, a widespread mudflow, or solifluction has also caused a considerable mass of fine-grained materials (mostly clay-argil) to slide downward in Shemshak formation.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/EN1-1.jpg",
+ "link": "attraction/Haraz's-Slides",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "EN1",
+ "phenomena": "Engineering Geology",
+ "_": "Engineering_Geology",
+ "province": "Mazandaran",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/EN1.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL28-1.jpg",
+   "caption": "GL28-1 :A scenic solifluction"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-2.jpg",
+   "caption": "GL28-2 :A close view of Bayjan solifluction"
+  },
+  {
+   "src": "/docimg/Attractions/GL28-3.jpg",
+   "caption": "GL28-3 :The landscape in Imamzade Ali region"
+  }
+ ]
+}

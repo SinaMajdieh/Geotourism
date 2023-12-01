@@ -1,0 +1,60 @@
+{
+ "title": "Qom Salt Dome",
+ "content": [
+  "Qom salt dome is located in the Dochah region in the north-west of Qom city. The characteristic of this dome is its lack of rock cover and opens alt ore deposits. The basic section of this dome is round, and its form as more or less homogeneous; its nearness to cities of Qom and Tehran and easy access to this dome is among the other geotourist characteristics of this dome.  ",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST8-1.jpg",
+ "link": "attraction/Qom-Salt-Dome",
+ "accessibility": "Easy",
+ "seasons": "Spring, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "fall",
+  "winter"
+ ],
+ "code": "ST8",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Qom",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/ST8.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST8-1.jpg",
+   "caption": "ST8-1 :A general view of Qom Salt Dome"
+  },
+  {
+   "src": "/docimg/Attractions/ST8-2.jpg",
+   "caption": "ST8-2 :Scenic salt forms in Qom Salt Dome"
+  },
+  {
+   "src": "/docimg/Attractions/ST8-3.jpg",
+   "caption": "ST8-3 :Salt-saturated waters collected in Qom Salt Domes pits"
+  },
+  {
+   "src": "/docimg/Attractions/ST8-4.jpg",
+   "caption": "ST8-4 :The outcrop of layers in one of the salt quarries"
+  },
+  {
+   "src": "/docimg/Attractions/ST8-5.jpg",
+   "caption": "ST8-5 :Beautiful salt crystals and deposits"
+  },
+  {
+   "src": "/docimg/Attractions/ST8-6.jpg",
+   "caption": "ST8-6 :Appearance of salt amid hematite and clay layers"
+  },
+  {
+   "src": "/docimg/Attractions/ST8-7.jpg",
+   "caption": "ST8-7 :Beautiful salt crystals and deposits"
+  },
+  {
+   "src": "/docimg/Attractions/ST8-8.jpg",
+   "caption": "ST8-8 :Salt layers extracted from the salt mine in Qom Salt Dome"
+  },
+  {
+   "src": "/docimg/Attractions/ST8-9.jpg",
+   "caption": "ST8-9 :Scenic salt deposits along rainwater following courses"
+  }
+ ]
+}

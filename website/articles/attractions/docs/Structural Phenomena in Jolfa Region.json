@@ -1,0 +1,39 @@
+{
+ "title": "Structural Phenomena in Jolfa Region",
+ "content": [
+  "The faults and foldings, small and big, which show the tectonic activities in the surroundings of Jolfa are among the spectacular sites in this region. A part of these structural phenomena has a good outcrop in the Paleozoic formations near the St. Stepanus church. In the south of Jolfa city near Hadishahr town, some beautiful phenomena are accessible in the younger formations (Miocene and Quaternary).   "
+ ],
+ "image": "/docimg/Attractions/ST9-2.jpg",
+ "link": "attraction/Structural-Phenomena-in-Jolfa-Region",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "Spring",
+  "Summer",
+  "Fall"
+ ],
+ "code": "ST9",
+ "phenomena": "Structural Geology",
+ "_": "",
+ "province": "East Azerbaijan",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/ST9.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST9-1.jpg",
+   "caption": "ST9-1 :A scenic folding near a ruined water mill"
+  },
+  {
+   "src": "/docimg/Attractions/ST9-2.jpg",
+   "caption": "ST9-2 :The folding and faulting in the Paleozoic formations"
+  },
+  {
+   "src": "/docimg/Attractions/ST9-3.jpg",
+   "caption": "ST9-3 :An anticline and the arc of St. Stepanus church"
+  },
+  {
+   "src": "/docimg/Attractions/ST9-4.jpg",
+   "caption": "ST9-4 :A very scenic folding near Hadi Shahr"
+  }
+ ]
+}

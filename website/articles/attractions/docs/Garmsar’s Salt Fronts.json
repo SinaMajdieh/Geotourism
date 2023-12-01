@@ -1,0 +1,44 @@
+{
+ "title": "Garmsar’s Salt Fronts",
+ "content": [
+  "Surrounding Garmsar salt dome are many active salt mines. At the heart of these mines, one can see so many beautiful phenomena: Foldings and fractures, diverse salt crystals and deposits and other sedimentary and structural phenomena all created by the movements of the salt dome. The salt mines of this region have made a good access to the outcrops inside the salt dome. This group of mines can be used as rare exhibitions of salt phenomena in the geological tourism. Colors of red, orange, green, and black show in the salts of these mines.  "
+ ],
+ "image": "/docimg/Attractions/SE27-1.jpg",
+ "link": "attraction/Garmsar’s-Salt-Fronts",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "Spring",
+  "Summer",
+  "Fall",
+  "Winter"
+ ],
+ "code": "SE27",
+ "phenomena": "Sedimentary Geology",
+ "_": "",
+ "province": "Semnan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/SE27.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/SE27-1.jpg",
+   "caption": "SE27-1 :A variety of colors in salt deposits"
+  },
+  {
+   "src": "/docimg/Attractions/SE27-2.jpg",
+   "caption": "SE27-2 :Big halls in the Garmsar Salt Mine"
+  },
+  {
+   "src": "/docimg/Attractions/SE27-3.jpg",
+   "caption": "SE27-3 :A rare type of salt deposit with a specific form"
+  },
+  {
+   "src": "/docimg/Attractions/SE27-4.jpg",
+   "caption": "SE27-4 :Scenic forms and various phenomena of salt"
+  },
+  {
+   "src": "/docimg/Attractions/SE27-5.jpg",
+   "caption": "SE27-5 :A scenic structural phenomena created by the movement of the Garmsar salt dome"
+  }
+ ]
+}

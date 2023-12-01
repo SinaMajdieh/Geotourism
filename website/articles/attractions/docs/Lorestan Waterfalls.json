@@ -1,0 +1,48 @@
+{
+ "title": "Lorestan Waterfalls",
+ "content": [
+  "Many waterfalls can be seen throughout Lorestan. These waterfalls are the phenomena belonging to the ground mountain range of Zagros. Perhaps the most beautiful waterfall in this province can be known the Bishé waterfall (Bishé Poorian) near Dorood. Bishe waterfall with the height of 50m and width of 20m flows down into Sezar River. This waterfall is located somewhere along the north-south railroad. Ab Sefeed waterfall located near Aligudarz with the height of 60m is another scenic waterfall in this province. Ab Sefeed waterfall is located in the vicinity of the very beautiful mountain of Qali Kooh. What characterizes this waterfall is that the abundance of water falling down from a top the waterfall has not followed on the earth’s surface before its springing out. The mouth where the water springs out is not but an opening driving the underground waters out. Among the other waterfalls in this province, one can mention the names of Afriné, Nojyan, Varak, chekan. Shevy or Tallé zang waterfall which is located in the border of Lorestan and Khuzestan provinces. ",
+  ""
+ ],
+ "image": "/docimg/Attractions/GL8-1.jpg",
+ "link": "attraction/Lorestan-Waterfalls",
+ "accessibility": "Moderate",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "GL8",
+ "phenomena": "Geological Landscape",
+ "_": "Geological_Landscape",
+ "province": "Lorestan",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/GL8.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL8-1.jpg",
+   "caption": "GL8-1 :The lushness of the walls surrounding Bishe waterfall is so eye-catching"
+  },
+  {
+   "src": "/docimg/Attractions/GL8-2.jpg",
+   "caption": "GL8-2 :Bishe waterfall"
+  },
+  {
+   "src": "/docimg/Attractions/GL8-3.jpg",
+   "caption": "GL8-3 :A close-up view of the spectacular Bishe waterfall "
+  },
+  {
+   "src": "/docimg/Attractions/GL8-4.jpg",
+   "caption": "GL8-4 :The multistep waterfall of Varak"
+  },
+  {
+   "src": "/docimg/Attractions/GL8-5.jpg",
+   "caption": "GL8-5 :The scenic waterfall of Ab Sefeed"
+  },
+  {
+   "src": "/docimg/Attractions/GL8-6.jpg",
+   "caption": "GL8-6 :Afrineh Waterfall"
+  }
+ ]
+}

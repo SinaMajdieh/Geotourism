@@ -1,0 +1,43 @@
+{
+ "title": "Karaftu Cave",
+ "content": [
+  "Karaftu Cave is one of the ancient places of living and worship used by man, dating back to the Ashkani Period. This cave is located in the vicinity of the town of Divan Darre and inside the Qom formation. The archeological excavations in this cave have had many findings. This cave includes four floors, and its different separate parts are hand-dug, and it has been the man who has changed the natural form of the cave as it exists today. The geological characteristic (feature) of this cave is found in the ceiling of its fourth floor, where the karst erosion has made concave holes in the surface. This part of the cave is very scenic and eye-catching from the viewpoint of geomorphology."
+ ],
+ "image": "/docimg/Attractions/SE9-1.jpg",
+ "link": "attraction/-Karaftu-Cave",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "Spring",
+  "Summer",
+  "Fall"
+ ],
+ "code": "SE9",
+ "phenomena": "Sedimentary Geology",
+ "_": "",
+ "province": "Kordestan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/SE9.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/SE9-1.jpg",
+   "caption": "SE9-1 :One of the ancient carvings discovered in the cave"
+  },
+  {
+   "src": "/docimg/Attractions/SE9-2.jpg",
+   "caption": "SE9-2 :A general view of Karaftu cave amid Qom formation (Oligo-Miocene)"
+  },
+  {
+   "src": "/docimg/Attractions/SE9-3.jpg",
+   "caption": "SE9-3 :A huge limy broken column"
+  },
+  {
+   "src": "/docimg/Attractions/SE9-4.jpg",
+   "caption": "SE9-4 :Stairways and access road to Karaftu cave"
+  },
+  {
+   "src": "/docimg/Attractions/SE9-5.jpg",
+   "caption": "SE9-5 :The fourth floor ceiling which had turned into a wonderful form by erosion"
+  }
+ ]
+}

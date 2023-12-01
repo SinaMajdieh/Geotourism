@@ -1,0 +1,49 @@
+{
+ "title": "Pol Dokhtar Structural Phenomena in Khorram Abad Road",
+ "content": [
+  "From Pol Dokhtar to Khorram Abad in Lorestan province, lots of magnificent structural phenomena can be seen. This road has cut a part of the Zagros mountain range, leaving bare its beautiful outcrops. The internal structure of the anticlines cut through by this road is so spectacular and recognizable. One of the most spectacular sights along this road is the eroded flanks of the anticlines, which due to the existence of soft and hard layers, have created spectacular landscapes.",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST18-1.jpg",
+ "link": "attraction/Pol-Dokhtar-Structural-Phenomena-in-Khorram-Abad-Road",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "ST18",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Lorestan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ST18.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST18-1.jpg",
+   "caption": "ST18-1 :A scenic folding along Khorram Abad- Pol Dokhtar road"
+  },
+  {
+   "src": "/docimg/Attractions/ST18-2.jpg",
+   "caption": "ST18-2 :The erosion in erodible layers of anticline limb"
+  },
+  {
+   "src": "/docimg/Attractions/ST18-3.jpg",
+   "caption": "ST18-3 : The erosion in anticline limb"
+  },
+  {
+   "src": "/docimg/Attractions/ST18-4.jpg",
+   "caption": "ST18-4 :The disappearance of erodible layers and appearance of natural lanes"
+  },
+  {
+   "src": "/docimg/Attractions/ST18-5.jpg",
+   "caption": "ST18-5 :Melle Kooh anticlinal gorge where Pol Dokhtar town lies in"
+  },
+  {
+   "src": "/docimg/Attractions/ST18-6.jpg",
+   "caption": "ST18-6 :The disappearance of erodible layers and appearance of natural lanes"
+  }
+ ]
+}

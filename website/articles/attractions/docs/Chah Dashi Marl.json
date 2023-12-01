@@ -1,0 +1,53 @@
+{
+ "title": "Chah Dashi Marl",
+ "content": [
+  "On the way from Nehbandan to Chah Dashi in south Khorasan province, one can see such an eye-catching erosion phenomenon. The Neogene formations of marl, conglomerate, silt, and sandstone in various red, brown, cream, and white colors have created a rare landscape. The structure of this picturesque area is like the undeveloped badlands.",
+  ""
+ ],
+ "image": "/docimg/Attractions/ER17-1.jpg",
+ "link": "attraction/Chah-Dashi-Marl",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "ER17",
+ "phenomena": "Erosional",
+ "_": "Erosional",
+ "province": "South Khorasan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ER17.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ER17-1.jpg",
+   "caption": "ER17-1 :Scenic forms in the eroded colorful mass"
+  },
+  {
+   "src": "/docimg/Attractions/ER17-2.jpg",
+   "caption": "ER17-2 :Colorful layers located in the separate horizons"
+  },
+  {
+   "src": "/docimg/Attractions/ER17-3.jpg",
+   "caption": "ER17-3 :A significant scenic folding beside the colorful layers of Chah Dashti"
+  },
+  {
+   "src": "/docimg/Attractions/ER17-4.jpg",
+   "caption": "ER17-4 :Chah Dashti-Nehbandan road through the colorful layers"
+  },
+  {
+   "src": "/docimg/Attractions/ER17-5.jpg",
+   "caption": "ER17-5 :A close view of eroded marly layers"
+  },
+  {
+   "src": "/docimg/Attractions/ER17-6.jpg",
+   "caption": "ER17-6 :An example of waterways formed amid Chah Dashti marls"
+  },
+  {
+   "src": "/docimg/Attractions/ER17-7.jpg",
+   "caption": "ER17-7 :A general view of colorful eroded layers"
+  }
+ ]
+}

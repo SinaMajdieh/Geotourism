@@ -1,0 +1,52 @@
+{
+ "title": "Qarniaraq Mud Volcano",
+ "content": [
+  "Qarniaraq, in the north Aqqala, has one of the widest spreading areas among lran’s mud volcanoes. The spreading area of this mud volcano is circular, with a diameter of 600m. This vast circle is concave, and the mud volcano hill is at its center. This hill is round as well, with a diameter of 50m. This mud volcano was extinct at the 2008 visit, and few traces of gas emission were only seen around it, which were not noticeable. The salt deposits are seen all surrounding of this mud volcano.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/SE3-1.jpg",
+ "link": "attraction/Qarniaraq-Mud-Volcano",
+ "accessibility": "Moderate",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "SE3",
+ "phenomena": "Sedimentary Geology",
+ "_": "Sedimentary_Geology",
+ "province": "Golestan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/SE3.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/SE3-1.jpg",
+   "caption": "SE3-1 :One of the mud volcanoes surrounding openings where gas exhales"
+  },
+  {
+   "src": "/docimg/Attractions/SE3-2.jpg",
+   "caption": "SE3-2 :Rainwater collected around the center of the mud volcano with a salt bedding"
+  },
+  {
+   "src": "/docimg/Attractions/SE3-3.jpg",
+   "caption": "SE3-3 :A mud volcano middle dune-bedding hills"
+  },
+  {
+   "src": "/docimg/Attractions/SE3-4.jpg",
+   "caption": "SE3-4 :The outside view of the mud volcano (from inside toward outside)"
+  },
+  {
+   "src": "/docimg/Attractions/SE3-5.jpg",
+   "caption": "SE3-5 :The unconformity in various layers"
+  },
+  {
+   "src": "/docimg/Attractions/SE3-6.jpg",
+   "caption": "SE3-6 :The general view of view of Qarniaraq Mud Volcano "
+  },
+  {
+   "src": "/docimg/Attractions/SE3-7.jpg",
+   "caption": "SE3-7 :The huge size of Qarniaraq Mud Volcano as compare with an auto mobile"
+  }
+ ]
+}

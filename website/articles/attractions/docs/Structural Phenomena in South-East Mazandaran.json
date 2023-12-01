@@ -1,0 +1,36 @@
+{
+ "title": "Structural Phenomena in South-East Mazandaran",
+ "content": [
+  "Mazandaran province is situated at the heart of the Alborz mountain range. From place to place, one can see the structural phenomena related to this mountain range's movements. One of these phenomena is the tectonic valleys intersected by the flowing waters. This phenomenon can be well seen in the south of the narrow passage in the vicinity of Sepeedchah village and is called \"Darré Shamshirbor.\" The form of this valley is such that people say it looks like a cut with a sharp and cutting sword. This valley has cut Surak syncline.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST16-1.jpg",
+ "link": "attraction/Structural-Phenomena-in-South-East-Mazandaran",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "ST16",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Mazandaran",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/ST16.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST16-1.jpg",
+   "caption": "ST16-1 :A scenic water gap near Shamshir Bor valley"
+  },
+  {
+   "src": "/docimg/Attractions/ST16-2.jpg",
+   "caption": "ST16-2 :The folding in shale"
+  },
+  {
+   "src": "/docimg/Attractions/ST16-3.jpg",
+   "caption": "ST16-3 :A beautiful gorge near Kia Sar Galoogah village"
+  }
+ ]
+}

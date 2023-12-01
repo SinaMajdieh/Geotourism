@@ -1,0 +1,41 @@
+{
+ "title": "Gigantic Nodules",
+ "content": [
+  "In Sachoon evaporative formation (Paleocene) near the town of Daraab, Fars province, one can see the phenomenal gigantic nodules. Such nodules, which are found in profusion in this area in the form of regular spheres or ellipses with a diameter sometimes reaching to 1.5 m, are easily recognizable in their brownish-red color. These nodules are calcareous with a thin layer of ferrous oxide, which has given them a dark red color. The profuseness and largeness of such nodules have given this phenomenon a unique nature, at least on a national scale (adopted from A. Rahmani et al., 2005).    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/SE23-1.jpg",
+ "link": "attraction/Gigantic-Nodules",
+ "accessibility": "Moderate",
+ "seasons": " Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "SE23",
+ "phenomena": "Sedimentary Geology",
+ "_": "Sedimentary_Geology",
+ "province": "Fars",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/SE23.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/SE23-1.jpg",
+   "caption": "SE23-1 :Gigantic Nodules emplacement along the layers strike"
+  },
+  {
+   "src": "/docimg/Attractions/SE23-2.jpg",
+   "caption": "SE23-2 :A thin section of a nodule"
+  },
+  {
+   "src": "/docimg/Attractions/SE23-3.jpg",
+   "caption": "SE23-3 :The nodule spherical and more-or-less homogeneous shape"
+  },
+  {
+   "src": "/docimg/Attractions/SE23-4.jpg",
+   "caption": "SE23-4 :A view of nodules distribution in the region"
+  }
+ ]
+}

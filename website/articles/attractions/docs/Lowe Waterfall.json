@@ -1,0 +1,36 @@
+{
+ "title": "Lowe Waterfall",
+ "content": [
+  "East Alborz waterfalls have their most features in Golestan province. Love waterfall is one of the waterfalls in Golestan located at the 20-km distance of Galikesh near Golestan forest park. This waterfall consists of several separate step-like parts that are close to each other; underneath each part, there has formed a little beautiful pool used by people for swimming and recreation. Love waterfall is not so high or wide, yet it has unique natural scenery in the middle of the forest. Shir Abad, Kabudval, and Golestan waterfalls are the other spectacular waterfalls in this province.",
+  ""
+ ],
+ "image": "/docimg/Attractions/GL9-1.jpg",
+ "link": "attraction/Lowe-Waterfall",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "GL9",
+ "phenomena": "Geological Landscape",
+ "_": "Geological_Landscape",
+ "province": "Golestan",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/GL9.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL9-1.jpg",
+   "caption": "GL9-1 :The beautiful waterfall of Lowe among dense forest trees"
+  },
+  {
+   "src": "/docimg/Attractions/GL9-2.jpg",
+   "caption": "GL9-2 :One of the steps in lowe waterfall"
+  },
+  {
+   "src": "/docimg/Attractions/GL9-3.jpg",
+   "caption": "GL9-3 :One of the pools formed underneath the waterfall"
+  }
+ ]
+}

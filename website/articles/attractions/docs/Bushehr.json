@@ -1,0 +1,37 @@
+{
+ "title": "Bushehr",
+ "content": [
+  "Along the coasts of the Persian Gulf, there are a variety of erosion phenomena is. Much climatic humidity, high temperature, diversity of the materials in formations, and ground motions have created such erosion types. A rare erosion is on the south edge of Nar Anticline near Jam city in Bushehr province, which has occurred in the shape of a quadrangular sheet in Daryan Fahlyan (Early Cretaceous) limy formation. This big quadrangle is about 450m long and 150m wide. This phenomenon is similar to a small mass that has slid down in the Seymaré landslide.",
+  ""
+ ],
+ "image": "/docimg/Attractions/ER16-1.jpg",
+ "link": "attraction/Bushehr",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "ER16",
+ "phenomena": "Erosional",
+ "_": "Erosional",
+ "province": "Bushehr",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ER16.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ER16-1.jpg",
+   "caption": "ER16-1 :A scenic erosional phenomenon having the form of a quadrangle sheet"
+  },
+  {
+   "src": "/docimg/Attractions/ER16-2.jpg",
+   "caption": "ER16-2 :The landscape of an eye-catching erosional phenomenon in Cretaceous limestone"
+  },
+  {
+   "src": "/docimg/Attractions/ER16-3.jpg",
+   "caption": "ER16-3 :Very scenic forms of erosion in the erodible formations along the Persian Gulf coast near Delvar"
+  }
+ ]
+}

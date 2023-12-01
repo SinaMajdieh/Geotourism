@@ -1,0 +1,40 @@
+{
+ "title": "Baraq Gorge",
+ "content": [
+  "The Baraq gorge is located in the north of Shiraz and south of Eqlid near Sadde town. One of the main branches of the Korr river flows through this gorge. The karstic erosion in the valley walls is so spectacular. Water oozing out of the numerous fractures and fissures in the walls and plants around these spaces are an interesting phenomenon in this gorge. This gorge also has formed as the result of an anticline’s being sheared in the Asmari formations. Baraq gorge is a well-known region in Fars province, which has always welcomed many tourists.",
+  ""
+ ],
+ "image": "/docimg/Attractions/ER11-1.jpg",
+ "link": "attraction/Baraq-Gorge",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "ER11",
+ "phenomena": "Erosional",
+ "_": "Erosional",
+ "province": "Fars",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/ER11.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ER11-1.jpg",
+   "caption": "ER11-1 :A beautiful landscape amid Baraq Gorge"
+  },
+  {
+   "src": "/docimg/Attractions/ER11-2.jpg",
+   "caption": "ER11-2 :Baraq Gorge’s high limy walls"
+  },
+  {
+   "src": "/docimg/Attractions/ER11-3.jpg",
+   "caption": "ER11-3 :A landscape of Baraq Gorge"
+  },
+  {
+   "src": "/docimg/Attractions/ER11-4.jpg",
+   "caption": "ER11-4 :A beautiful landscape amid Baraq Gorge"
+  }
+ ]
+}

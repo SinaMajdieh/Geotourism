@@ -1,0 +1,49 @@
+{
+ "title": "Structural Phenomena in the North-West of Kermanshah",
+ "content": [
+  "Kermanshah province is situated somewhere in the vastness of the Zagros mountain range showing Zagros- related structural phenomena. One can see so many lofty heights in this province of which Bistoon, Shahoo, and Prawoo are the most significant. On the way from Kermanshah to Pave to Marivan, there are so many structural phenomena, some of which are rarely found in Iran. These phenomena are so eye-catching, and one of the most beautiful of all is houses amid the outcrop of folded layers in Noudeshé town.",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST15-1.jpg",
+ "link": "attraction/Structural-Phenomena-in-the-North-West-of-Kermanshah",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "ST15",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Kermanshah",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/ST15.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST15-1.jpg",
+   "caption": "ST15-1 :Chevron folds and Faulting"
+  },
+  {
+   "src": "/docimg/Attractions/ST15-2.jpg",
+   "caption": "ST15-2 :Various Chevron folds near Paveh"
+  },
+  {
+   "src": "/docimg/Attractions/ST15-3.jpg",
+   "caption": "ST15-3 :A scenic box fold near Noudeshé"
+  },
+  {
+   "src": "/docimg/Attractions/ST15-4.jpg",
+   "caption": "ST15-4 :Grand Shahoo mountain"
+  },
+  {
+   "src": "/docimg/Attractions/ST15-5.jpg",
+   "caption": "ST15-5 :Mount Shahoo and structural phenomena surrounding Noudeshé"
+  },
+  {
+   "src": "/docimg/Attractions/ST15-6.jpg",
+   "caption": "ST15-6 :A rare phenomena in Noudeshé"
+  }
+ ]
+}

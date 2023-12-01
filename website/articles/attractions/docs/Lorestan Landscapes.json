@@ -1,0 +1,83 @@
+{
+ "title": "Lorestan Landscapes",
+ "content": [
+  "In the Lorestan province area, particularly the south and west parts, rare geological landscapes can be seen: The striking layerings of diverse formations, mountains, summits, and glaciers. The adjacency of these natural fronts with the geological landscapes has put Lurestan among the most spectacular provinces in the country for geotourism. "
+ ],
+ "image": "/docimg/Attractions/GL20-1.jpg",
+ "link": "attraction/Lorestan-Landscapes",
+ "accessibility": "Moderate",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "Spring",
+  "Summer",
+  "Fall"
+ ],
+ "code": "GL20",
+ "phenomena": "Geological Landscape",
+ "_": "",
+ "province": "Lorestan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/GL20.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL20-1.jpg",
+   "caption": "GL20-1 :The rare landscape of Naft anticline, west of Kooh Dasht"
+  },
+  {
+   "src": "/docimg/Attractions/GL20-2.jpg",
+   "caption": "GL20-2 :Various structural phenomena in the south of Sepeed Dasht"
+  },
+  {
+   "src": "/docimg/Attractions/GL20-3.jpg",
+   "caption": "GL20-3 :A scenic view of erosion in the steep layers of Goorpey formation (Paleocene)"
+  },
+  {
+   "src": "/docimg/Attractions/GL20-4.jpg",
+   "caption": "GL20-4 :The scenic erosion in erodible formations, Naft anticline's slope"
+  },
+  {
+   "src": "/docimg/Attractions/GL20-5.jpg",
+   "caption": "GL20-5 :Sar Kashti mountain where Noah’s Ark landed, based on local belief"
+  },
+  {
+   "src": "/docimg/Attractions/GL20-6.jpg",
+   "caption": "GL20-6 :The wonderful landscape of folded layers from the top of Sar Dashti mountain, Noor Abad"
+  },
+  {
+   "src": "/docimg/Attractions/GL20-7.jpg",
+   "caption": "GL20-7 :Cliffs covered by lichens"
+  },
+  {
+   "src": "/docimg/Attractions/GL20-8.jpg",
+   "caption": "GL20-8 :Various structural phenomena in the south of Sepeed Dasht"
+  },
+  {
+   "src": "/docimg/Attractions/GL20-9.jpg",
+   "caption": "GL20-9 :The beautiful layering in the type section of Amiran formation (Paleocene) and its intersection with the Kashkan riverbed"
+  },
+  {
+   "src": "/docimg/Attractions/GL20-10.jpg",
+   "caption": "GL20-10 :Erosion and structural phenomena in Sepeed Dasht south-west formations"
+  },
+  {
+   "src": "/docimg/Attractions/GL20-11.jpg",
+   "caption": "GL20-11 :The scenic mountain of Qali Kooh"
+  },
+  {
+   "src": "/docimg/Attractions/GL20-12.jpg",
+   "caption": "GL20-12 :The entrance of Kamandan snowy tunnel"
+  },
+  {
+   "src": "/docimg/Attractions/GL20-13.jpg",
+   "caption": "GL20-13 :Oshtoran Kooh lofty summits and its surrounding glaciers"
+  },
+  {
+   "src": "/docimg/Attractions/GL20-14.jpg",
+   "caption": "GL20-14 :Kamandan snowy tunnel"
+  },
+  {
+   "src": "/docimg/Attractions/GL20-15.jpg",
+   "caption": "GL20-15 :The general view of the Oshtoran Kooh Mountain range"
+  }
+ ]
+}

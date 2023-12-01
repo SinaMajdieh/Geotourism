@@ -1,0 +1,52 @@
+{
+ "title": "Landscapes in Qeshm ",
+ "content": [
+  "Qeshm Island which holds lran’s first geopark enjoys a considerable biological and geological variety. This variety has created numerous geologically attractive landscapes. Harra sea forests are among the most famous bio- phenomena in this island which are placed amid the spring and heap tidal flow area, so there are of much value from the geological viewpoint. The sea cliffs(stacks) covered by fossils and various sea shells, coral reefs, and wide and intact sea shores are among the other sceneries in this island.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/GL11-1.jpg",
+ "link": "attraction/Landscapes-in-Qeshm-",
+ "accessibility": "Easy",
+ "seasons": " Spring, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "fall",
+  "winter"
+ ],
+ "code": "GL11",
+ "phenomena": "Geological Landscape",
+ "_": "Geological_Landscape",
+ "province": "Hormozgan",
+ "significance": "International",
+ "map-image": "/docimg/Attractions/maps/GL11.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/MG1-1.jpg",
+   "caption": "MG1-1 :The clear sea water and coral reefs surrounding Qeshm"
+  },
+  {
+   "src": "/docimg/Attractions/MG1-2.jpg",
+   "caption": "MG1-2 :Old trees in Harra sea forest (Mangrove trees)"
+  },
+  {
+   "src": "/docimg/Attractions/MG1-3.jpg",
+   "caption": "MG1-3 :Scenic forms of coastal erosion"
+  },
+  {
+   "src": "/docimg/Attractions/MG1-4.jpg",
+   "caption": "MG1-4 :A part of Naaz Islands"
+  },
+  {
+   "src": "/docimg/Attractions/MG1-5.jpg",
+   "caption": "MG1-5 :Early spring in the middle of winter in Qeshm"
+  },
+  {
+   "src": "/docimg/Attractions/MG1-6.jpg",
+   "caption": "MG1-6 :One of the Qeshm Island dams scenic landscapes"
+  },
+  {
+   "src": "/docimg/Attractions/MG1-7.jpg",
+   "caption": "MG1-7 :Harra (Mangrove) sea forest near Tabl"
+  }
+ ]
+}

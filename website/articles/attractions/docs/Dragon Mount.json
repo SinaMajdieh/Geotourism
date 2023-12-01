@@ -1,0 +1,33 @@
+{
+ "title": "Dragon Mount",
+ "content": [
+  "One of lran’s most scenic and rarest structural phenomena is the folding in north Garmsar. The natives call the mountain embracing this phenomenon the “Dragon Mount”. The red, brown, and white strips of the upper red formation (Miocene) have twined around each other in a pattern of wavy lines creating a scenic structure. This phenomenon has formed by a regular cycle of sandstone, shale and conglomerate being settled by each other.",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST13-1.jpg",
+ "link": "attraction/Dragon-Mount",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "ST13",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Semnan",
+ "significance": "International",
+ "map-image": "/docimg/Attractions/maps/ST13.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST13-1.jpg",
+   "caption": "ST13-1 :A unique folding in Dragon Mount"
+  },
+  {
+   "src": "/docimg/Attractions/ST13-2.jpg",
+   "caption": "ST13-2 :The unique folding in Dragon Mount"
+  }
+ ]
+}

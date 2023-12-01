@@ -1,0 +1,63 @@
+{
+ "title": "Qeshm",
+ "content": [
+  "In Qeshm island, erosion has created a gallery of scenic forms and figures. The rare yet heavy rains with flooding, the high rate of humidity in the air, movements in the Earth and diversity of the formations’ material, valley of statues, and the south coasts of the sea are among the areas in which one can find the most beautiful erosion phenomena."
+ ],
+ "image": "/docimg/Attractions/ER4-1.jpg",
+ "link": "attraction/Qeshm",
+ "accessibility": "Easy",
+ "seasons": "Spring, Fall,Winter",
+ "seasons_arr": [
+  "Spring",
+  "Fall",
+  "Winter"
+ ],
+ "code": "ER4",
+ "phenomena": "Erosional",
+ "_": "",
+ "province": "Hormozgan",
+ "significance": "International",
+ "map-image": "/docimg/Attractions/maps/ER4.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ER4-1.jpg",
+   "caption": "ER4-1 :The erosion in Darre ye Setareha “Stars Valley”"
+  },
+  {
+   "src": "/docimg/Attractions/ER4-2.jpg",
+   "caption": "ER4-2 :The eye-catching erosion on the coasts and creation of widespread terraces stretching along the north line, Qeshm Geopark"
+  },
+  {
+   "src": "/docimg/Attractions/ER4-3.jpg",
+   "caption": "ER4-3 :The wonderful Tandis (statues) valley, Qeshm Geopark"
+  },
+  {
+   "src": "/docimg/Attractions/ER4-4.jpg",
+   "caption": "ER4-4 :A scenic erosion phenomenon"
+  },
+  {
+   "src": "/docimg/Attractions/ER4-5.jpg",
+   "caption": "ER4-5 :The erosion in Marls"
+  },
+  {
+   "src": "/docimg/Attractions/ER4-6.jpg",
+   "caption": "ER4-6 :Erosion in Darre ye Setareha “Stars Valley” ( the fallen star) "
+  },
+  {
+   "src": "/docimg/Attractions/ER4-7.jpg",
+   "caption": "ER4-7 :A very eye-catching influence of erosion in in Darre ye Setareha “Stars Valley” ( the fallen star)"
+  },
+  {
+   "src": "/docimg/Attractions/ER4-8.jpg",
+   "caption": "ER4-8 :A wind-wrought body"
+  },
+  {
+   "src": "/docimg/Attractions/ER4-9.jpg",
+   "caption": "ER4-9 :The statuary art of the erosion"
+  },
+  {
+   "src": "/docimg/Attractions/ER4-10.jpg",
+   "caption": "ER4-10 :A mushroom-shaped body created by erosion in limy sandstone"
+  }
+ ]
+}

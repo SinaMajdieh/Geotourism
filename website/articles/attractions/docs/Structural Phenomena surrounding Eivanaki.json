@@ -1,0 +1,36 @@
+{
+ "title": "Structural Phenomena surrounding Eivanaki",
+ "content": [
+  "Surrounding Eivanaki town can be seen as some spectacular signs of tectonic activities related to Alborz and Garmsar salt dome movement. The structural phenomena of this region have an outcrop in the upper red formations (Neogene) and Kara] formation (Eocene).  ",
+  ""
+ ],
+ "image": "/docimg/Attractions/ST14-1.jpg",
+ "link": "attraction/Structural-Phenomena-surrounding-Eivanaki",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "ST14",
+ "phenomena": "Structural Geology",
+ "_": "Structural_Geology",
+ "province": "Tehran-Semnan",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/ST14.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/ST14-1.jpg",
+   "caption": "ST14-1 :Structural phenomena in the upper red formation (Neogene)"
+  },
+  {
+   "src": "/docimg/Attractions/ST14-2.jpg",
+   "caption": "ST14-2 :Structural phenomena in the Karaj formation (Eocene)"
+  },
+  {
+   "src": "/docimg/Attractions/ST14-3.jpg",
+   "caption": "ST14-3 :An asymmetrical anticline in Karaj formation (Eocene)"
+  }
+ ]
+}

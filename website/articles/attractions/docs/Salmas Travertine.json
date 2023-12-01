@@ -1,0 +1,48 @@
+{
+ "title": "Salmas Travertine",
+ "content": [
+  "In the vicinity of Salmas city, somewhere called Darik, one can see the travertine deposits and the remnants(traces) left out travertine springs. Here a few active springs also exist. The stairway-like milky deposits, cone- and shield-like forms, and colorful deposits are among the scenic sites in this region. Here, the springs have formed along the faults, and the widespread travertine veins can be seen along with these faults.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/SE14-1.jpg",
+ "link": "attraction/Salmas-Travertine",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "SE14",
+ "phenomena": "Sedimentary Geology",
+ "_": "Sedimentary_Geology",
+ "province": "West Azerbaijan",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/SE14.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/SE14-1.jpg",
+   "caption": "SE14-1 :One of the active springs in Darik region"
+  },
+  {
+   "src": "/docimg/Attractions/SE14-2.jpg",
+   "caption": "SE14-2 :Sedimentary steps surrounding a spring"
+  },
+  {
+   "src": "/docimg/Attractions/SE14-3.jpg",
+   "caption": "SE14-3 :Wide variety of colors in spring sediments together with colorful algae"
+  },
+  {
+   "src": "/docimg/Attractions/SE14-4.jpg",
+   "caption": "SE14-4 :Old dry springs all appeared along the same course (trend)"
+  },
+  {
+   "src": "/docimg/Attractions/SE14-5.jpg",
+   "caption": "SE14-5 :The springs drying up due to the movements of a fault or joints once created them"
+  },
+  {
+   "src": "/docimg/Attractions/SE14-6.jpg",
+   "caption": "SE14-6 :Colorful step-like sediments and deposits in Darik region"
+  }
+ ]
+}

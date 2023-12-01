@@ -1,0 +1,40 @@
+{
+ "title": "Rood Afshan Cave",
+ "content": [
+  "Near Firoozkooh city and just opposite the village of Rood Afshan, there is a cave bearing the same name. The entrance of the Rood Afshan cave may be the biggest in the whole country. The length of the Lenz-like (oval) mouth of the cave is situated in the limy formations of Cretaceous at the 200m height above the river of Delichai. Though Rood Afshan cave is a Karst and erosion cave, its opening and initial passage have formed as the result of slump and subsidence. This powerful feature has placed it among the group of geotectonic phenomena. There is no eye-catching cave deposit in this cave. In the surroundings of this cave and above it, there are a few more openings that are not so deep but signify the active function of karst erosion.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/EN10-1.jpg",
+ "link": "attraction/Rood-Afshan-Cave",
+ "accessibility": "Moderate",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "EN10",
+ "phenomena": "Engineering Geology",
+ "_": "Engineering_Geology",
+ "province": "Tehran",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/EN10.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/EN10-1.jpg",
+   "caption": "EN10-1 :The entrance of the Rood Afshan cave"
+  },
+  {
+   "src": "/docimg/Attractions/EN10-2.jpg",
+   "caption": "EN10-2 :The big lenticular entrance of the Rood Afshan cave and subsidence of its surrounding lands"
+  },
+  {
+   "src": "/docimg/Attractions/EN10-3.jpg",
+   "caption": "EN10-3 :A big round opening above the cave entrance"
+  },
+  {
+   "src": "/docimg/Attractions/EN10-4.jpg",
+   "caption": "EN10-4 :Many detrital sediments on the floor of the cave"
+  }
+ ]
+}

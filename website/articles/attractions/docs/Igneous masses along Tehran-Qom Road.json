@@ -1,0 +1,48 @@
+{
+ "title": "Igneous masses along Tehran-Qom Road",
+ "content": [
+  "The Eocene igneous masses have outcrops in some points along Tehran-Qom road. These masses include acidic vitric tuff to trachyandesite in pink, purple, and gray. So many dikes and sills have intersected with these masses, which difference of their various colors with matrix has created spectacular landscapes. Small structural phenomena such as faults, fissures, and foldings are seen in these masses.   "
+ ],
+ "image": "/docimg/Attractions/MG14-1.jpg",
+ "link": "attraction/Igneous-masses-along-Tehran-Qom-Road",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "Spring",
+  "Summer",
+  "Fall",
+  "Winter"
+ ],
+ "code": "MG14",
+ "phenomena": "Magmatic and Metamorphic",
+ "_": "Magmatic_and_Metamorphic",
+ "province": "Tehran-Qom",
+ "significance": "Local",
+ "map-image": "/docimg/Attractions/maps/MG14.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/MG14-1.jpg",
+   "caption": "MG14-1 :A volcanic sequence in various colors"
+  },
+  {
+   "src": "/docimg/Attractions/MG14-2.jpg",
+   "caption": "MG14-2 :A volcanic sequence in various colors"
+  },
+  {
+   "src": "/docimg/Attractions/MG14-3.jpg",
+   "caption": "MG14-3 :A close-up view of a volcanic sequence in various colors"
+  },
+  {
+   "src": "/docimg/Attractions/MG14-4.jpg",
+   "caption": "MG14-4 :A distinct dike in volcanic layers"
+  },
+  {
+   "src": "/docimg/Attractions/MG14-5.jpg",
+   "caption": "MG14-5 :A movement in ignimbrite horizons caused by fault"
+  },
+  {
+   "src": "/docimg/Attractions/MG14-6.jpg",
+   "caption": "MG14-6 :A dip-slip fault in volcanic rocks"
+  }
+ ]
+}

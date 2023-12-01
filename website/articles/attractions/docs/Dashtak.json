@@ -1,0 +1,41 @@
+{
+ "title": "Dashtak",
+ "content": [
+  "The lovely village of Dashtak, a community amid the prominent anticline of Dashtak, is situated in the northwest of Shiraz. Dashtak anticline, like Zagros’ other anticline, stands along with the northwest-southeast trend. It has formed in the formations of Sarvak and Kajdomi (cretaceous). Dashtak village has a texture similar to the well-known village of Masoolé in Gilan province. The houses in this village have been built in a step-like pattern following the natural slope of the land. It is a historical village at the altitude of 200m on a vast high plain. The numerous big walnut trees surrounding this village and beautiful waterfalls have created a lovely landscape in this region.",
+  ""
+ ],
+ "image": "/docimg/Attractions/GL18-1.jpg",
+ "link": "attraction/Dashtak",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall, Winter",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall",
+  "winter"
+ ],
+ "code": "GL18",
+ "phenomena": "Geological Landscape",
+ "_": "Geological_Landscape",
+ "province": "Fars",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/GL18.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL18-1.jpg",
+   "caption": "GL18-1 :A landscape of Dashtak village in the shear amid Dashtak anticline"
+  },
+  {
+   "src": "/docimg/Attractions/GL18-2.jpg",
+   "caption": "GL18-2 :High limy (calcareous) walls"
+  },
+  {
+   "src": "/docimg/Attractions/GL18-3.jpg",
+   "caption": "GL18-3 :The downstream vast plain"
+  },
+  {
+   "src": "/docimg/Attractions/GL18-4.jpg",
+   "caption": "GL18-4 :The scenic village of Dashtak and its surrounding walnut trees"
+  }
+ ]
+}

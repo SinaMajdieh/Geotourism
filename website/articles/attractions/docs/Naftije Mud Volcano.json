@@ -1,0 +1,40 @@
+{
+ "title": "Naftije Mud Volcano",
+ "content": [
+  "This active mud-volcano is located in the north of Gamishan town. The mud flowing down its crater is so viscose and watery, and its gas bubbles blow out quickly. The smell of gas and petroleum material is sweeping everywhere surrounding this mud volcano; therefore, some believe this mud volcano has its origins in the petroleum and gas resources of Mazandaran see. The short cone of this mud volcano stands about 4 meters higher than its surrounding fields spreading over an area with a 50m diameter. The land in the vicinity of this mud volcano is marshy, making any act of approaching impossible.     ",
+  ""
+ ],
+ "image": "/docimg/Attractions/SE4-1.jpg",
+ "link": "attraction/Naftije-Mud-Volcano",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "SE4",
+ "phenomena": "Sedimentary Geology",
+ "_": "Sedimentary_Geology",
+ "province": "Golestan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/SE4.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/SE4-1.jpg",
+   "caption": "SE4-1 :A fresh and small crater (opening) near the main crater"
+  },
+  {
+   "src": "/docimg/Attractions/SE4-2.jpg",
+   "caption": "SE4-2 :Naftije Mud Volcano"
+  },
+  {
+   "src": "/docimg/Attractions/SE4-3.jpg",
+   "caption": "SE4-3 :A scenic small crater (opening) ) near the main crater"
+  },
+  {
+   "src": "/docimg/Attractions/SE4-4.jpg",
+   "caption": "SE4-4 :A general view of Naftije Mud Volcano and its surrounding craters"
+  }
+ ]
+}

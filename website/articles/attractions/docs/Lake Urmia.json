@@ -1,0 +1,61 @@
+{
+ "title": "Lake Urmia",
+ "content": [
+  "Lake Urmia is the biggest lake within Iran whose water is supersaturated with salt. This lake is one of lran’s national natural sites. Over one hundred islands, big and small, are located in Lake Urmia in some of which the domestic and migratory birds and animals live.",
+  "Lake Urmia, which is a tectonic lake with the area of 5OOOkm2, is not deep (the average depth is 6m). In terms of geomorphology, deposit types, salinity, and chemical combinations, this lake is compared and known to be similar to the Great Salt Lake in America (Shahrabi, M.1994). Lake Urmia formed about 35 to 40 thousand years ago and has been in its today’s form since 7 thousand years ago (Shahrabi, M. 1994). The only living creature having its habitat in this lake is a tiny arthropod called Artemia Urmia, which has high nutritious value in aquaculture. The black sludge of Lake Urmia has clinical values in treating the pains of bones and joints, and the people in near surroundings and tourists have used it for this purpose.    ",
+  ""
+ ],
+ "image": "/docimg/Attractions/GL12-1.jpg",
+ "link": "attraction/Lake-Urmia",
+ "accessibility": "Easy",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "GL12",
+ "phenomena": "Geological Landscape",
+ "_": "Geological_Landscape",
+ "province": "West Azerbaijan",
+ "significance": "National",
+ "map-image": "/docimg/Attractions/maps/GL12.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/GL12-1.jpg",
+   "caption": "GL12-1 :Artemia Urmia"
+  },
+  {
+   "src": "/docimg/Attractions/GL12-2.jpg",
+   "caption": "GL12-2 :The salt-supersaturated water"
+  },
+  {
+   "src": "/docimg/Attractions/GL12-3.jpg",
+   "caption": "GL12-3 :The salt-supersaturated water"
+  },
+  {
+   "src": "/docimg/Attractions/GL12-4.jpg",
+   "caption": "GL12-4 :Salt deposits around the old dock pillars"
+  },
+  {
+   "src": "/docimg/Attractions/GL12-5.jpg",
+   "caption": "GL12-5 :The west heights surrounding beautiful Lake Urmia"
+  },
+  {
+   "src": "/docimg/Attractions/GL12-6.jpg",
+   "caption": "GL12-6 :Salt deposits from the lake supersaturated water"
+  },
+  {
+   "src": "/docimg/Attractions/GL12-7.jpg",
+   "caption": "GL12-7 :The general view of Kazem-Dashi Island"
+  },
+  {
+   "src": "/docimg/Attractions/GL12-8.jpg",
+   "caption": "GL12-8 :Kazem-Dashi Island"
+  },
+  {
+   "src": "/docimg/Attractions/GL12-9.jpg",
+   "caption": "GL12-9 :Kazem-Dashi Island"
+  }
+ ]
+}

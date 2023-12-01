@@ -1,0 +1,48 @@
+{
+ "title": "Gahar Lake",
+ "content": [
+  "Gahar Lake is one of the best examples of the lakes created by landslides. This very beautiful and scenic lake, which is so popular and valuable from the point of view of ecotourism, is located in the south slope of Oshtoran Kooh. From the towns of Dorood and Ali Gudarz, one can find access to this lake. Gahar lake has formed after slide of a heavy mass, 20,000,000m3 in volume, which itself has led to the blocking the valley and waters of the river and surrounding spring being collected. The length of the lake is 1500m and its average width is 500m. The lake is located at an altitude of 2350 and is 28m deep. There is a little Lake 200 m above this lake which is now going to be disappeared and become extinct due to the overgrowth of the plants and its being covered by them. Gahar Lake is one of the sites, revisited for fishing, recreation, and sports.  ",
+  ""
+ ],
+ "image": "/docimg/Attractions/EN5-1.jpg",
+ "link": "attraction/Gahar-Lake",
+ "accessibility": "Difficult",
+ "seasons": "Spring, Summer, Fall",
+ "seasons_arr": [
+  "spring",
+  "summer",
+  "fall"
+ ],
+ "code": "EN5",
+ "phenomena": "Engineering Geology",
+ "_": "Engineering_Geology",
+ "province": "Lorestan",
+ "significance": "International",
+ "map-image": "/docimg/Attractions/maps/EN5.jpg",
+ "gallery": [
+  {
+   "src": "/docimg/Attractions/EN5-1.jpg",
+   "caption": "EN5-1 :Rare sceneries of Gahar Lake"
+  },
+  {
+   "src": "/docimg/Attractions/EN5-2.jpg",
+   "caption": "EN5-2 :The view of Gahar Lake from upstream"
+  },
+  {
+   "src": "/docimg/Attractions/EN5-3.jpg",
+   "caption": "EN5-3 :The slid mass at the background of the lake"
+  },
+  {
+   "src": "/docimg/Attractions/EN5-4.jpg",
+   "caption": "EN5-4 :Upper Gahar Lake surrounded by plants"
+  },
+  {
+   "src": "/docimg/Attractions/EN5-5.jpg",
+   "caption": "EN5-5 :A view of Oshtoran kooh"
+  },
+  {
+   "src": "/docimg/Attractions/EN5-6.jpg",
+   "caption": "EN5-6 :A general view of the beautiful Gahar Lake from atop of slid mass"
+  }
+ ]
+}
