@@ -3,7 +3,7 @@ package commenting
 /*
 import (
 	"fmt"
-	"github.com/SinaMajdieh/Geotourism/pkg/database"
+	"Geotourism/pkg/database"
 	"github.com/gorilla/websocket"
 	"net/http"
 )

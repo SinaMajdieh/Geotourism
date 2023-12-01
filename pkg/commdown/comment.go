@@ -2,10 +2,10 @@ package commdown
 
 import (
 	"fmt"
-	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
-	"github.com/SinaMajdieh/Geotourism/pkg/file_pkg"
-	"github.com/SinaMajdieh/Geotourism/pkg/log"
-	"github.com/SinaMajdieh/Geotourism/pkg/markml"
+	"Geotourism/pkg/domModel"
+	"Geotourism/pkg/file_pkg"
+	"Geotourism/pkg/log"
+	"Geotourism/pkg/markml"
 	"html/template"
 	"os"
 )

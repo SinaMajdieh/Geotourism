@@ -1,14 +1,15 @@
 package tourson
 
 import (
+	"Geotourism/pkg/domModel"
+	"Geotourism/pkg/file_pkg"
 	"encoding/json"
 	"fmt"
-	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
-	"github.com/SinaMajdieh/Geotourism/pkg/file_pkg"
-	"github.com/TwiN/go-color"
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/TwiN/go-color"
 )
 
 // To log the Load_attractions_list_files function results

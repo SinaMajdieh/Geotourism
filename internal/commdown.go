@@ -2,9 +2,9 @@ package internal
 
 import (
 	"fmt"
-	"github.com/SinaMajdieh/Geotourism/pkg/commdown"
-	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
-	"github.com/SinaMajdieh/Geotourism/pkg/log"
+	"Geotourism/pkg/commdown"
+	"Geotourism/pkg/domModel"
+	"Geotourism/pkg/log"
 	"github.com/gorilla/schema"
 	"net/http"
 )

@@ -3,8 +3,8 @@ package commands
 import (
 	"fmt"
 
-	"github.com/SinaMajdieh/Geotourism/internal"
-	"github.com/SinaMajdieh/Geotourism/pkg/file_pkg"
+	"Geotourism/internal"
+	"Geotourism/pkg/file_pkg"
 	"github.com/TwiN/go-color"
 )
 

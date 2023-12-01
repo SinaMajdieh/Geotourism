@@ -3,7 +3,7 @@ package cli
 import (
 	"fmt"
 
-	"github.com/SinaMajdieh/Geotourism/pkg/cli/commands"
+	"Geotourism/pkg/cli/commands"
 	"github.com/TwiN/go-color"
 )
 

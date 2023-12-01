@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/SinaMajdieh/Geotourism/pkg/commdown"
-	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
-	"github.com/SinaMajdieh/Geotourism/pkg/file_pkg"
+	"Geotourism/pkg/commdown"
+	"Geotourism/pkg/domModel"
+	"Geotourism/pkg/file_pkg"
 )
 
 func makeHandler(fn func(http.ResponseWriter, *http.Request)) http.HandlerFunc {

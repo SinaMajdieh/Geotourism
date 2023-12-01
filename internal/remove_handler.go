@@ -1,8 +1,8 @@
 package internal
 
 import (
-	"github.com/SinaMajdieh/Geotourism/pkg/log"
-	"github.com/SinaMajdieh/Geotourism/pkg/tourson"
+	"Geotourism/pkg/log"
+	"Geotourism/pkg/tourson"
 	"github.com/TwiN/go-color"
 	"net/http"
 )

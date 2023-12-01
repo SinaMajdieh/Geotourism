@@ -3,9 +3,9 @@ package internal
 import (
 	"strings"
 
-	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
-	"github.com/SinaMajdieh/Geotourism/pkg/markml"
-	"github.com/SinaMajdieh/Geotourism/pkg/tourson"
+	"Geotourism/pkg/domModel"
+	"Geotourism/pkg/markml"
+	"Geotourism/pkg/tourson"
 )
 
 func Load_attractions() {

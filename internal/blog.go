@@ -2,8 +2,8 @@ package internal
 
 import (
 	"fmt"
-	"github.com/SinaMajdieh/Geotourism/pkg/commdown"
-	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
+	"Geotourism/pkg/commdown"
+	"Geotourism/pkg/domModel"
 	"net/http"
 )
 

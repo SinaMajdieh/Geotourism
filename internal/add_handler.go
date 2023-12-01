@@ -1,9 +1,9 @@
 package internal
 
 import (
-	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
-	"github.com/SinaMajdieh/Geotourism/pkg/log"
-	"github.com/SinaMajdieh/Geotourism/pkg/tourson"
+	"Geotourism/pkg/domModel"
+	"Geotourism/pkg/log"
+	"Geotourism/pkg/tourson"
 	"net/http"
 )
 

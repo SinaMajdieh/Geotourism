@@ -3,7 +3,7 @@ package log
 import (
 	"fmt"
 
-	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
+	"Geotourism/pkg/domModel"
 )
 
 func HighlightSattaction(a *domModel.Attraction, index string) string {

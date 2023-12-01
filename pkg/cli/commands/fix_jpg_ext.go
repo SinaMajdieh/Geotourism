@@ -3,8 +3,8 @@ package commands
 import (
 	"fmt"
 
-	"github.com/SinaMajdieh/Geotourism/internal"
-	"github.com/SinaMajdieh/Geotourism/pkg/tourson"
+	"Geotourism/internal"
+	"Geotourism/pkg/tourson"
 )
 
 func InitFixJpgExtCommand() Command {

@@ -3,7 +3,7 @@ package internal
 import (
 	"html/template"
 
-	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
+	"Geotourism/pkg/domModel"
 )
 
 const (

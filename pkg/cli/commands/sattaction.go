@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/SinaMajdieh/Geotourism/internal"
-	"github.com/SinaMajdieh/Geotourism/pkg/log"
+	"Geotourism/internal"
+	"Geotourism/pkg/log"
 	"github.com/TwiN/go-color"
 )
 

@@ -1,9 +1,9 @@
 package markml
 
 import (
-	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
-	"github.com/SinaMajdieh/Geotourism/pkg/file_pkg"
-	"github.com/SinaMajdieh/Geotourism/pkg/log"
+	"Geotourism/pkg/domModel"
+	"Geotourism/pkg/file_pkg"
+	"Geotourism/pkg/log"
 	"github.com/gomarkdown/markdown"
 	"html/template"
 	"os"

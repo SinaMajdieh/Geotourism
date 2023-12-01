@@ -3,7 +3,7 @@ package commands
 import (
 	"fmt"
 
-	"github.com/SinaMajdieh/Geotourism/internal"
+	"Geotourism/internal"
 )
 
 func InitRefreshCommand() Command {
