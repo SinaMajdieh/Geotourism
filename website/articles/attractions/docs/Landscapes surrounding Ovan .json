@@ -8,9 +8,9 @@
  "accessibility": "Easy",
  "seasons": "Spring, Summer, Fall",
  "seasons_arr": [
-  "Spring",
-  "Summer",
-  "Fall"
+  "spring",
+  "summer",
+  "fall"
  ],
  "code": "GL15",
  "phenomena": "Geological Landscape",

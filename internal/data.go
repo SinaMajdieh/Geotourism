@@ -1,6 +1,8 @@
 package internal
 
 import (
+	"strings"
+
 	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
 	"github.com/SinaMajdieh/Geotourism/pkg/markml"
 	"github.com/SinaMajdieh/Geotourism/pkg/tourson"
@@ -30,4 +32,41 @@ func Load_Data() {
 }
 func AllAttractions() *domModel.Attractions {
 	return attractions
+}
+func contains(container, sub string) bool {
+	if strings.Contains(strings.ToLower(container), strings.ToLower(sub)) {
+		return true
+	}
+	return false
+}
+func Sattaction(index string) [](*domModel.Attraction) {
+	result := make([](*domModel.Attraction), 0)
+	for i, v := range attractions.Attractions {
+		if contains(v.Title, index) {
+			result = append(result, &attractions.Attractions[i])
+			//fmt.Println(log.Highlight(v.Title, index))
+			continue
+
+		}
+		f := false
+		for _, l := range v.Content {
+			if contains(l, index) {
+				result = append(result, &attractions.Attractions[i])
+				//fmt.Println(log.Highlight(l, index))
+				f = true
+				break
+			}
+		}
+		if f {
+			continue
+		}
+		for _, g := range v.Gallery {
+			if contains(g.Caption, index) {
+				result = append(result, &attractions.Attractions[i])
+				//fmt.Println(log.Highlight(g.Caption, index))
+				break
+			}
+		}
+	}
+	return result
 }

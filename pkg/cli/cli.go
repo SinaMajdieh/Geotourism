@@ -3,10 +3,11 @@ package cli
 import (
 	"bufio"
 	"fmt"
-	"github.com/SinaMajdieh/Geotourism/pkg/cli/commands"
-	"github.com/TwiN/go-color"
 	"os"
 	"strings"
+
+	"github.com/SinaMajdieh/Geotourism/pkg/cli/commands"
+	"github.com/TwiN/go-color"
 )
 
 var cmds map[string]commands.Command
@@ -23,11 +24,16 @@ func initCommands() {
 	cmds["fixJpgExt"] = commands.InitFixJpgExtCommand()
 	cmds["list_untracked_imgs"] = commands.InitListUntrackedImgs()
 	cmds["lui"] = commands.InitListUntrackedImgs()
+	cmds["simage"] = commands.InitSimage()
+	cmds["sattaction"] = commands.InitSattaction()
+	cmds["sat"] = commands.InitSattaction()
+	cmds["help"] = InitHelpCommand()
 	//cmds["shutdown"] = commands.InitShutdownCommand()
 }
 func Cmd() {
 	initCommands()
 	for {
+		fmt.Print(color.Ize(color.Blue, "> "))
 		args := readLine()
 		if _, ok := cmds[args[0]]; !ok {
 			fmt.Println(color.Ize(color.Red, "command not found!"))

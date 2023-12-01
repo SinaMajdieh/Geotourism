@@ -1,10 +1,11 @@
 package main
 
 import (
+	"log"
+
 	"github.com/SinaMajdieh/Geotourism/internal"
 	"github.com/SinaMajdieh/Geotourism/pkg/cli"
 	"github.com/SinaMajdieh/Geotourism/pkg/file_pkg"
-	"log"
 )
 
 func main() {

@@ -7,7 +7,7 @@ type Flag struct {
 type Command struct {
 	Flags []Flag
 	Run   func(args []string)
-	Help  func()
+	Help  func()string
 }
 
 func (c *Command) AddFlag(flag *Flag) {

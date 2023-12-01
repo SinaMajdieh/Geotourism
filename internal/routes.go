@@ -1,7 +1,6 @@
 package internal
 
 import (
-	"github.com/SinaMajdieh/Geotourism/pkg/commenting"
 	"log"
 	"net/http"
 )
@@ -23,9 +22,11 @@ func (server HttpServer) SetupRoutes() {
 	http.HandleFunc("/attractions", makeHandler(attractionsHandler))
 	http.HandleFunc("/intro", makeHandler(introHandler))
 	//testing route for commenting
-	http.HandleFunc("/comment", makeHandler(comment_handler))
-	http.HandleFunc("/comment-echo", makeHandler(commenting.Comment_handler))
-	http.HandleFunc("/comment-load", makeHandler(commenting.Comment_load_handler))
+	/*
+		http.HandleFunc("/comment", makeHandler(comment_handler))
+		http.HandleFunc("/comment-echo", makeHandler(commenting.Comment_handler))
+		http.HandleFunc("/comment-load", makeHandler(commenting.Comment_load_handler))
+	*/
 	//panel for all kinds of crazy stuff!
 	http.HandleFunc("/panel", makeHandler(panel_handler))
 	//for editing purposes
@@ -44,6 +45,9 @@ func (server HttpServer) SetupRoutes() {
 
 	//the very start of my comment system
 	http.HandleFunc("/comment-api/", makeHandler(commentApiHandler))
+
+	//the very start of my search engine
+	http.HandleFunc("/search", makeHandler(search))
 }
 func (server HttpServer) ListenAndServe() {
 	log.Println("Listening on : " + server.IP + server.Port)

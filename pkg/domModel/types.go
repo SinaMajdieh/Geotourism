@@ -2,6 +2,7 @@ package domModel
 
 import (
 	"encoding/json"
+	"fmt"
 	"html/template"
 	"io/ioutil"
 	"os"
@@ -45,6 +46,21 @@ type Attraction struct {
 	MapImage       string    `json:"map-image" schema:"map-image"`
 	Gallery        []Picture `json:"gallery" schema:"_"`
 }
+
+func (a Attraction) String() string {
+	content := ""
+	for _, l := range a.Content {
+		content += l + "\n"
+	}
+	gallery := ""
+	for _, p := range a.Gallery {
+		gallery += "src : " + p.Src + "\n"
+		gallery += "caption : " + p.Caption + "\n"
+	}
+	return fmt.Sprintf("Title:%v\nContent:\n%vImage:%v\nLink:%v\nAccessibility:%v\nSeasonsToVisit:%v\nCode:%v\nPhenomena:%v\nProvince:%v\nSignificance:%v\nGallery:\n%v",
+		a.Title, content, a.Image, a.Link, a.Accessibility, a.SeasonsToVisit, a.Code, a.Phenomena, a.Province, a.Significance, gallery)
+}
+
 type Attractions struct {
 	Attractions []Attraction
 	Count       int

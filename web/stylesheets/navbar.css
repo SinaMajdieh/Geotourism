@@ -1,8 +1,8 @@
 .st-navbar{
-    /*background-color: goldenrod;*/
-    background-image: url("/gif/rainy.gif");
+    background-color: goldenrod;
+    /*background-image: url("/gif/rainy.gif");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     width: 100%;
     height: 15%;
     position: sticky;
@@ -38,7 +38,7 @@
     display: flex;
     width: 50%;
     height: 70%;
-    right: 5%;
+    left: 0%;
     top: 50%;
     transform: translate(5% , -50%);
     justify-content: space-around;
@@ -78,7 +78,7 @@
         display: none;
     }
     .st-button-group{
-        width: 100%;
+        width: 80%;
     }
     .st-navbar-button{
         font-size: 16px;

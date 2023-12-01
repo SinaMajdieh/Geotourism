@@ -1,0 +1,10 @@
+{{define "content"}}
+<head>
+    <link rel="stylesheet" href="/css/sat_result.css">
+</head>
+<div class="container">
+    {{range .}}
+        {{block "satItem" .}}{{end}}
+    {{end}}
+</div>
+{{end}}

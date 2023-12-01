@@ -108,7 +108,10 @@ func DeclarePages() {
 	))
 	//404
 	Pages["404"] = template.Must(template.ParseFiles(
-		pages_dir + "404.html",
+		pages_dir+"base.html",
+		pages_dir+"navbar.html",
+		pages_dir+"404.html",
+		pages_dir+"footer.html",
 	))
 	//comments
 	Pages["comments"] = template.Must(template.ParseFiles(
@@ -137,5 +140,13 @@ func DeclarePages() {
 	Pages["footer"] = template.Must(template.ParseFiles(
 		pages_dir+"base.html",
 		pages_dir+"footer.html",
+	))
+	//search results
+	Pages["sat_result"] = template.Must(template.ParseFiles(
+		pages_dir+"base.html",
+		pages_dir+"navbar.html",
+		pages_dir+"footer.html",
+		pages_dir+"sat_result.html",
+		pages_dir+"sat_result_block.html",
 	))
 }

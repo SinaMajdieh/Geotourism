@@ -2,6 +2,7 @@ package commands
 
 import (
 	"fmt"
+
 	"github.com/SinaMajdieh/Geotourism/internal"
 	"github.com/SinaMajdieh/Geotourism/pkg/file_pkg"
 	"github.com/TwiN/go-color"
@@ -16,6 +17,7 @@ func InitListUntrackedImgs() Command {
 	return Command{
 		Flags: []Flag{},
 		Run:   listUntrackedImgs,
+		Help:  HelplistUntrackedImgs,
 	}
 }
 func listUntrackedImgs(args []string) {
@@ -33,4 +35,7 @@ func listUntrackedImgs(args []string) {
 		fmt.Println(color.Ize(color.Yellow, name))
 	}
 	fmt.Println(color.Ize(color.Red, fmt.Sprintf("found %d untracked images.", len(list))))
+}
+func HelplistUntrackedImgs() string {
+	return fmt.Sprintf("%-40s%s", "list_untracked_imgs", "List the missing images\n")
 }

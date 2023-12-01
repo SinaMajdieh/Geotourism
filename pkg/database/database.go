@@ -1,5 +1,6 @@
 package database
 
+/*
 import (
 	"fmt"
 	"github.com/samonzeweb/godb"
@@ -64,9 +65,10 @@ func (DB sql) Load_page_comments(url string)[]MSG  {
 		if msg.Url == url && msg.Confirmed == 1{
 			sts = append(sts , msg)
 		}
-		
+
 	}
 	db.Close()
 
 	return sts
 }
+*/

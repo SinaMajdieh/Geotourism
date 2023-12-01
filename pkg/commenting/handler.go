@@ -1,5 +1,6 @@
 package commenting
 
+/*
 import (
 	"fmt"
 	"github.com/SinaMajdieh/Geotourism/pkg/database"
@@ -73,3 +74,4 @@ func Comment_load_handler(w http.ResponseWriter , r *http.Request){
 
 	}
 }
+*/

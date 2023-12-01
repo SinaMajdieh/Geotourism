@@ -1,6 +1,8 @@
 package commands
 
 import (
+	"fmt"
+
 	"github.com/SinaMajdieh/Geotourism/internal"
 	"github.com/SinaMajdieh/Geotourism/pkg/tourson"
 )
@@ -9,6 +11,7 @@ func InitFixJpgExtCommand() Command {
 	return Command{
 		Flags: []Flag{},
 		Run:   fixJpgExt,
+		Help:  HelpFixJpgExt,
 	}
 }
 func fixJpgExt(args []string) {
@@ -22,4 +25,7 @@ func fixJpgExt(args []string) {
 		tourson.Save_attraction_file(&att)
 	}
 	internal.Load_attractions()
+}
+func HelpFixJpgExt() string {
+	return fmt.Sprintf("%-40s%s", "fixJpgExt", "Fixing the jpg extension problem\n")
 }

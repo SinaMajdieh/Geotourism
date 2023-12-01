@@ -2,10 +2,11 @@ package internal
 
 import (
 	"fmt"
+	"net/http"
+
 	"github.com/SinaMajdieh/Geotourism/pkg/commdown"
 	"github.com/SinaMajdieh/Geotourism/pkg/domModel"
 	"github.com/SinaMajdieh/Geotourism/pkg/file_pkg"
-	"net/http"
 )
 
 func makeHandler(fn func(http.ResponseWriter, *http.Request)) http.HandlerFunc {
@@ -37,7 +38,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 func articleHandler(w http.ResponseWriter, r *http.Request) {
 	articleName := r.URL.Path[len("/articles/"):]
 	var article domModel.Article
-	path := file_pkg.Make_path([]string{file_pkg.GlobalArticlesDirectory, articleName}, articleName, "json")
+	path := file_pkg.Make_path([]string{file_pkg.GlobalArticlesDirectory, articleName}, articleName, ".json")
 	err := file_pkg.ReadJson(path, &article)
 	if nil != err {
 		fmt.Println(err)
