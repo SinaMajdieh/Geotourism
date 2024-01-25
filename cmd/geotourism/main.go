@@ -4,7 +4,6 @@ import (
 	"log"
 
 	"Geotourism/internal"
-	"Geotourism/pkg/cli"
 	"Geotourism/pkg/file_pkg"
 )
 
@@ -17,7 +16,7 @@ func main() {
 	if nil != err {
 		log.Fatal("config file : ", err)
 	}
-	go cli.Cmd()
+	//go cli.Cmd()
 	server.SetupServer()
 
 }

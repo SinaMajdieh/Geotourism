@@ -16,6 +16,7 @@ func (server HttpServer) SetupServer() {
 	server.ListenAndServe()
 }
 func (server HttpServer) SetupRoutes() {
+	http.HandleFunc("/", makeHandler(indexHandler))
 	http.HandleFunc("/home", makeHandler(indexHandler))
 	http.HandleFunc("/articles/", makeHandler(articleHandler))
 	http.HandleFunc("/attraction/", makeHandler(attractionHandler))
